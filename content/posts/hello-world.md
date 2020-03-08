@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: ifyaa
 date: '2019-05-25'
 published: true
 layout: post
@@ -7,7 +7,7 @@ tags: ['markdown', 'hello', 'world']
 category: example
 ---
 
-Hello, this is an exciting post with three main points:
+Hello, this is an exciting 마크다운 페이지:
 
 1. You can format your content using _markdown_
 2. You can refer to images
