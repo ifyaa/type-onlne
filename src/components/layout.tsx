@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import {GlobalStyle, styled} from '../styles/theme'
+import Disqus from 'disqus-react'
 
 const StyledNav = styled.nav`
   ul {
@@ -30,6 +31,12 @@ interface Props {
 export default class Layout extends React.Component<Props> {
   render() {
     const {children} = this.props
+    const disqusShortname = 'wp-admin'
+    const disqusConfig = {
+      url: 'https://1004if.netlify.com',
+      identifier: '',
+      title: 'noyes',
+    }
 
     return (
       <>
@@ -50,6 +57,7 @@ export default class Layout extends React.Component<Props> {
         <main className="content" role="main">
           {children}
         </main>
+        <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         <StyledFooter className="footer">
           © {new Date().getFullYear()},{` `}
           <a href="https://jeffrafter.com">jeffrafter.com</a>. Built with

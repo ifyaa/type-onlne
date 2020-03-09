@@ -4,6 +4,7 @@ import {Link, graphql} from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import Bio from '../components/bio'
+// import Disqus from 'disqus-react'
 
 interface Props {
   readonly data: PageQueryData
@@ -11,6 +12,13 @@ interface Props {
 
 export default class Index extends React.Component<Props> {
   render() {
+    // const disqusShortname = 'wp-admin'
+    // const disqusConfig = {
+    //   url: 'https://1004if.netlify.com',
+    //   identifier: '',
+    //   title: 'noyes',
+    // }
+
     const {data} = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
@@ -20,6 +28,7 @@ export default class Index extends React.Component<Props> {
         <Head title="All posts" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
         <Bio />
         <article>
+          {/* <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> */}
           <div className={`page-content`}>
             {posts.map(({node}) => {
               const title = node.frontmatter.title || node.fields.slug
