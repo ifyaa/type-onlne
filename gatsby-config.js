@@ -6,12 +6,12 @@ module.exports = {
     description: '이젠 찾은건가 아닌가.',
     siteUrl: 'https://example.com',
     author: {
-      name: 'Jeff Rafter',
-      url: 'https://twitter.com/jeffrafter',
+      name: 'Richard Nam',
+      url: 'https://jeffrafter.com/gatsby-with-typescript/',
       email: 'jeffrafter@gmail.com',
     },
     social: {
-      twitter: 'https://twitter.com/jeffrafter',
+      twitter: 'https://jeffrafter.com/gatsby-with-typescript/',
       github: 'https://github.com/jeffrafter',
     },
   },
