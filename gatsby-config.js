@@ -17,6 +17,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: 'chat/5e65e0e9c32b5c19173a4db1',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/posts`,

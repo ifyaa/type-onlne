@@ -1,5 +1,18 @@
 import styled, {css, createGlobalStyle} from 'styled-components'
 
+const GlobalStyles = createGlobalStyle`
+   @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap');
+      body {
+          font-family: 'Sunflower', sans-serif;
+        }
+        a {
+          text-decoration: none;
+        }
+        ul {
+          margin: 0 auto;
+          list-style-type: none;
+        }
+`
 export {css, styled}
 
 export const theme = {
@@ -52,7 +65,7 @@ figure {
 // These style are based on https://edwardtufte.github.io/tufte-css/
 const styles = () => `
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 body {
@@ -60,7 +73,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 12.5%;
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  // font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   background-color: white;
   color: #111;
   max-width: 1400px;
@@ -75,7 +88,7 @@ h1 {
 }
 
 h2 {
-  font-style: italic;
+  // font-style: italic;
   font-weight: 400;
   margin-top: 2.1rem;
   margin-bottom: 1.4rem;
@@ -84,7 +97,7 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+  // font-style: italic;
   font-weight: 400;
   font-size: 1.7rem;
   margin-top: 2rem;
@@ -313,6 +326,7 @@ pre.code.fullwidth {
 `
 
 export const GlobalStyle = createGlobalStyle`
+
 ${reset()}
 ${styles()}
 `
