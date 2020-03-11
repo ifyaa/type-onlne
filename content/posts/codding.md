@@ -119,20 +119,63 @@ body { font-family: 'Notable', sans-serif; }`
 
 # tawk
 
-1.  gatsby에 tawk를 붙이는데
-2.  자바코드니.. 그냥 붙이면 된다.. 아무 플러그인이나 그런것도 없이
-3.  html 메인에 붙이듯이 <script> 만 지우고
+1.  gatsby에 tawk
+2.  [참고사이트](https://github.com/JodyPSmith/gatsby-plugin-tawk.git)
+3.  plugin -->gatsby-plugin-tawk
 
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5e65sdf9dfsdfc32b5c191fgfsdb1/1edsfsd2kc';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-        </script>
-        <!--End of Tawk.to Script-->
+```javascript
+**gatsby - ssr.js**
+;('use strict')
+
+var _react = require('react')
+
+var _react2 = _interopRequireDefault(_react)
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {default: obj}
+}
+
+exports.onRenderBody = function(_ref, pluginOptions) {
+  var setPostBodyComponents = _ref.setPostBodyComponents
+  var tawkId = pluginOptions.tawkId
+
+  return setPostBodyComponents([
+    _react2.default.createElement('script', {
+      key: 'gatsby-plugin-tawk',
+      async: true,
+      src: 'https://embed.tawk.to/' + tawkId + '/default',
+      charset: 'UTF-8',
+    }),
+  ])
+}
+```
+
+```javascript
+**Tawk.js**
+var Tawk_API = Tawk_API || {},
+  Tawk_LoadStart = new Date()
+;(function tawk(key) {
+  var s1 = document.createElement('script'),
+    s0 = document.getElementsByTagName('script')[0]
+  s1.async = true
+  s1.src = 'https://embed.tawk.to/' + key + '/default'
+  s1.charset = 'UTF-8'
+  s1.setAttribute('crossorigin', '*')
+  s0.parentNode.insertBefore(s1, s0)
+})()
+```
+
+```javascript
+**gatsby-config.js**
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "YOUR_TAWK_ID",
+        // get this from the tawk script widget
+      },
+    },
+  ],
+};
+```

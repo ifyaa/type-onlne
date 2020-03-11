@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-tawk`,
       options: {
-        tawkId: 'chat/5e65e0e9c32b5c19173a4db1',
+        tawkId: '5e65e0e9c32b5c19173a4db1',
       },
     },
     {
