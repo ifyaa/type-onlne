@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Example',
+    title: 'noyes',
     description: '이젠 찾은건가 아닌가.',
     siteUrl: 'https://example.com',
     author: {
