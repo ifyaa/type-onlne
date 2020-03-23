@@ -1,14 +1,13 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from '../components/layout'
 import Dump from '../components/Dump'
 
-export default ({ data }) => {
+export default ({data}) => {
   return (
     <Layout>
       <Dump data={data} />
-      {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
-
+      {data.allMdx.nodes.map(({id, excerpt, frontmatter, fields}) => (
         <div key={id}>
           <Link to={fields.slug}>
             <h1>{frontmatter.title}</h1>
@@ -34,7 +33,7 @@ export const query = graphql`
           title
           date
         }
-        fields{
+        fields {
           slug
         }
       }

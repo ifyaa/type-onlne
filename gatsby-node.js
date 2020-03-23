@@ -28,17 +28,15 @@ exports.createPages = ({actions, graphql}) => {
         sort: {fields: [frontmatter___date], order: DESC}
         filter: {frontmatter: {published: {eq: true}}}
       ) {
-        edges {
-          node {
-            id
-          }
-        }
         nodes {
-          fields {
-            slug
-          }
+          id
+          excerpt(pruneLength: 250)
           frontmatter {
             title
+            date
+          }
+          fields {
+            slug
           }
         }
       }
