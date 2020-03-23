@@ -17,6 +17,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: `mkxosvnp9y7k`,
+        accessToken: `yMRQDi6Wc6MuWHevc_Ar1ZExaPLLO_FJoQ7vM4jNz6s`,
+      }
+    },
+    {
       resolve: `gatsby-plugin-tawk`,
       options: {
         tawkId: '5e65e0e9c32b5c19173a4db1',
@@ -29,6 +36,7 @@ module.exports = {
         name: `posts`,
       },
     },
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,19 +1,19 @@
-import styled, {css, createGlobalStyle} from 'styled-components'
+import styled, { css, createGlobalStyle } from 'styled-components'
 
-const GlobalStyles = createGlobalStyle`
-   @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap');
-      body {
-          font-family: 'Sunflower', sans-serif;
-        }
-        a {
-          text-decoration: none;
-        }
-        ul {
-          margin: 0 auto;
-          list-style-type: none;
-        }
-`
-export {css, styled}
+// const GlobalStyles = createGlobalStyle`
+//    @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap');
+//       body {
+//           font-family: 'Sunflower', sans-serif;
+//         }
+//         a {
+//           text-decoration: none;
+//         }
+//         ul {
+//           margin: 0 auto;
+//           list-style-type: none;
+//         }
+// `
+export { css, styled }
 
 export const theme = {
   colors: {
