@@ -5,3 +5,103 @@ published: true
 ---
 This is my third post!
 > with a block quote!
+
+
+목차
+
+1. [tawk.to](#tawk)
+2. [styled.components에 구글폰트 적용](#theme)
+
+# disqus
+
+1.  disqus
+2.  plugin--> disqus-react
+3.  [참고사이트]("https://coderrocketfuel.com/article/how-to-add-disqus-to-a-react-application).
+4.  Layout에 넣었다 (여기 \*\* 로 표시)
+5.  const disqusShortname = '------' url: 'https://1004if.netlify.com', 이 두개만 적으면 되는데,
+    그게 헤갈려서 ... 나머진 적지 않아도 된다
+
+```js
+ .  import React from 'react'
+    import {Link} from 'gatsby'
+    import {GlobalStyle, styled} from '../styles/theme'
+여기    **import Disqus from 'disqus-react'**
+
+```
+
+```js
+    const StyledNav = styled.nav`
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    li {
+    display: inline-block;
+    margin: 16px;
+
+            a {
+              background: none;
+            }
+
+    }
+    `
+
+    const StyledFooter = styled.footer`padding-bottom: 36px;`
+
+    interface Props {
+    readonly title?: string
+    }
+
+    export default class Layout extends React.Component<Props> {
+    render() {
+    const {children} = this.props
+
+```
+
+```js
+ 여기   **const disqusShortname = '------'
+    const disqusConfig = {
+    url: 'https://1004if.netlify.com',
+    identifier: '',
+    title: 'noyes',
+    }**
+
+```
+
+```js
+    return (
+    <>
+    <GlobalStyle />
+    <StyledNav className="navigation">
+
+       <ul>
+       <li>
+       <Link to={`/`}>&</Link>
+       </li>
+       <li>
+       <Link to={`/tags`}>Tags</Link>
+       </li>
+       <li>
+       <Link to={`/about`}>About</Link>
+       </li>
+       </ul>
+       </StyledNav>
+       <main className="content" role="main">
+       {children}
+       </main>
+   여기  **  <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />**
+       <StyledFooter className="footer">
+       © {new Date().getFullYear()},{``}
+       <a href="https://jeffrafter.com">jeffrafter.com</a>. Built with
+       {``}
+       <a href="https://www.gatsbyjs.org">Gatsby</a>
+       </StyledFooter>
+       </>
+       )
+
+}
+}
+```
+

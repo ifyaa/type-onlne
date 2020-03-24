@@ -1,8 +1,7 @@
 ---
-title: '코딩에 관한소고 '
-date: '2020-03-08'
-tabkey: '언어'
-tags: ['언어']
+title: 코딩에 관한소고
+date: 2020-03-08
+published: true
 ---
 
 목차
@@ -19,7 +18,7 @@ tags: ['언어']
 5.  const disqusShortname = '------' url: 'https://1004if.netlify.com', 이 두개만 적으면 되는데,
     그게 헤갈려서 ... 나머진 적지 않아도 된다
 
-```javascript
+```js
  .  import React from 'react'
     import {Link} from 'gatsby'
     import {GlobalStyle, styled} from '../styles/theme'
@@ -27,7 +26,7 @@ tags: ['언어']
 
 ```
 
-```javascript
+```js
     const StyledNav = styled.nav`
     ul {
     list-style-type: none;
@@ -58,7 +57,7 @@ tags: ['언어']
 
 ```
 
-```javascript
+```js
  여기   **const disqusShortname = '------'
     const disqusConfig = {
     url: 'https://1004if.netlify.com',
@@ -68,7 +67,7 @@ tags: ['언어']
 
 ```
 
-```javascript
+```js
     return (
     <>
     <GlobalStyle />
@@ -108,7 +107,7 @@ tags: ['언어']
 (구글폰트 적용하기)<br>
 2020-03-09<br>
 
-```javascript
+```js
 theme.js
 import styled, {css, createGlobalStyle} from 'styled-components'
 - - -
@@ -124,7 +123,7 @@ body { font-family: 'Notable', sans-serif; }`
 2.  [참고사이트](https://github.com/JodyPSmith/gatsby-plugin-tawk.git)
 3.  plugin -->gatsby-plugin-tawk
 
-```javascript
+```js
 **gatsby - ssr.js**
 ;('use strict')
 
@@ -151,7 +150,7 @@ exports.onRenderBody = function(_ref, pluginOptions) {
 }
 ```
 
-```javascript
+```js
 **Tawk.js**
 var Tawk_API = Tawk_API || {},
   Tawk_LoadStart = new Date()
@@ -166,7 +165,7 @@ var Tawk_API = Tawk_API || {},
 })()
 ```
 
-```javascript
+```js
 **gatsby-config.js**
 module.exports = {
   plugins: [

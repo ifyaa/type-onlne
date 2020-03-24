@@ -32,7 +32,6 @@ export default class Index extends React.Component<Props> {
     return (
       <Layout title={siteTitle}>
         <Head title="All posts" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
-        <Bio />
         <article>
           {/* <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> */}
           <div className={`page-content`}>
