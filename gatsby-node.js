@@ -1,8 +1,8 @@
-const {createFilePath} = require(`gatsby-source-filesystem`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 
-exports.createPages = ({actions, graphql}) => {
-  const {createPage} = actions
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/maxTemp.tsx`)
   const postTemplate = path.resolve(`./src/templates/post.tsx`)
   const blogTemplate = path.resolve(`./src/templates/blog.tsx`)
@@ -122,10 +122,10 @@ exports.createPages = ({actions, graphql}) => {
   })
 }
 //slug
-exports.onCreateNode = ({node, actions, getNode}) => {
-  const {createNodeField} = actions
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
   if (node.internal.type === `Mdx`) {
-    const value = createFilePath({node, getNode})
+    const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,
@@ -133,12 +133,53 @@ exports.onCreateNode = ({node, actions, getNode}) => {
     })
   } else {
     if (node.internal.type === `MarkdownRemark`) {
-      const value = createFilePath({node, getNode})
+      const value = createFilePath({ node, getNode })
       actions.createNodeField({
         name: `slug`,
         node,
         value,
       })
     }
+  }
+}
+
+
+
+
+
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  // page.matchPath is a special key that's used for matching pages
+  // only on the client.
+  if (page.path.match(/^\/account/)) {
+    page.matchPath = "/account/*"
+
+    // Update the page.
+    createPage(page)
+  }
+}
+
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html") {
+    /*
+     * During the build step, `auth0-js` will break because it relies on
+     * browser-specific APIs. Fortunately, we don’t need it during the build.
+     * Using Webpack’s null loader, we’re able to effectively ignore `auth0-js`
+     * during the build. (See `src/utils/auth.js` to see how we prevent this
+     * from breaking the app.)
+     */
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /auth0-js/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
   }
 }

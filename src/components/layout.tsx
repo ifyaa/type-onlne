@@ -44,10 +44,10 @@ export default class Layout extends React.Component<Props> {
         <StyledNav className="navigation">
           <ul>
             <li>
-              <Link to={`/about`}>&</Link>
+              <Link to={`/`}>&</Link>
             </li>
             <li>
-              <Link to={`/`}>markdown</Link>
+              <Link to={`/posts`}>markdown</Link>
             </li>
             <li>
               <Link to={`/tags`}>Tags</Link>
@@ -57,6 +57,9 @@ export default class Layout extends React.Component<Props> {
             </li>
             <li>
               <Link to={`/blog`}>content</Link>
+            </li>
+            <li>
+              <Link to={`/about`}>login</Link>
             </li>
           </ul>
         </StyledNav>
