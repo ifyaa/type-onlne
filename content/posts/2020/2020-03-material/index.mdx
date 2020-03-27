@@ -1,8 +1,11 @@
 ---
 title: "material"
 date: "2020-03-16"
-templateKey: "material"
+published: true
 ---
+
+### material
+
 
 # Appbar
 
@@ -39,8 +42,8 @@ export default props =>
                 left pane
             </Paper>
         </Grid>
-   
-   
+
+
         <Grid item sm>
             <Paper style={style.Paper}>
                 Right pane
@@ -99,7 +102,7 @@ export default class extends Component {
 
            <Exercises />
 
-            <Footer 
+            <Footer
              muscles={muscles}
             />
         </Fragment>
@@ -121,9 +124,9 @@ export default ({ muscles }) =>
         indicatorColor="primary"
         textColor="primary"
         centered
-      > 
+      >
               <Tab label="All" />
-          {muscles.map(group => 
+          {muscles.map(group =>
               <Tab label={group}/>
           )}
 
@@ -168,11 +171,11 @@ getExercisesByMuscles(){
         return <Fragment>
             <Header />
 
-           <Exercises 
+           <Exercises
             exercises={exercises}
            />
 
-            <Footer 
+            <Footer
              muscles={muscles}
             />
         </Fragment>
@@ -201,17 +204,17 @@ export default ({ exercises }) =>
             )}
             </Paper>
         </Grid>
-   
-   
+
+
         <Grid item sm>
             <Paper style={styles.Paper}>
-                <RightPane styles={styles}/> 
+                <RightPane styles={styles}/>
             </Paper>
         </Grid>
     </Grid>
-   
-   
-   
+
+
+
 ```
 ![](2020-03-16-23-17-17.png)
 

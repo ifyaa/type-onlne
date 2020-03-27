@@ -6,8 +6,8 @@ import { Link } from "gatsby"
 
 const Home = () => <p>Home</p>
 const MyAccount = () => <p>My Account</p>
-const Settings = () => <p>Settings</p>
-const Billing = () => <p>Billing</p>
+const posts = () => <p>Mark</p>
+const tags = () => <p>tags</p>
 
 const Account = () => {
   if (!isAuthenticated()) {
@@ -22,8 +22,8 @@ const Account = () => {
       <nav>
         <Link to="/">Home</Link>{" "}
         <Link to="/account/">My Account</Link>{" "}
-        <Link to="/account/settings/">Settings</Link>{" "}
-        <Link to="/account/billing/">Billing</Link>{" "}
+        <Link to="/posts">Mark</Link>{" "}
+        <Link to="/tags">tags</Link>{" "}
         <a
           href="#logout"
           onClick={e => {
@@ -38,8 +38,8 @@ const Account = () => {
       <Router>
         <Home path="/" />
         <MyAccount path="/account/" />
-        <Settings path="/account/settings" />
-        <Billing path="/account/billing" />
+        <posts path="/posts/" />
+        <tags path="/tags/" />
       </Router>
     </>
   )

@@ -10,6 +10,7 @@ const Callback = () => {
       <nav>
         <Link to="/">Home</Link>{" "}
         <Link to="/posts">Mark</Link>{" "}
+        <Link to="/tags">tags</Link>{" "}
         <Link to="/account/">My Account</Link>{" "}
         <a
           href="#logout"

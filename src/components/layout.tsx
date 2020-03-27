@@ -46,12 +46,7 @@ export default class Layout extends React.Component<Props> {
             <li>
               <Link to={`/`}>&</Link>
             </li>
-            <li>
-              <Link to={`/posts`}>markdown</Link>
-            </li>
-            <li>
-              <Link to={`/tags`}>Tags</Link>
-            </li>
+
             <li>
               <Link to={`/MdxTemp`}>Mdx</Link>
             </li>
