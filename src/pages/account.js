@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 
 const Home = () => <p>Home</p>;
 const MyAccount = () => <p>My Account</p>;
-const posts = () => <p>Mark</p>;
-const tags = () => <p>tags</p>;
+// const posts = () => <p>Mark</p>;
+// const tags = () => <p>tags</p>;
 
 const Account = () => {
   if (!isAuthenticated()) {
@@ -23,13 +23,13 @@ const Account = () => {
           <li>
             <Link to="/">Home</Link>{" "}
           </li>
-          <li>
+          {/* <li>
             <Link to="/posts">Mark</Link>{" "}
           </li>
           <li>
             {" "}
             <Link to="/tags">tags</Link>{" "}
-          </li>
+          </li> */}
           <li>
             <Link to="/account/">My Account</Link>{" "}
           </li>

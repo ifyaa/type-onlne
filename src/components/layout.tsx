@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import { GlobalStyle, styled } from "../styles/theme";
+import React from 'react'
+import {Link} from 'gatsby'
+import {GlobalStyle, styled} from '../styles/theme'
 // import Disqus from "disqus-react";
 
 const StyledNav = styled.nav`
@@ -18,19 +18,19 @@ const StyledNav = styled.nav`
       background: none;
     }
   }
-`;
+`
 
 const StyledFooter = styled.footer`
   padding-bottom: 36px;
-`;
+`
 
 interface Props {
-  readonly title?: string;
+  readonly title?: string
 }
 
 export default class Layout extends React.Component<Props> {
   render() {
-    const { children } = this.props;
+    const {children} = this.props
     // const disqusShortname = "wp-admin";
     // const disqusConfig = {
     //   url: "https://1004if.netlify.com",
@@ -46,7 +46,12 @@ export default class Layout extends React.Component<Props> {
             <li>
               <Link to={`/`}>&</Link>
             </li>
-
+            <li>
+              <Link to="/posts">Mark</Link>{' '}
+            </li>
+            <li>
+              <Link to="/tags">tags</Link>{' '}
+            </li>
             <li>
               <Link to={`/MdxTemp`}>Mdx</Link>
             </li>
@@ -54,7 +59,7 @@ export default class Layout extends React.Component<Props> {
               <Link to={`/blog`}>content</Link>
             </li>
             <li>
-              <Link to={`/about`}>login</Link>
+              <a href="https://sosong.netlify.com">login</a>
             </li>
           </ul>
         </StyledNav>
@@ -69,6 +74,6 @@ export default class Layout extends React.Component<Props> {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </StyledFooter>
       </>
-    );
+    )
   }
 }

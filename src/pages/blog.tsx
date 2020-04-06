@@ -1,11 +1,11 @@
-import React from 'react'
-import {Link, graphql, useStaticQuery} from 'gatsby'
-import Layout from '../components/layout'
+import React from "react";
+import { Link, graphql, useStaticQuery } from "gatsby";
+import Layout from "../components/layout";
 
 const Blog = () => {
   const data = useStaticQuery(graphql`
     query {
-      allContentfulBlogpost(sort: {fields: publishedDate, order: DESC}) {
+      allContentfulBlogpost(sort: { fields: publishedDate, order: DESC }) {
         edges {
           node {
             slug
@@ -15,7 +15,7 @@ const Blog = () => {
         }
       }
     }
-  `)
+  `);
   return (
     <Layout>
       <h1> 블러그페이지</h1>
@@ -28,10 +28,10 @@ const Blog = () => {
                 <p>{edge.node.date}</p>
               </Link>
             </li>
-          )
+          );
         })}
       </ol>
     </Layout>
-  )
-}
-export default Blog
+  );
+};
+export default Blog;
