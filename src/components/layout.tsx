@@ -1,6 +1,6 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import {GlobalStyle, styled} from '../styles/theme'
+import { Link } from 'gatsby'
+import { GlobalStyle, styled } from '../styles/theme'
 // import Disqus from "disqus-react";
 
 const StyledNav = styled.nav`
@@ -30,7 +30,7 @@ interface Props {
 
 export default class Layout extends React.Component<Props> {
   render() {
-    const {children} = this.props
+    const { children } = this.props
     // const disqusShortname = "wp-admin";
     // const disqusConfig = {
     //   url: "https://1004if.netlify.com",
@@ -59,7 +59,7 @@ export default class Layout extends React.Component<Props> {
               <Link to={`/blog`}>content</Link>
             </li>
             <li>
-              <a href="https://sosong.netlify.com">login</a>
+              <a href="https://noyes.netlify.com">login</a>
             </li>
           </ul>
         </StyledNav>
