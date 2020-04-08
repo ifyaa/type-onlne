@@ -1,4 +1,4 @@
----
+strikethrough text---
 title: "material"
 date: "2020-03-16"
 templateKey: "material"
@@ -240,3 +240,6 @@ export default ({ exercises }) =>
         </Grid>
 ```
 ![](2020-03-16-23-43-00.png)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ2MzMzNjM3OF19
+-->
