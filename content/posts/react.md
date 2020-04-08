@@ -21,10 +21,11 @@ tags: ['언어']
 - 문자 메시지 주세요. 请给我发短信。
 - 전화 달라는 메시지를 받고 전화 드려요. 收到您让我回电话的留言后，给您打的电话。
 - 무슨 일로 전화하셨어요? 您打电话有什么事？
+		- qǐng gěi wǒ fā duǎn xìn . 
+		- shōudào nín ràng wǒ huí diànhuà de liúyán hòu gěi nín dǎ dī diànhuà 
+		- nín dǎdiànhuà yǒu shénme shì
 
 
-- qǐng gěi wǒ fā duǎn xìn . 
-- shōudào nín ràng wǒ huí diànhuà de liúyán hòu gěi nín dǎ dī diànhuà nín dǎdiànhuà yǒu shénme shì
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDAxNTcyOV19
+eyJoaXN0b3J5IjpbMTc0MzgyNjI5OF19
 -->
