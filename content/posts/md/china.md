@@ -26,8 +26,8 @@ tags: ['언어']
 		>- nín dǎdiànhuà yǒu shénme shì
 
 ![enter image description here](https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png  )
-<img src=(" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="200">
+<img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUxODk3NzUsMTM3Mjg0Mzc3OCwyND
+eyJoaXN0b3J5IjpbLTE3NDIzODE1OTAsMTM3Mjg0Mzc3OCwyND
 MwODMxMDUsLTEwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
