@@ -25,8 +25,8 @@ tags: ['언어']
 		>- shōudào nín ràng wǒ huí diànhuà de liúyán hòu gěi nín dǎ dī diànhuà 
 		>- nín dǎdiànhuà yǒu shénme shì
 
-![enter image description here](https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png)
+![enter image description here](https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png)![enter image description here](https://storage.googleapis.com/artlab-public.appspot.com/share/LP35JKF96PAM.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mjg0Mzc3OCwtMTA0NDQ5MTk4LC0xNT
-c2OTM5ODhdfQ==
+eyJoaXN0b3J5IjpbMjQzMDgzMTA1LDEzNzI4NDM3NzgsLTEwND
+Q0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
