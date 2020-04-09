@@ -28,8 +28,8 @@ tags: ['언어']
 ![enter image description here](https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png  )
 <img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 
-<img src="https://drive.google.com/drive/u/0/folders/1hA1XAjRSIxBSnhKjTLJlpUd8Ylm5X-Q9">
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODgxNjM5NywxMzcyODQzNzc4LDI0Mz
-A4MzEwNSwtMTA0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
+eyJoaXN0b3J5IjpbLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyND
+MwODMxMDUsLTEwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
