@@ -9,9 +9,9 @@ tags: ['언어']
 - 오 분 뒤에 다시 걸겠습니다. 5 分钟后再给您打。
 - 통화는 짧게 해 주세요. 请说得短一点。
 - 전화 받으시는 분은 누구세요? 接电话的是哪位？
-		>- 5 fēnzhōng hòu zài gěi nín dǎ .
-		>- qǐng shuō dé duǎn yìdiǎn 
-		>- jiē diànhuà de shì nǎ wèi .
+		>>- 5 fēnzhōng hòu zài gěi nín dǎ .
+		>>- qǐng shuō dé duǎn yìdiǎn 
+		>>- jiē diànhuà de shì nǎ wèi .
 - 중요하게 전화할 곳이 있어요. 我有一个很重要的电话要打。
 - 다시 걸어 주시겠어요? 一会儿再打，好吗？
 - 그분을 바꿔 드릴게요. 我把电话转给他。
@@ -27,5 +27,5 @@ tags: ['언어']
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY5Mzk4OF19
+eyJoaXN0b3J5IjpbLTEwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
