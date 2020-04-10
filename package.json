@@ -11,7 +11,7 @@
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
     "@reach/router": "1.2.1",
-    "auth0-js": "9.11.1",
+    "auth0-js": "9.13.2",
     "babel-plugin-styled-components": "^1.10.0",
     "classnames": "^2.2.6",
     "disqus-react": "^1.0.7",
