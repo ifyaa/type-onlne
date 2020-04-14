@@ -36,6 +36,16 @@ tags: ['언어']
 请给我发短信。
  收到您让我回电话的留言后，给您打的电话。
 您打电话有什么事？
+qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
+5 fēn zhōng hòu zài gěi nín dǎ 。  
+qǐng shuō dé duǎn yī diǎn 。  
+jiē diàn huà dí shì nǎ wèi ？  
+wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
+yī huì ér zài dǎ ， hǎo má ？  
+wǒ bǎ diàn huà zhuǎn gěi tā 。  
+qǐng gěi wǒ fā duǎn xìn 。  
+shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
+nín dǎ diàn huà yǒu shí me shì ？  
 
  一直占线。
 没接到您的电话，对不起。
@@ -57,7 +67,6 @@ hǎo ， wǒ zài gěi nín dǎ diàn huà 。
 nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
 qǐng zhuǎn dá yī xià liú yán 。  
 . qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
-
 
 
 
@@ -122,16 +131,7 @@ qǐng zhuǎn gào tā wǒ dǎ guò diàn huà liǎo 。
 diàn huà xiǎng liǎo 。  
 qǐng nín bù yào guà diàn huà ， shāo děng 。
 
-qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
-5 fēn zhōng hòu zài gěi nín dǎ 。  
-qǐng shuō dé duǎn yī diǎn 。  
-jiē diàn huà dí shì nǎ wèi ？  
-wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
-yī huì ér zài dǎ ， hǎo má ？  
-wǒ bǎ diàn huà zhuǎn gěi tā 。  
-qǐng gěi wǒ fā duǎn xìn 。  
-shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
-nín dǎ diàn huà yǒu shí me shì ？  
+
 
 
 
@@ -190,8 +190,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjAxMjQ3OSwtMTU3ODI5MDg3OSwyMD
-c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
-MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
-EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
+eyJoaXN0b3J5IjpbLTIwNjU1NjA5NzMsLTE1NzgyOTA4NzksMj
+A3Njg1MzM0NywxNjUwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5
+ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC
+0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
 -->
