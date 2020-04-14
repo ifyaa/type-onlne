@@ -29,6 +29,50 @@ tags: ['언어']
 
 <img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 
+
+계좌 개설하다 : 开户(kāihù) / 开帐(kāizhàng)
+
+저금하다 입금하다 : 存款(cúnkuǎn)
+
+출금하다 : 取款(qǔkuǎn)
+
+통장 : 存折(cúnzhé)
+
+카드 : 卡(kǎ)
+
+카드 신청하다 :  办卡(bànkǎ)
+
+계좌 이체 :  转账(zhuǎnzhàng)
+
+ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
+
+수속비 : 手续费(shǒuxùfèi)
+
+고객명 :  户名(hùmíng)
+
+신분증  종류 : 证件种类(zhèngjiànzhǒnglèi)
+
+신분증 번호 : 证件号码(zhèngjiànhàomǎ)
+
+주소 : 地址(dìzhǐ)
+
+연락전화 :  联系电话(liánxìdiànhuà)
+
+자유예금 :  活期(huóqī)
+
+인민폐와 달러 한꺼번에 저축 하다 : 本外币(běnwàibì)/一本通(yi  běntōng)
+
+비밀 번호 :  密码(mìmǎ)
+
+비밀번호를 누르다 :  输入密码(shūrùmìmǎ)
+
+확인하다 : 确认(quèrèn)
+
+서명하다 : 签名(qiānmíng)
+
+인터넷뱅킹 : 网上银行(wǎngluòyínháng)
+
+
 전화중국어
 [http://english82.com/bbs/board.php?bo_table=bo205&wr_id=2](http://english82.com/bbs/board.php?bo_table=bo205&wr_id=2)
 
@@ -38,7 +82,7 @@ tags: ['언어']
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDA1NDA3NCwxOTM0NzY4NDgyLDU5OD
-cxOTgzMiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LDI0MzA4MzEw
-NSwtMTA0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
+eyJoaXN0b3J5IjpbMjA3Njg1MzM0NywxNjUwMDU0MDc0LDE5Mz
+Q3Njg0ODIsNTk4NzE5ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3
+NzgsMjQzMDgzMTA1LC0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
 -->
