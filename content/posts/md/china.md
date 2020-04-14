@@ -59,6 +59,16 @@ tags: ['언어']
 可以用一下电话吗？
  您是哪位？
 您找谁？
+wǒ liú gè yán 。  
+qǐng zài què rèn yī xià diàn huà hào mǎ 。  
+wǒ dé guà diàn huà liǎo 。  
+tā bù zài 。  
+zài nǎ ér kě yǐ dǎ diàn huà ？  
+nín yǒu shí me xū yào zhuǎn gào dí má ？  
+gěi nín zhuǎn nǎ lǐ ？  
+kě yǐ yòng yī xià diàn huà má ？  
+nín shì nǎ wèi ？  
+nín zhǎo shuí ？  
 
  您打电话了吗？
 他现在正在开会。
@@ -120,16 +130,7 @@ hǎo ， wǒ zài gěi nín dǎ diàn huà 。
 nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
 qǐng zhuǎn dá yī xià liú yán 。  
 . qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
-wǒ liú gè yán 。  
-qǐng zài què rèn yī xià diàn huà hào mǎ 。  
-wǒ dé guà diàn huà liǎo 。  
-tā bù zài 。  
-zài nǎ ér kě yǐ dǎ diàn huà ？  
-nín yǒu shí me xū yào zhuǎn gào dí má ？  
-gěi nín zhuǎn nǎ lǐ ？  
-kě yǐ yòng yī xià diàn huà má ？  
-nín shì nǎ wèi ？  
-nín zhǎo shuí ？  
+
 
 
 
@@ -189,8 +190,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDM0NTAwMSwtMTU3ODI5MDg3OSwyMD
-c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
-MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
-EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
+eyJoaXN0b3J5IjpbLTE2NjI4ODE0NzMsLTE1NzgyOTA4NzksMj
+A3Njg1MzM0NywxNjUwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5
+ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC
+0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
 -->
