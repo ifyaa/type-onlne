@@ -47,6 +47,18 @@ tags: ['언어']
 您好像很忙，我这就挂了。
 请转达一下留言。
 . 请转告他快点给我打电话。
+yī zhí zhān xiàn 。  
+méi jiē dào nín dí diàn huà ， duì bù qǐ 。  
+tā zài jiē bié dí diàn huà ní 。  
+qǐng zhuǎn gào tā wǒ yǒu jí shì 。  
+wǒ zhèng zài děng diàn huà  
+qǐng jiē 3 hào fēn jī 。  
+hǎo ， wǒ zài gěi nín dǎ diàn huà 。  
+nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
+qǐng zhuǎn dá yī xià liú yán 。  
+. qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
+
+
 
 
 我留个言。
@@ -120,18 +132,6 @@ wǒ bǎ diàn huà zhuǎn gěi tā 。
 qǐng gěi wǒ fā duǎn xìn 。  
 shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
 nín dǎ diàn huà yǒu shí me shì ？  
-yī zhí zhān xiàn 。  
-méi jiē dào nín dí diàn huà ， duì bù qǐ 。  
-tā zài jiē bié dí diàn huà ní 。  
-qǐng zhuǎn gào tā wǒ yǒu jí shì 。  
-wǒ zhèng zài děng diàn huà  
-qǐng jiē 3 hào fēn jī 。  
-hǎo ， wǒ zài gěi nín dǎ diàn huà 。  
-nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
-qǐng zhuǎn dá yī xià liú yán 。  
-. qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
-
-
 
 
 
@@ -190,8 +190,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI4ODE0NzMsLTE1NzgyOTA4NzksMj
-A3Njg1MzM0NywxNjUwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5
-ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC
-0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
+eyJoaXN0b3J5IjpbMTQ2MjAxMjQ3OSwtMTU3ODI5MDg3OSwyMD
+c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
+MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
+EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
