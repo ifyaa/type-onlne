@@ -122,6 +122,8 @@ xìn hào yǒu ， dàn shì méi rén jiē 。
 jiē tōng liǎo 。  
 qǐng chá chá diàn huà bù 。  
 xiè xiè nín gěi wǒ dǎ diàn huà 。  
+
+
 diàn huà dǎ bù tōng 。  
 nín zhǎo nǎ wèi ？  
 tīng bù qīng chǔ 。  
@@ -188,8 +190,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyOTA4NzksMjA3Njg1MzM0NywxNj
-UwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5ODMyLC0xNTA2Njk2
-NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC0xMDQ0NDkxOTgsLT
-E1NzY5Mzk4OF19
+eyJoaXN0b3J5IjpbODYwNTE2MzI1LC0xNTc4MjkwODc5LDIwNz
+Y4NTMzNDcsMTY1MDA1NDA3NCwxOTM0NzY4NDgyLDU5ODcxOTgz
+MiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LDI0MzA4MzEwNSwtMT
+A0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
 -->
