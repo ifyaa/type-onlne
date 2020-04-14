@@ -29,13 +29,16 @@ tags: ['언어']
 
 <img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 
-
+전화중국어
 [http://english82.com/bbs/board.php?bo_table=bo205&wr_id=2](http://english82.com/bbs/board.php?bo_table=bo205&wr_id=2)
 
-
+ 백문장 중국어
 [http://english82.com/bbs/board.php?bo_table=bo201&wr_id=12](http://english82.com/bbs/board.php?bo_table=bo201&wr_id=12)
+
+아이들영어
+[http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTI5MDQ1OCwxOTM0NzY4NDgyLDU5OD
+eyJoaXN0b3J5IjpbMTY1MDA1NDA3NCwxOTM0NzY4NDgyLDU5OD
 cxOTgzMiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LDI0MzA4MzEw
 NSwtMTA0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
 -->
