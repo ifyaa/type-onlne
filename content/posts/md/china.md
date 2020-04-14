@@ -62,7 +62,6 @@ tags: ['언어']
 
  您打电话了吗？
 他现在正在开会。
-他现在正在开会。
  这是我的手机号码。
  这是我家的电话号码。
 请转告他我会再打电话的。
@@ -70,7 +69,15 @@ tags: ['언어']
  接通了。
  请查查电话簿。
 谢谢您给我打电话。
-
+nín dǎ diàn huà liǎo má ？  
+tā xiàn zài zhèng zài kāi huì 。  
+zhè shì wǒ dí shǒu jī hào mǎ 。  
+zhè shì wǒ jiā dí diàn huà hào mǎ 。  
+qǐng zhuǎn gào tā wǒ huì zài dǎ diàn huà dí 。  
+xìn hào yǒu ， dàn shì méi rén jiē 。  
+jiē tōng liǎo 。  
+qǐng chá chá diàn huà bù 。  
+xiè xiè nín gěi wǒ dǎ diàn huà 。  
 
  电话打不通。
 您找哪位？
@@ -82,6 +89,17 @@ tags: ['언어']
 请转告他我打过电话了。
 电话响了。
 请您不要挂电话，稍等。
+diàn huà dǎ bù tōng 。  
+nín zhǎo nǎ wèi ？  
+tīng bù qīng chǔ 。  
+yǐ hòu wǒ zài dǎ 。  
+wǒ jìn kuài gěi nín dǎ diàn huà 。  
+nín dǎ dí diàn huà shì duō shǎo hào ？  
+hǎo xiàng chuàn xiàn liǎo 。  
+qǐng zhuǎn gào tā wǒ dǎ guò diàn huà liǎo 。  
+diàn huà xiǎng liǎo 。  
+qǐng nín bù yào guà diàn huà ， shāo děng 。
+
 qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
 5 fēn zhōng hòu zài gěi nín dǎ 。  
 qǐng shuō dé duǎn yī diǎn 。  
@@ -112,28 +130,9 @@ gěi nín zhuǎn nǎ lǐ ？
 kě yǐ yòng yī xià diàn huà má ？  
 nín shì nǎ wèi ？  
 nín zhǎo shuí ？  
-nín dǎ diàn huà liǎo má ？  
-tā xiàn zài zhèng zài kāi huì 。  
-tā xiàn zài zhèng zài kāi huì 。  
-zhè shì wǒ dí shǒu jī hào mǎ 。  
-zhè shì wǒ jiā dí diàn huà hào mǎ 。  
-qǐng zhuǎn gào tā wǒ huì zài dǎ diàn huà dí 。  
-xìn hào yǒu ， dàn shì méi rén jiē 。  
-jiē tōng liǎo 。  
-qǐng chá chá diàn huà bù 。  
-xiè xiè nín gěi wǒ dǎ diàn huà 。  
 
 
-diàn huà dǎ bù tōng 。  
-nín zhǎo nǎ wèi ？  
-tīng bù qīng chǔ 。  
-yǐ hòu wǒ zài dǎ 。  
-wǒ jìn kuài gěi nín dǎ diàn huà 。  
-nín dǎ dí diàn huà shì duō shǎo hào ？  
-hǎo xiàng chuàn xiàn liǎo 。  
-qǐng zhuǎn gào tā wǒ dǎ guò diàn huà liǎo 。  
-diàn huà xiǎng liǎo 。  
-qǐng nín bù yào guà diàn huà ， shāo děng 。
+
 
 <img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 
@@ -190,8 +189,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNTE2MzI1LC0xNTc4MjkwODc5LDIwNz
-Y4NTMzNDcsMTY1MDA1NDA3NCwxOTM0NzY4NDgyLDU5ODcxOTgz
-MiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LDI0MzA4MzEwNSwtMT
-A0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
+eyJoaXN0b3J5IjpbMTQyMDM0NTAwMSwtMTU3ODI5MDg3OSwyMD
+c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
+MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
+EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
