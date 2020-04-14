@@ -189,9 +189,12 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
+
+중국은행등 동영상
+[https://www.youtube.com/watch?v=BouhFOyx8M4](https://www.youtube.com/watch?v=BouhFOyx8M4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU1NjA5NzMsLTE1NzgyOTA4NzksMj
-A3Njg1MzM0NywxNjUwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5
-ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC
-0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
+eyJoaXN0b3J5IjpbMTY3MzM5MjA1MywtMTU3ODI5MDg3OSwyMD
+c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
+MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
+EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
 -->
