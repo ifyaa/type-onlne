@@ -25,7 +25,113 @@ tags: ['언어']
 		>- shōudào nín ràng wǒ huí diànhuà de liúyán hòu gěi nín dǎ dī diànhuà 
 		>- nín dǎdiànhuà yǒu shénme shì
 
+병음 (출력)
+请转告他给我回个电话。
+5分钟后再给您打。
+请说得短一点。
+接电话的是哪位？
+我有一个很重要的电话要打。
+ 一会儿再打，好吗？
+我把电话转给他。
+请给我发短信。
+ 收到您让我回电话的留言后，给您打的电话。
+您打电话有什么事？
 
+ 一直占线。
+没接到您的电话，对不起。
+他在接别的电话呢。
+请转告他我有急事。
+我正在等电话
+ 请接3号分机。
+ 好，我再给您打电话。
+您好像很忙，我这就挂了。
+请转达一下留言。
+. 请转告他快点给我打电话。
+
+
+我留个言。
+请再确认一下电话号码。
+我得挂电话了。
+他不在。
+在哪儿可以打电话？
+您有什么需要转告的吗？
+ 给您转哪里？
+可以用一下电话吗？
+ 您是哪位？
+您找谁？
+
+ 您打电话了吗？
+他现在正在开会。
+他现在正在开会。
+ 这是我的手机号码。
+ 这是我家的电话号码。
+请转告他我会再打电话的。
+信号有，但是没人接。
+ 接通了。
+ 请查查电话簿。
+谢谢您给我打电话。
+
+
+ 电话打不通。
+您找哪位？
+听不清楚。
+ 以后我再打。
+我尽快给您打电话。
+您打的电话是多少号？
+好像串线了。
+请转告他我打过电话了。
+电话响了。
+请您不要挂电话，稍等。
+qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
+5 fēn zhōng hòu zài gěi nín dǎ 。  
+qǐng shuō dé duǎn yī diǎn 。  
+jiē diàn huà dí shì nǎ wèi ？  
+wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
+yī huì ér zài dǎ ， hǎo má ？  
+wǒ bǎ diàn huà zhuǎn gěi tā 。  
+qǐng gěi wǒ fā duǎn xìn 。  
+shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
+nín dǎ diàn huà yǒu shí me shì ？  
+yī zhí zhān xiàn 。  
+méi jiē dào nín dí diàn huà ， duì bù qǐ 。  
+tā zài jiē bié dí diàn huà ní 。  
+qǐng zhuǎn gào tā wǒ yǒu jí shì 。  
+wǒ zhèng zài děng diàn huà  
+qǐng jiē 3 hào fēn jī 。  
+hǎo ， wǒ zài gěi nín dǎ diàn huà 。  
+nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
+qǐng zhuǎn dá yī xià liú yán 。  
+. qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
+wǒ liú gè yán 。  
+qǐng zài què rèn yī xià diàn huà hào mǎ 。  
+wǒ dé guà diàn huà liǎo 。  
+tā bù zài 。  
+zài nǎ ér kě yǐ dǎ diàn huà ？  
+nín yǒu shí me xū yào zhuǎn gào dí má ？  
+gěi nín zhuǎn nǎ lǐ ？  
+kě yǐ yòng yī xià diàn huà má ？  
+nín shì nǎ wèi ？  
+nín zhǎo shuí ？  
+nín dǎ diàn huà liǎo má ？  
+tā xiàn zài zhèng zài kāi huì 。  
+tā xiàn zài zhèng zài kāi huì 。  
+zhè shì wǒ dí shǒu jī hào mǎ 。  
+zhè shì wǒ jiā dí diàn huà hào mǎ 。  
+qǐng zhuǎn gào tā wǒ huì zài dǎ diàn huà dí 。  
+xìn hào yǒu ， dàn shì méi rén jiē 。  
+jiē tōng liǎo 。  
+qǐng chá chá diàn huà bù 。  
+xiè xiè nín gěi wǒ dǎ diàn huà 。  
+diàn huà dǎ bù tōng 。  
+nín zhǎo nǎ wèi ？  
+tīng bù qīng chǔ 。  
+yǐ hòu wǒ zài dǎ 。  
+wǒ jìn kuài gěi nín dǎ diàn huà 。  
+nín dǎ dí diàn huà shì duō shǎo hào ？  
+hǎo xiàng chuàn xiàn liǎo 。  
+qǐng zhuǎn gào tā wǒ dǎ guò diàn huà liǎo 。  
+diàn huà xiǎng liǎo 。  
+qǐng nín bù yào guà diàn huà ， shāo děng 。
 
 <img src=" https://storage.googleapis.com/artlab-public.appspot.com/share/GCCEKI7XQRAT.png" width="300" height="300">
 
@@ -82,7 +188,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 아이들영어
 [http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5](http://english82.com/bbs/board.php?bo_table=bo102&wr_id=5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njg1MzM0NywxNjUwMDU0MDc0LDE5Mz
-Q3Njg0ODIsNTk4NzE5ODMyLC0xNTA2Njk2NzYyLDEzNzI4NDM3
-NzgsMjQzMDgzMTA1LC0xMDQ0NDkxOTgsLTE1NzY5Mzk4OF19
+eyJoaXN0b3J5IjpbLTE1NzgyOTA4NzksMjA3Njg1MzM0NywxNj
+UwMDU0MDc0LDE5MzQ3Njg0ODIsNTk4NzE5ODMyLC0xNTA2Njk2
+NzYyLDEzNzI4NDM3NzgsMjQzMDgzMTA1LC0xMDQ0NDkxOTgsLT
+E1NzY5Mzk4OF19
 -->
