@@ -29,46 +29,45 @@ tags: ['언어']
 请转告他给我回个电话。
 5分钟后再给您打。
 请说得短一点。
+接电话的是哪位？
 	qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
 	5 fēn zhōng hòu zài gěi nín dǎ 。  
 	qǐng shuō dé duǎn yī diǎn 。  
 	jiē diàn huà dí shì nǎ wèi ？  
-接电话的是哪位？
+
 我有一个很重要的电话要打。
  一会儿再打，好吗？
 我把电话转给他。
-wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
-yī huì ér zài dǎ ， hǎo má ？  
-wǒ bǎ diàn huà zhuǎn gěi tā 。  
+	wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
+	yī huì ér zài dǎ ， hǎo má ？  
+	wǒ bǎ diàn huà zhuǎn gěi tā 。  
 请给我发短信。
  收到您让我回电话的留言后，给您打的电话。
 您打电话有什么事？
-
-
-qǐng gěi wǒ fā duǎn xìn 。  
-shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
-nín dǎ diàn huà yǒu shí me shì ？  
+	qǐng gěi wǒ fā duǎn xìn 。  
+	shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
+	nín dǎ diàn huà yǒu shí me shì ？  
 
  一直占线。
 没接到您的电话，对不起。
 他在接别的电话呢。
 请转告他我有急事。
+	yī zhí zhān xiàn 。  
+	méi jiē dào nín dí diàn huà ， duì bù qǐ 。  
+	tā zài jiē bié dí diàn huà ní 。  
+	qǐng zhuǎn gào tā wǒ yǒu jí shì 。  
 我正在等电话
  请接3号分机。
  好，我再给您打电话。
+	 wǒ zhèng zài děng diàn huà  
+	qǐng jiē 3 hào fēn jī 。  
+	hǎo ， wǒ zài gěi nín dǎ diàn huà 。  
 您好像很忙，我这就挂了。
 请转达一下留言。
 . 请转告他快点给我打电话。
-yī zhí zhān xiàn 。  
-méi jiē dào nín dí diàn huà ， duì bù qǐ 。  
-tā zài jiē bié dí diàn huà ní 。  
-qǐng zhuǎn gào tā wǒ yǒu jí shì 。  
-wǒ zhèng zài děng diàn huà  
-qǐng jiē 3 hào fēn jī 。  
-hǎo ， wǒ zài gěi nín dǎ diàn huà 。  
-nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
-qǐng zhuǎn dá yī xià liú yán 。  
-. qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
+	nín hǎo xiàng hěn máng ， wǒ zhè jiù guà liǎo 。  
+	qǐng zhuǎn dá yī xià liú yán 。  
+	qǐng zhuǎn gào tā kuài diǎn gěi wǒ dǎ diàn huà 。  
 
 
 
@@ -76,22 +75,22 @@ qǐng zhuǎn dá yī xià liú yán 。
 请再确认一下电话号码。
 我得挂电话了。
 他不在。
+	wǒ liú gè yán 。  
+	qǐng zài què rèn yī xià diàn huà hào mǎ 。  
+	wǒ dé guà diàn huà liǎo 。  
+	tā bù zài 。  
 在哪儿可以打电话？
 您有什么需要转告的吗？
  给您转哪里？
+	 zài nǎ ér kě yǐ dǎ diàn huà ？  
+	nín yǒu shí me xū yào zhuǎn gào dí má ？  
+	gěi nín zhuǎn nǎ lǐ ？  
 可以用一下电话吗？
  您是哪位？
 您找谁？
-wǒ liú gè yán 。  
-qǐng zài què rèn yī xià diàn huà hào mǎ 。  
-wǒ dé guà diàn huà liǎo 。  
-tā bù zài 。  
-zài nǎ ér kě yǐ dǎ diàn huà ？  
-nín yǒu shí me xū yào zhuǎn gào dí má ？  
-gěi nín zhuǎn nǎ lǐ ？  
-kě yǐ yòng yī xià diàn huà má ？  
-nín shì nǎ wèi ？  
-nín zhǎo shuí ？  
+	kě yǐ yòng yī xià diàn huà má ？  
+	nín shì nǎ wèi ？  
+	nín zhǎo shuí ？  
 
  您打电话了吗？
 他现在正在开会。
@@ -195,7 +194,7 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 중국은행등 동영상
 [https://www.youtube.com/watch?v=BouhFOyx8M4](https://www.youtube.com/watch?v=BouhFOyx8M4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTM5MjY1OSwxNjczMzkyMDUzLC0xNT
+eyJoaXN0b3J5IjpbMTgzNjgxMTM3OSwxNjczMzkyMDUzLC0xNT
 c4MjkwODc5LDIwNzY4NTMzNDcsMTY1MDA1NDA3NCwxOTM0NzY4
 NDgyLDU5ODcxOTgzMiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LD
 I0MzA4MzEwNSwtMTA0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
