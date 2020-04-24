@@ -29,20 +29,22 @@ tags: ['언어']
 请转告他给我回个电话。
 5分钟后再给您打。
 请说得短一点。
+	qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
+	5 fēn zhōng hòu zài gěi nín dǎ 。  
+	qǐng shuō dé duǎn yī diǎn 。  
+	jiē diàn huà dí shì nǎ wèi ？  
 接电话的是哪位？
 我有一个很重要的电话要打。
  一会儿再打，好吗？
 我把电话转给他。
-请给我发短信。
- 收到您让我回电话的留言后，给您打的电话。
-您打电话有什么事？
-qǐng zhuǎn gào tā gěi wǒ huí gè diàn huà 。  
-5 fēn zhōng hòu zài gěi nín dǎ 。  
-qǐng shuō dé duǎn yī diǎn 。  
-jiē diàn huà dí shì nǎ wèi ？  
 wǒ yǒu yī gè hěn zhòng yào dí diàn huà yào dǎ 。  
 yī huì ér zài dǎ ， hǎo má ？  
 wǒ bǎ diàn huà zhuǎn gěi tā 。  
+请给我发短信。
+ 收到您让我回电话的留言后，给您打的电话。
+您打电话有什么事？
+
+
 qǐng gěi wǒ fā duǎn xìn 。  
 shōu dào nín ràng wǒ huí diàn huà dí liú yán hòu ， gěi nín dǎ dí diàn huà 。  
 nín dǎ diàn huà yǒu shí me shì ？  
@@ -193,8 +195,8 @@ ATM기 : 自动取款机(zìdòngqǔkuǎnjī)
 중국은행등 동영상
 [https://www.youtube.com/watch?v=BouhFOyx8M4](https://www.youtube.com/watch?v=BouhFOyx8M4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzM5MjA1MywtMTU3ODI5MDg3OSwyMD
-c2ODUzMzQ3LDE2NTAwNTQwNzQsMTkzNDc2ODQ4Miw1OTg3MTk4
-MzIsLTE1MDY2OTY3NjIsMTM3Mjg0Mzc3OCwyNDMwODMxMDUsLT
-EwNDQ0OTE5OCwtMTU3NjkzOTg4XX0=
+eyJoaXN0b3J5IjpbLTcxNTM5MjY1OSwxNjczMzkyMDUzLC0xNT
+c4MjkwODc5LDIwNzY4NTMzNDcsMTY1MDA1NDA3NCwxOTM0NzY4
+NDgyLDU5ODcxOTgzMiwtMTUwNjY5Njc2MiwxMzcyODQzNzc4LD
+I0MzA4MzEwNSwtMTA0NDQ5MTk4LC0xNTc2OTM5ODhdfQ==
 -->
