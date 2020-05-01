@@ -50,35 +50,21 @@ justifyContent:  'center',
 ```js
 App.tsx
 import  React  from  'react';
-
 import { StyleSheet, Text, View } from  'react-native';
 
 import {createStackNavigator} from  'react-navigation-stack';
-
 import {createAppContainer} from  'react-navigation';
-
 import  MainScreen  from  './Components/MainScreen';
-
-  
-  
-  
 
 const  RootStack = createStackNavigator(
 
 {
-
 Main:{
 
 screen:  MainScreen
-
 }
-
 }
-
 );
-
-  
-  
 
 class  App  extends  React.Component {
 
@@ -87,13 +73,10 @@ render() {
 return  <RootStack  />;
 
 }
-
 }
-
-  
 
 export  default  createAppContainer(RootStack);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDA0MTM3N119
+eyJoaXN0b3J5IjpbMjcwODQ1MzE5XX0=
 -->
