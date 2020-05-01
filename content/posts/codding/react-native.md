@@ -8,6 +8,8 @@ published: true
 
 목차
 
+[enter link description here](https://ibb.co/98w2djd)
+
 ```js
 MainScreen.tsx
 
@@ -78,5 +80,5 @@ return  <RootStack  />;
 export  default  createAppContainer(RootStack);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwODQ1MzE5XX0=
+eyJoaXN0b3J5IjpbMTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
 -->
