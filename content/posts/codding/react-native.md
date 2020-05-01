@@ -2,12 +2,15 @@
 
 ---
 title: react-native
-date: 2020-04-08
+date: 2020-04-29
 published: true
 ---
 
 목차
-> Written with [StackEdit](https://stackedit.io/).
+
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjk3NjA3Nl19
+eyJoaXN0b3J5IjpbMTYyNzE1ODM0XX0=
 -->
