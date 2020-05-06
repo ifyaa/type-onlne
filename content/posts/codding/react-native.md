@@ -105,8 +105,11 @@ export  default Hearding;
 ```
 
 ![Furby](../assets/header-01.png)
+
+[react-native-linear-gradient 설치](https://github.com/react-native-community/react-native-linear-gradient)
+ㅡ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDA3MjA1OSw0NTI5NDg1MzEsODIxMz
-UxMTMwLDE5ODQyNjc3ODYsMTczMTk5MzA3NCw3NzY2Mjk1OTks
-MTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbOTU2OTI3ODgxLDIxMDQwNzIwNTksNDUyOT
+Q4NTMxLDgyMTM1MTEzMCwxOTg0MjY3Nzg2LDE3MzE5OTMwNzQs
+Nzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5XX0=
 -->
