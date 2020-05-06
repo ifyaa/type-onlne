@@ -99,7 +99,45 @@ return (
 }
 export  default App;
 ```
+```js
+Aeader.js
+import React, { Component} from  'react';
+import {View, Text, StyleSheet} from  'react-native';
+
+class  Hearding  extends  Component {
+
+render() {
+return (
+<View  style={styles.container}>
+ext  style={{fontSize: 20, textAlign: 'center', marginVertical:15}}>지랄뻑이다 </Text>
+
+</View>
+
+)
+
+}
+
+}
+
+  
+
+const styles = StyleSheet.create ({
+
+container: {
+
+backgroundColor: '#ff7550',
+
+borderRadius: 8,
+
+elevation: 10,
+
+}
+
+})
+
+export  default Hearding;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjc1OTcyOSw3NzY2Mjk1OTksMTMyNz
+eyJoaXN0b3J5IjpbLTgxMTg4ODc1Nyw3NzY2Mjk1OTksMTMyNz
 M1NzQ0MywyNzA4NDUzMTldfQ==
 -->
