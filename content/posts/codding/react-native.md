@@ -79,6 +79,9 @@ return  <RootStack  />;
 
 export  default  createAppContainer(RootStack);
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwOD
+Q1MzE5XX0=
 -->
