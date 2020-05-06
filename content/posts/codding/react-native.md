@@ -7,7 +7,7 @@ published: true
 ---
 
 목차
-
+![Furby](../assets/header-01.png)
 [enter link description here](https://ibb.co/98w2djd)
 
 ```js
@@ -105,7 +105,7 @@ export  default Hearding;
 
 ![Furby](../assets/header-01.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTg1NTM4NywxOTg0MjY3Nzg2LDE3Mz
-E5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5
-XX0=
+eyJoaXN0b3J5IjpbODIxMzUxMTMwLDE5ODQyNjc3ODYsMTczMT
+k5MzA3NCw3NzY2Mjk1OTksMTMyNzM1NzQ0MywyNzA4NDUzMTld
+fQ==
 -->
