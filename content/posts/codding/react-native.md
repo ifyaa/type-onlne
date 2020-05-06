@@ -107,9 +107,11 @@ export  default Hearding;
 ![Furby](../assets/header-01.png)
 
 [react-native-linear-gradient 설치](https://github.com/react-native-community/react-native-linear-gradient)
-ㅡ
+맥북
+1, yarn add react-native-linear-gradient  (npm 설치는 안됨--이유는 몰라)
+2, 아이폰 시물레이터에 실행하려면  ios/pod install 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2OTI3ODgxLDIxMDQwNzIwNTksNDUyOT
-Q4NTMxLDgyMTM1MTEzMCwxOTg0MjY3Nzg2LDE3MzE5OTMwNzQs
-Nzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5XX0=
+eyJoaXN0b3J5IjpbMTU3MDIzNDk3NywyMTA0MDcyMDU5LDQ1Mj
+k0ODUzMSw4MjEzNTExMzAsMTk4NDI2Nzc4NiwxNzMxOTkzMDc0
+LDc3NjYyOTU5OSwxMzI3MzU3NDQzLDI3MDg0NTMxOV19
 -->
