@@ -80,8 +80,8 @@ return  <RootStack  />;
 export  default  createAppContainer(RootStack);
 ```
 
-
+https://ibb.co/2ZbvMmB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwOD
-Q1MzE5XX0=
+eyJoaXN0b3J5IjpbODYzMzM4NzkyLDc3NjYyOTU5OSwxMzI3Mz
+U3NDQzLDI3MDg0NTMxOV19
 -->
