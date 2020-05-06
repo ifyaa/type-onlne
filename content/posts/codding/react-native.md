@@ -59,6 +59,7 @@ export  default  createAppContainer(RootStack);
 
 2020-05-06
 ![image](../assets/header.png)
+[enter link description here](https://ibb.co/2ZbvMmB)
 ```js
 App.js
 import React, {Component} from  'react';
@@ -104,7 +105,7 @@ export  default Hearding;
 
 ![Furby](../assets/header.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQwODM2MzUsMTk4NDI2Nzc4NiwxNz
-MxOTkzMDc0LDc3NjYyOTU5OSwxMzI3MzU3NDQzLDI3MDg0NTMx
-OV19
+eyJoaXN0b3J5IjpbLTIwNDk1OTg5MywxOTg0MjY3Nzg2LDE3Mz
+E5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5
+XX0=
 -->
