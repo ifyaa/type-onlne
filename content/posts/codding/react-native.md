@@ -101,7 +101,9 @@ const styles = StyleSheet.create ({
 })
 export  default Hearding;
 ```
+
+![Furby](../assets/furby.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTk5MzA3NCw3NzY2Mjk1OTksMTMyNz
-M1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbMTk4NDI2Nzc4NiwxNzMxOTkzMDc0LDc3Nj
+YyOTU5OSwxMzI3MzU3NDQzLDI3MDg0NTMxOV19
 -->
