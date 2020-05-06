@@ -80,8 +80,26 @@ return  <RootStack  />;
 export  default  createAppContainer(RootStack);
 ```
 
-https://ibb.co/2ZbvMmB
+[enter link description here](https://ibb.co/2ZbvMmB)
+```js
+App.js
+import React, {Component} from  'react';
+import { View, Text } from  'react-native';
+import Hearding from  './Hearding'
+
+class  App  extends  Component {
+render() {
+return (
+<View  style={{flex:1, padding:5}}>
+<Hearding  />
+<Text>wlfkf</Text>
+</View
+);
+};
+}
+export  default App;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMzM4NzkyLDc3NjYyOTU5OSwxMzI3Mz
-U3NDQzLDI3MDg0NTMxOV19
+eyJoaXN0b3J5IjpbMjEzMjc1OTcyOSw3NzY2Mjk1OTksMTMyNz
+M1NzQ0MywyNzA4NDUzMTldfQ==
 -->
