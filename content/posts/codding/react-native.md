@@ -103,9 +103,9 @@ const styles = StyleSheet.create ({
 export  default Hearding;
 ```
 
-![Furby](../assets/header.png)
+![Furby](../assets/header-01.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk1OTg5MywxOTg0MjY3Nzg2LDE3Mz
+eyJoaXN0b3J5IjpbMTAxMTg1NTM4NywxOTg0MjY3Nzg2LDE3Mz
 E5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5
 XX0=
 -->
