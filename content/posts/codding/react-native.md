@@ -14,39 +14,21 @@ published: true
 MainScreen.tsx
 
 import  React  from  'react';
-
 import { View, Text, StyleSheet } from  'react-native';
 
-  
-
 export  default  class  MainSereen  extends  React.Component {
-
-render(){
-
-return  <View  style={StyleSheet.container}>
-
-<Text>MainScreen Page</Text>
-
-</View>
-
+	render(){
+		return  <View  style={StyleSheet.container}>
+		<Text>MainScreen Page</Text>
+		</View>
+	}
 }
-
-}
-
-  
-
 const  styles = StyleSheet.create ({
-
-container: {
-
-flex:  1,
-
-alignItems:  'center',
-
-justifyContent:  'center',
-
-}
-
+	container: {
+		flex:  1,
+		alignItems:  'center',
+		justifyContent:  'center',
+	}
 })
 ```
 ```js
@@ -60,19 +42,16 @@ import  MainScreen  from  './Components/MainScreen';
 
 const  RootStack = createStackNavigator(
 {
-Main:{
-screen:  MainScreen
-}
-}
+	Main:{
+		screen:  MainScreen
+		}
+	}
 );
 class  App  extends  React.Component {
-
-render() {
-return  <RootStack  />;
-
+	render() {
+		return  <RootStack  />;
+	}
 }
-}
-
 export  default  createAppContainer(RootStack);
 ```
 
@@ -120,6 +99,6 @@ const styles = StyleSheet.create ({
 export  default Hearding;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI3MjkyNjksNzc2NjI5NTk5LDEzMj
+eyJoaXN0b3J5IjpbLTE1NDUyMjE1NTEsNzc2NjI5NTk5LDEzMj
 czNTc0NDMsMjcwODQ1MzE5XX0=
 -->
