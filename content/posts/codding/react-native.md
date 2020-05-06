@@ -58,6 +58,7 @@ export  default  createAppContainer(RootStack);
 -
 
 2020-05-06
+ [참고사이트](https://www.youtube.com/watch?v=TcvyZaSzDnw&list=PLvjHFH8I1eYYoOsUgEfqA-cAqqMsIJGvT&index=4)
 ![image](../assets/header.png)
 [enter link description here](https://ibb.co/2ZbvMmB)
 ```js
@@ -105,7 +106,7 @@ export  default Hearding;
 
 ![Furby](../assets/header-01.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyOTQ4NTMxLDgyMTM1MTEzMCwxOTg0Mj
-Y3Nzg2LDE3MzE5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMs
-MjcwODQ1MzE5XX0=
+eyJoaXN0b3J5IjpbMjEwNDA3MjA1OSw0NTI5NDg1MzEsODIxMz
+UxMTMwLDE5ODQyNjc3ODYsMTczMTk5MzA3NCw3NzY2Mjk1OTks
+MTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
 -->
