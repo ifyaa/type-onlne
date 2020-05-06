@@ -59,19 +59,15 @@ import {createAppContainer} from  'react-navigation';
 import  MainScreen  from  './Components/MainScreen';
 
 const  RootStack = createStackNavigator(
-
 {
 Main:{
-
 screen:  MainScreen
 }
 }
 );
-
 class  App  extends  React.Component {
 
 render() {
-
 return  <RootStack  />;
 
 }
@@ -89,11 +85,11 @@ import Hearding from  './Hearding'
 
 class  App  extends  Component {
 render() {
-return (
-<View  style={{flex:1, padding:5}}>
-<Hearding  />
-<Text>wlfkf</Text>
-</View
+	return (
+		<View  style={{flex:1, padding:5}}>
+		<Hearding  />
+			<Text>wlfkf</Text>
+		</View
 );
 };
 }
@@ -107,37 +103,23 @@ import {View, Text, StyleSheet} from  'react-native';
 class  Hearding  extends  Component {
 
 render() {
-return (
-<View  style={styles.container}>
-ext  style={{fontSize: 20, textAlign: 'center', marginVertical:15}}>지랄뻑이다 </Text>
-
-</View>
-
+	return (
+		<View  style={styles.container}>
+			<Text  style={{fontSize: 20, textAlign: 'center', marginVertical:15}}>지랄뻑이다 </Text>
+		</View>
 )
-
 }
-
 }
-
-  
-
 const styles = StyleSheet.create ({
-
-container: {
-
-backgroundColor: '#ff7550',
-
-borderRadius: 8,
-
-elevation: 10,
-
-}
-
+	container: {
+		backgroundColor: '#ff7550',
+		borderRadius: 8,
+		elevation: 10,
+	}
 })
-
 export  default Hearding;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTg4ODc1Nyw3NzY2Mjk1OTksMTMyNz
-M1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbLTE2MjI3MjkyNjksNzc2NjI5NTk5LDEzMj
+czNTc0NDMsMjcwODQ1MzE5XX0=
 -->
