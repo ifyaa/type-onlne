@@ -54,7 +54,10 @@ class  App  extends  React.Component {
 }
 export  default  createAppContainer(RootStack);
 ```
+-
+-
 
+2020-05-06
 [enter link description here](https://ibb.co/2ZbvMmB)
 ```js
 App.js
@@ -69,8 +72,8 @@ render() {
 		<Hearding  />
 			<Text>wlfkf</Text>
 		</View
-);
-};
+		);
+	};
 }
 export  default App;
 ```
@@ -86,8 +89,8 @@ render() {
 		<View  style={styles.container}>
 			<Text  style={{fontSize: 20, textAlign: 'center', marginVertical:15}}>지랄뻑이다 </Text>
 		</View>
-)
-}
+		)
+	}
 }
 const styles = StyleSheet.create ({
 	container: {
@@ -99,6 +102,6 @@ const styles = StyleSheet.create ({
 export  default Hearding;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUyMjE1NTEsNzc2NjI5NTk5LDEzMj
-czNTc0NDMsMjcwODQ1MzE5XX0=
+eyJoaXN0b3J5IjpbMTczMTk5MzA3NCw3NzY2Mjk1OTksMTMyNz
+M1NzQ0MywyNzA4NDUzMTldfQ==
 -->
