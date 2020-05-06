@@ -79,7 +79,7 @@ render() {
 export  default App;
 ```
 ```js
-Aeader.js
+Header.js
 import React, { Component} from  'react';
 import {View, Text, StyleSheet} from  'react-native';
 
@@ -105,7 +105,7 @@ export  default Hearding;
 
 ![Furby](../assets/header-01.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMzUxMTMwLDE5ODQyNjc3ODYsMTczMT
-k5MzA3NCw3NzY2Mjk1OTksMTMyNzM1NzQ0MywyNzA4NDUzMTld
-fQ==
+eyJoaXN0b3J5IjpbNDUyOTQ4NTMxLDgyMTM1MTEzMCwxOTg0Mj
+Y3Nzg2LDE3MzE5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMs
+MjcwODQ1MzE5XX0=
 -->
