@@ -174,11 +174,12 @@ export  default data = [
 		username:"Angelina",
 		image_link:"https://firebasestorage.googleapis.com/v0/b/mytry-bea8d.appspot.com/o/the%206th%20edition%20of%20the%20body%20painting.jpg?alt=media&token=1bf789a5-a8d8-42cd-ba66-c67853baaa3d"
 	},
+]
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDgxMDMwNywxOTQ5OTc2OTg0LDE1Nz
-AyMzQ5NzcsMjEwNDA3MjA1OSw0NTI5NDg1MzEsODIxMzUxMTMw
-LDE5ODQyNjc3ODYsMTczMTk5MzA3NCw3NzY2Mjk1OTksMTMyNz
-M1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbOTQ2NjkzMzE4LDE5NDk5NzY5ODQsMTU3MD
+IzNDk3NywyMTA0MDcyMDU5LDQ1Mjk0ODUzMSw4MjEzNTExMzAs
+MTk4NDI2Nzc4NiwxNzMxOTkzMDc0LDc3NjYyOTU5OSwxMzI3Mz
+U3NDQzLDI3MDg0NTMxOV19
 -->
