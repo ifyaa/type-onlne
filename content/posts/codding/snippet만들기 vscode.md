@@ -4,6 +4,7 @@ date: 2020-05-08
 published: true
 ---
 ```js
+**vsCode - Setting -> User Snippets-> New Global Snippets file**
 {
 
 "Create Functional React Component": {
@@ -39,5 +40,5 @@ published: true
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTEwNDQxMzldfQ==
+eyJoaXN0b3J5IjpbLTEzOTEzNjc2ODBdfQ==
 -->
