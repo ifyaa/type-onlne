@@ -126,31 +126,30 @@ state={
 
 latestMembers  = () => {
 return  this.state.data.map( data  => {
-return(
-<View  key={data.id}  style={{alignItems:'center', padding:5}}  >
-<Image  source={{uri:data.user_avatar}}  style={{height:50, width:50, borderRadius: 25, marginHorizontal:22 }}  />
-<Text>{data.username}</Text>
-</View>
-)
-})
+	return(
+		<View  key={data.id}  style={{alignItems:'center', padding:5}}  >
+			<Image  source={{uri:data.user_avatar}}  style={{height:50, width:50, borderRadius: 25, marginHorizontal:22 }}  />
+			<Text>{data.username}</Text>
+		</View>
+		)
+	})
 }
 
 render() {
+	return (
+		<View>
+			<View>
+				<Text  style={{fontSize: 22, paddingTop: 15}}  >LatestMember</Text>
+				</View>
+				<View  style={styles.container}>
 
-return (
-<View>
-<View>
-<Text  style={{fontSize: 22, paddingTop: 15}}  >LatestMember</Text>
-</View>
-<View  style={styles.container}>
-
-<ScrollView  horizontal  showsHorizontalScrollIndicator={false}>
-{this.latestMembers()}
-</ScrollView>
-</View>
-</View>
-)
-}
+				<ScrollView  horizontal  showsHorizontalScrollIndicator={false}>
+				{this.latestMembers()}
+				</ScrollView>
+			</View>
+		</View>
+		)
+	}
 }
 
 const styles=StyleSheet.create({
@@ -164,8 +163,8 @@ export  default LatestMembers;
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjM3OTkxNCwxNTcwMjM0OTc3LDIxMD
-QwNzIwNTksNDUyOTQ4NTMxLDgyMTM1MTEzMCwxOTg0MjY3Nzg2
-LDE3MzE5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwOD
-Q1MzE5XX0=
+eyJoaXN0b3J5IjpbLTE2NjcxNDA2ODAsMTU3MDIzNDk3NywyMT
+A0MDcyMDU5LDQ1Mjk0ODUzMSw4MjEzNTExMzAsMTk4NDI2Nzc4
+NiwxNzMxOTkzMDc0LDc3NjYyOTU5OSwxMzI3MzU3NDQzLDI3MD
+g0NTMxOV19
 -->
