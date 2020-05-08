@@ -112,7 +112,7 @@ export  default Hearding;
 2, 아이폰 시물레이터에 실행하려면  ios/pod install 
 
 ```js
-LatestMembers.js
+**LatestMembers.js**
 
 import React, { Component } from  'react'
 import { View, Text, StyleSheet, Image, ScrollView } from  'react-native'
@@ -121,86 +121,51 @@ import data from  '../Components/data'
 class  LatestMembers  extends  Component {
 
 state={
-data:data
+	data:data
 }
+
 latestMembers  = () => {
 return  this.state.data.map( data  => {
 return(
 <View  key={data.id}  style={{alignItems:'center', padding:5}}  >
-
 <Image  source={{uri:data.user_avatar}}  style={{height:50, width:50, borderRadius: 25, marginHorizontal:22 }}  />
-
 <Text>{data.username}</Text>
-
 </View>
-
 )
-
 })
-
 }
-
-  
 
 render() {
 
-  
-
 return (
-
 <View>
-
 <View>
-
 <Text  style={{fontSize: 22, paddingTop: 15}}  >LatestMember</Text>
-
 </View>
-
 <View  style={styles.container}>
 
-  
-
 <ScrollView  horizontal  showsHorizontalScrollIndicator={false}>
-
 {this.latestMembers()}
-
 </ScrollView>
-
 </View>
-
 </View>
-
 )
-
 }
-
 }
-
-  
 
 const styles=StyleSheet.create({
-
 container: {
-
 backgroundColor: '#a4b0be',
-
 marginVertical: 8
-
-  
-
 }
-
 })
-
-  
 
 export  default LatestMembers;
 
-1.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3OTcwNTg3LDE1NzAyMzQ5NzcsMjEwND
-A3MjA1OSw0NTI5NDg1MzEsODIxMzUxMTMwLDE5ODQyNjc3ODYs
-MTczMTk5MzA3NCw3NzY2Mjk1OTksMTMyNzM1NzQ0MywyNzA4ND
-UzMTldfQ==
+eyJoaXN0b3J5IjpbLTU3NjM3OTkxNCwxNTcwMjM0OTc3LDIxMD
+QwNzIwNTksNDUyOTQ4NTMxLDgyMTM1MTEzMCwxOTg0MjY3Nzg2
+LDE3MzE5OTMwNzQsNzc2NjI5NTk5LDEzMjczNTc0NDMsMjcwOD
+Q1MzE5XX0=
 -->
