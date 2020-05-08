@@ -4,7 +4,7 @@ date: 2020-05-08
 published: true
 ---
 ```js
-**vsCode - Setting -> User Snippets-> New Global Snippets file**
+**vsCode - Perference -> UserSnippets-> NewGlobalSnippets **
 {
 
 "Create Functional React Component": {
@@ -14,16 +14,16 @@ published: true
 	"import { View, Text, StyleSheet } from 'react-native';"
 	"",
 	"const ${1:${TM_FILENAME_BASE}} extends Component {",
-	"render() {",
-	" return (",
-	" <View>",
-	" <Text>${2:${TM_FILENAME_BASE}}</Text>",
-	" </View>",
-	" );",
-	" }",
-	"}",
+	"	render() {",
+	" 			return (",
+	" 				<View>",
+	" 					<Text>${2:${TM_FILENAME_BASE}}</Text>",
+	" 				</View>",
+	" 			);",
+	" 		}",
+	"	}",
 	"",
-	"const styles = StyleSheet.create({",
+	"	const styles = StyleSheet.create({",
 	" container: {",
 	"",
 	" }",
@@ -40,5 +40,5 @@ published: true
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEzNjc2ODBdfQ==
+eyJoaXN0b3J5IjpbMTQ0NzIxODY0N119
 -->
