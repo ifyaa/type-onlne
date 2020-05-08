@@ -120,9 +120,9 @@ import data from  '../Components/data'
 
 class  LatestMembers  extends  Component {
 
-state={
-	data:data
-}
+		state={
+			data:data
+		}
 
 latestMembers  = () => {
 return  this.state.data.map( data  => {
@@ -140,9 +140,9 @@ render() {
 		<View>
 			<View>
 				<Text  style={{fontSize: 22, paddingTop: 15}}  >LatestMember</Text>
-				</View>
-				<View  style={styles.container}>
-
+			</View>
+			
+			<View  style={styles.container}>
 				<ScrollView  horizontal  showsHorizontalScrollIndicator={false}>
 				{this.latestMembers()}
 				</ScrollView>
@@ -153,18 +153,18 @@ render() {
 }
 
 const styles=StyleSheet.create({
-container: {
-backgroundColor: '#a4b0be',
-marginVertical: 8
-}
+	container: {
+		backgroundColor: '#a4b0be',
+		marginVertical: 8
+	}
 })
 
 export  default LatestMembers;
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcxNDA2ODAsMTU3MDIzNDk3NywyMT
-A0MDcyMDU5LDQ1Mjk0ODUzMSw4MjEzNTExMzAsMTk4NDI2Nzc4
-NiwxNzMxOTkzMDc0LDc3NjYyOTU5OSwxMzI3MzU3NDQzLDI3MD
-g0NTMxOV19
+eyJoaXN0b3J5IjpbOTYyMjIzOTIwLDE1NzAyMzQ5NzcsMjEwND
+A3MjA1OSw0NTI5NDg1MzEsODIxMzUxMTMwLDE5ODQyNjc3ODYs
+MTczMTk5MzA3NCw3NzY2Mjk1OTksMTMyNzM1NzQ0MywyNzA4ND
+UzMTldfQ==
 -->
