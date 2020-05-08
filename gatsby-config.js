@@ -23,12 +23,12 @@ module.exports = {
         accessToken: `yMRQDi6Wc6MuWHevc_Ar1ZExaPLLO_FJoQ7vM4jNz6s`
       }
     },
-    {
-      resolve: `gatsby-plugin-tawk`,
-      options: {
-        tawkId: "5e65e0e9c32b5c19173a4db1"
-      }
-    },
+//     {
+//       resolve: `gatsby-plugin-tawk`,
+//       options: {
+//         tawkId: "5e65e0e9c32b5c19173a4db1"
+//       }
+//     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
