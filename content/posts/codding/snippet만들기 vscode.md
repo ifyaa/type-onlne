@@ -24,11 +24,11 @@ published: true
 	"	}",
 	"",
 	"	const styles = StyleSheet.create({",
-	" container: {",
+	" 		container: {",
 	"",
-	" }",
+	" 		}",
 	"})",
-	"export default ${1:${TM_FILENAME_BASE}};"
+	"	export default ${1:${TM_FILENAME_BASE}};"
 ],
 
 "description": "Create Functional React Component"
@@ -40,5 +40,5 @@ published: true
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzIxODY0N119
+eyJoaXN0b3J5IjpbMTk4MDM5MDgzMV19
 -->
