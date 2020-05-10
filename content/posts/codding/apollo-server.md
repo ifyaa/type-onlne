@@ -3,8 +3,10 @@
 date: 2020-05-09  
 published: true
 ---
-[enter link description here](https://www.daleseo.com/graphql-apollo-server/)
+초간단 서브
+[참고](https://www.daleseo.com/graphql-apollo-server/)
 ```js
+**index.js**
 const { ApolloServer, gql } = require('apollo-server');
 const typeDefs = gql`
 
@@ -31,5 +33,5 @@ console.log(`Listening at ${url}`);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTMzNTk2MV19
+eyJoaXN0b3J5IjpbMTkxMjQxNjE5Nl19
 -->
