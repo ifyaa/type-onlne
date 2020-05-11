@@ -60,7 +60,7 @@ export  default  createAppContainer(RootStack);
 2020-05-06
  [참고사이트](https://www.youtube.com/watch?v=TcvyZaSzDnw&list=PLvjHFH8I1eYYoOsUgEfqA-cAqqMsIJGvT&index=4)
 ![image](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
-[enter link description here](https://ibb.co/2ZbvMmB)
+![image](https://ibb.co/2ZbvMmB)
 ```js
 App.js
 import React, {Component} from  'react';
@@ -178,8 +178,8 @@ export  default data = [
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzY2ODExNiw5NDY2OTMzMTgsMTk0OT
-k3Njk4NCwxNTcwMjM0OTc3LDIxMDQwNzIwNTksNDUyOTQ4NTMx
-LDgyMTM1MTEzMCwxOTg0MjY3Nzg2LDE3MzE5OTMwNzQsNzc2Nj
-I5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5XX0=
+eyJoaXN0b3J5IjpbMjM2ODM0MTIwLDk0NjY5MzMxOCwxOTQ5OT
+c2OTg0LDE1NzAyMzQ5NzcsMjEwNDA3MjA1OSw0NTI5NDg1MzEs
+ODIxMzUxMTMwLDE5ODQyNjc3ODYsMTczMTk5MzA3NCw3NzY2Mj
+k1OTksMTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
 -->
