@@ -105,41 +105,43 @@ class _MyAppState extends State<MyApp> {
 			 "$counter",
 			 style: TextStyle(fontSize: 160.0),
 		 ),
- Row( // 가로로 위젯을 배치, 안에 버튼 2개가 들어가 있음. 
-	 mainAxisAlignment: MainAxisAlignment.spaceEvenly, // 위젯끼리 같은 공간만큼 띄움
-	 children: <Widget>[
- RaisedButton(
- child: Text(
- "Add",
- style: TextStyle(color: Colors.white),
- ),
- color: Colors.red, // 버튼 색은 빨강색으로
- onPressed: () { // 버튼을 누르면 안에 있는 함수를 실행
- increaseCounter();
- },
- ),
- RaisedButton(
- child: Text(
- "Subtract",
- style: TextStyle(color: Colors.white),
- ),
- color: Colors.blue, // 버튼 색은 파란색으로
- onPressed: () { // 버튼을 누르면 안에 있는 함수를 실행
- decreaseCounter();
-
- },
- ),
- ],
- )
- ],
- ),
- ),
- ),
- );
- }
+	 Row( // 가로로 위젯을 배치, 안에 버튼 2개가 들어가 있음. 
+		 mainAxisAlignment: MainAxisAlignment.spaceEvenly, // 위젯끼리 같은 공간만큼 띄움
+		 children: <Widget>[
+		 
+		 RaisedButton(
+		 child: Text(
+		 "Add",
+		 style: TextStyle(color: Colors.white),
+	 ),
+	 color: Colors.red, // 버튼 색은 빨강색으로
+	 onPressed: () { // 버튼을 누르면 안에 있는 함수를 실행
+		 increaseCounter();
+		 },
+	 ),
+	 
+	 RaisedButton(
+		 child: Text(
+		 "Subtract",
+		 style: TextStyle(color: Colors.white),
+		 ),
+	 color: Colors.blue, // 버튼 색은 파란색으로
+	 onPressed: () { // 버튼을 누르면 안에 있는 함수를 실행
+	 decreaseCounter();
+	
+										 },
+									 ),
+								 ],
+							 )
+						 ],
+					 ),
+				 ),
+			 ),
+		 );
+	 }
 }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjA1NzU1OCwxMTMwNDM3MDAwXX0=
+eyJoaXN0b3J5IjpbLTEwMjA0ODg5NDIsMTEzMDQzNzAwMF19
 -->
