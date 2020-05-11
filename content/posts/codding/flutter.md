@@ -1,6 +1,6 @@
 ---
- title: flutter
-date: 2020-05-11  
+title: flutter
+date: 2020-05-08
 published: true
 ---
 [enter link description here](https://software-creator.tistory.com/10)
@@ -143,5 +143,6 @@ class _MyAppState extends State<MyApp> {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA0ODg5NDIsMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbLTg5MzkxMzM0OCwtMTAyMDQ4ODk0MiwxMT
+MwNDM3MDAwXX0=
 -->
