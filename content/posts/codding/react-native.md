@@ -7,7 +7,7 @@ published: true
 ---
 
 목차
-![Furby](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header-01.png)
+![image](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header-01.png)
 [enter link description here](https://ibb.co/98w2djd)
 
 ```js
@@ -178,8 +178,8 @@ export  default data = [
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2ODM0MTIwLDk0NjY5MzMxOCwxOTQ5OT
-c2OTg0LDE1NzAyMzQ5NzcsMjEwNDA3MjA1OSw0NTI5NDg1MzEs
-ODIxMzUxMTMwLDE5ODQyNjc3ODYsMTczMTk5MzA3NCw3NzY2Mj
-k1OTksMTMyNzM1NzQ0MywyNzA4NDUzMTldfQ==
+eyJoaXN0b3J5IjpbMjQwOTQ0NzEsOTQ2NjkzMzE4LDE5NDk5Nz
+Y5ODQsMTU3MDIzNDk3NywyMTA0MDcyMDU5LDQ1Mjk0ODUzMSw4
+MjEzNTExMzAsMTk4NDI2Nzc4NiwxNzMxOTkzMDc0LDc3NjYyOT
+U5OSwxMzI3MzU3NDQzLDI3MDg0NTMxOV19
 -->
