@@ -4,8 +4,6 @@
 date: 2020-05-09  
 published: true
 ---
-[enter link description here](https://dev.to/evanbacon/gatsby-react-native-for-web-expo-2kgc)
-
 
 ```
 
@@ -45,5 +43,6 @@ published: true
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ5MzE4NzMsMjEyMzQ0ODc4XX0=
+eyJoaXN0b3J5IjpbLTI3NTU4OTg5MCwtMTU5NDkzMTg3MywyMT
+IzNDQ4NzhdfQ==
 -->
