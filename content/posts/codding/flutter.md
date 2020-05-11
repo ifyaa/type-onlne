@@ -1,19 +1,19 @@
 ---
  title: flutter
-date: 2020-05-09  
+date: 2020-05-11  
 published: true
 ---
+[enter link description here](https://software-creator.tistory.com/10)
 ```js
 import  'package:flutter/material.dart';
-
-void  main() =>  runApp(MyApp());
+		void  main() =>  runApp(MyApp());
 
 class  MyApp  extends  StatelessWidget {
 
-@override
-Widget  build(BuildContext context) {
+	@override
+	Widget  build(BuildContext context) {
 
-var imageUrl =  "https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+	var imageUrl =  "https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
 
 return  MaterialApp(
 title:  '지랄뻑',
@@ -38,5 +38,5 @@ Image.network(imageUrl)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDAwOTgyMzhdfQ==
+eyJoaXN0b3J5IjpbLTU4NzUzOTk2MF19
 -->
