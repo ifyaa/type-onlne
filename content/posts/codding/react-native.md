@@ -7,7 +7,7 @@ published: true
 ---
 
 목차
-![Furby](../assets/header-01.png)
+![Furby](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header-01.png)
 [enter link description here](https://ibb.co/98w2djd)
 
 ```js
@@ -59,7 +59,7 @@ export  default  createAppContainer(RootStack);
 
 2020-05-06
  [참고사이트](https://www.youtube.com/watch?v=TcvyZaSzDnw&list=PLvjHFH8I1eYYoOsUgEfqA-cAqqMsIJGvT&index=4)
-![image](../assets/header.png)
+![image](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://ibb.co/2ZbvMmB)
 ```js
 App.js
@@ -178,8 +178,8 @@ export  default data = [
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NjkzMzE4LDE5NDk5NzY5ODQsMTU3MD
-IzNDk3NywyMTA0MDcyMDU5LDQ1Mjk0ODUzMSw4MjEzNTExMzAs
-MTk4NDI2Nzc4NiwxNzMxOTkzMDc0LDc3NjYyOTU5OSwxMzI3Mz
-U3NDQzLDI3MDg0NTMxOV19
+eyJoaXN0b3J5IjpbLTc4MzY2ODExNiw5NDY2OTMzMTgsMTk0OT
+k3Njk4NCwxNTcwMjM0OTc3LDIxMDQwNzIwNTksNDUyOTQ4NTMx
+LDgyMTM1MTEzMCwxOTg0MjY3Nzg2LDE3MzE5OTMwNzQsNzc2Nj
+I5NTk5LDEzMjczNTc0NDMsMjcwODQ1MzE5XX0=
 -->
