@@ -73,40 +73,41 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
- int counter = 0; // Text UI에 표시될 값
+	 int counter = 0; // Text UI에 표시될 값
 
- void increaseCounter() { // 버튼을 누르면 counter 값을 증가시킴
- setState(() {
- counter++;
- });
+	 void increaseCounter() { // 버튼을 누르면 counter 값을 증가시킴
+		 setState(() {
+		 counter++;
+	 });
  }
 
- void decreaseCounter() { // 버튼을 누르면 counter 값을 감소시킴
- setState(() {
- counter--;
- });
+	 void decreaseCounter() { // 버튼을 누르면 counter 값을 감소시킴
+		 setState(() {
+		 counter--;
+	 });
  }
 
  @override
  Widget build(BuildContext context) {
 
- return MaterialApp(
- title: "첫 플러터 앱",
- home: Scaffold(
- appBar: AppBar(
- title: Text("내 플러터 앱"),
- ),
- body: Container(
- padding: const EdgeInsets.all(16.0), // 전체적으로 16씩 패딩을 주었음.
- child: Column( // 세로로 위젯을 배치 
- children: <Widget>[
- Text(
- "$counter",
- style: TextStyle(fontSize: 160.0),
- ),
+	 return MaterialApp(
+		 title: "첫 플러터 앱",
+		 
+		 home: Scaffold(
+			 appBar: AppBar(
+			 title: Text("내 플러터 앱"),
+		 ),
+		 body: Container(
+			 padding: const EdgeInsets.all(16.0), // 전체적으로 16씩 패딩을 주었음.
+			 child: Column( // 세로로 위젯을 배치 
+			 children: <Widget>[
+		 Text(
+			 "$counter",
+			 style: TextStyle(fontSize: 160.0),
+		 ),
  Row( // 가로로 위젯을 배치, 안에 버튼 2개가 들어가 있음. 
- mainAxisAlignment: MainAxisAlignment.spaceEvenly, // 위젯끼리 같은 공간만큼 띄움
- children: <Widget>[
+	 mainAxisAlignment: MainAxisAlignment.spaceEvenly, // 위젯끼리 같은 공간만큼 띄움
+	 children: <Widget>[
  RaisedButton(
  child: Text(
  "Add",
@@ -140,5 +141,5 @@ class _MyAppState extends State<MyApp> {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcwMjUxMDAsMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbMTY1NjA1NzU1OCwxMTMwNDM3MDAwXX0=
 -->
