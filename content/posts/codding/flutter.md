@@ -35,8 +35,34 @@ class  MyApp  extends  StatelessWidget {
 	}
 }
 ```
+###StatefulWidget
+```js
+**스테이트랑 위젯을  따로 관리**
+class MyApp extends StatefulWidget { // 위젯 부분, 스테이트를 다루는 부분은 분리되어 있다. 
+ @override
 
+ _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> { // 스테이트를 관리하고, UI를 그리는 부분. 
+ @override
+
+ Widget build(BuildContext context) {
+ return MaterialApp(
+ title: "첫 Stateful App",
+ home: Scaffold(
+ appBar: AppBar(
+ title: Text("내 Stateful Widget"),
+ ),
+ body: Container(
+ child: Text("Stateful Widget"),
+ ),
+ ),
+ );
+ }
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbMTA2NzU1MjI5OCwxMTMwNDM3MDAwXX0=
 -->
