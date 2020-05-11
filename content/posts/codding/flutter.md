@@ -62,58 +62,37 @@ class _MyAppState extends State<MyApp> { // 스테이트를 관리하고, UI를 
 	 }
 }
 ```
+##### 예시 - 버튼을 통한 텍스트 변경
 
+_Text_  하나와  _RaiseButton_  두개가 들어갑니다.
 ```js
 class MyApp extends StatefulWidget {
 
- @override
-
- _MyAppState createState() => _MyAppState();
-
+	 @override
+	 _MyAppState createState() => _MyAppState();
 }
 
-​
-
 class _MyAppState extends State<MyApp> {
-
  int counter = 0; // Text UI에 표시될 값
 
-​
-
  void increaseCounter() { // 버튼을 누르면 counter 값을 증가시킴
-
  setState(() {
-
  counter++;
-
  });
-
  }
-
-​
 
  void decreaseCounter() { // 버튼을 누르면 counter 값을 감소시킴
-
  setState(() {
-
  counter--;
-
  });
-
  }
 
-​
-
  @override
-
  Widget build(BuildContext context) {
 
  return MaterialApp(
-
  title: "첫 플러터 앱",
-
  home: Scaffold(
-
  appBar: AppBar(
  title: Text("내 플러터 앱"),
  ),
@@ -161,5 +140,5 @@ class _MyAppState extends State<MyApp> {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIzNDY4NjMsMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbLTE0NDcwMjUxMDAsMTEzMDQzNzAwMF19
 -->
