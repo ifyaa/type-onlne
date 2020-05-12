@@ -63,6 +63,7 @@ class _MyAppState extends State<MyApp> { // 스테이트를 관리하고, UI를 
 	 }
 }
 ```
+![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/flutter-03.png)
 ##### 예시 - 버튼을 통한 텍스트 변경
 
 _Text_  하나와  _RaiseButton_  두개가 들어갑니다.
