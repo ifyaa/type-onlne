@@ -154,9 +154,31 @@ class _MyAppState extends State<MyApp> {
 	 }
 }
 ```
+다른기초
+[enter link description here](https://fkkmemi.github.io/ff/ff-001/)
 
+```js
+**main.dart**
+
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Center(
+        child: Text('start!!!')
+      ),
+    );
+  }
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtOD
-kzOTEzMzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE4MjExMDY4MzAsLTI2MTI5MTEzMiwtMT
+Q1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQyLDExMzA0
+MzcwMDBdfQ==
 -->
