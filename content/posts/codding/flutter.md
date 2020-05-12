@@ -9,6 +9,8 @@ published: true
  ```
 ###시작 
 ```js
+ open -a Simulator
+ 
  flutter run
 ```
 
@@ -155,6 +157,6 @@ class _MyAppState extends State<MyApp> {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMT
-AyMDQ4ODk0MiwxMTMwNDM3MDAwXX0=
+eyJoaXN0b3J5IjpbLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtOD
+kzOTEzMzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
 -->
