@@ -3,7 +3,14 @@ title: flutter
 date: 2020-05-08
 published: true
 ---
-**flutter create my_app**
+**설치
+```ls
+ flutter create my_app**
+ ```
+###시작 
+```js
+ flutter run
+```
 
 ![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
@@ -148,6 +155,6 @@ class _MyAppState extends State<MyApp> {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4NDE2MzEsLTg5MzkxMzM0OCwtMTAyMD
-Q4ODk0MiwxMTMwNDM3MDAwXX0=
+eyJoaXN0b3J5IjpbLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMT
+AyMDQ4ODk0MiwxMTMwNDM3MDAwXX0=
 -->
