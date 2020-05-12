@@ -3,6 +3,7 @@ title: flutter
 date: 2020-05-08
 published: true
 ---
+![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
 import  'package:flutter/material.dart';
@@ -141,7 +142,7 @@ class _MyAppState extends State<MyApp> {
 	 }
 }
 ```
-![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg5MzkxMzM0OCwtMTAyMDQ4ODk0MiwxMT
