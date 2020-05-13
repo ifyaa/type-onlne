@@ -179,73 +179,41 @@ class MyApp extends StatelessWidget {
 ```js
 import  'package:flutter/material.dart';
 
-  
-
 void  main()
-
-{runApp(MyApp());}
-
-  
+	{runApp(MyApp());}
 
 class  MyApp  extends  StatelessWidget {
-
-@override
-
-Widget  build(BuildContext context) {
-
-return  MaterialApp(
-
-home:  Scaffold(
-
-appBar:  AppBar(
-
-leading:  Icon(Icons.menu),
-
-title:  Text('지랄들'),
-
-actions:  <Widget>[
-
-IconButton(
-
-icon:  Icon(Icons.mode_comment),
-
-onPressed: () {
-
-print('pressed');
-
-}
-
-),
-
-IconButton(
-
-icon:  Icon(Icons.money_off),
-
-onPressed: () {
-
-print('지랄아');
-
-}
-
-),
-
-],
-
-),
-
+		@override
+		Widget  build(BuildContext context) {
+	return  MaterialApp(
+		home:  Scaffold(
+			appBar:  AppBar(
+			leading:  Icon(Icons.menu),
+			title:  Text('지랄들'),
+			actions:  <Widget>[
+			IconButton(
+			icon:  Icon(Icons.mode_comment),
+			onPressed: () {
+			print('pressed');
+			}
+			),
+			IconButton(
+			icon:  Icon(Icons.money_off),
+			onPressed: () {
+			print('지랄아');
+		}
+	),
+	],
+	),
 body:  Center(child:  Text('hello'),)
-
 )
-
 );
-
 }
-
 }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTY0NzkyOSwtMjYxMjkxMTMyLC0xND
-U3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5NDIsMTEzMDQz
-NzAwMF19
+eyJoaXN0b3J5IjpbMzA4NjQ1MTksLTI1MTY0NzkyOSwtMjYxMj
+kxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5
+NDIsMTEzMDQzNzAwMF19
 -->
