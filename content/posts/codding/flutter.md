@@ -228,9 +228,37 @@ class  MyApp  extends  StatelessWidget {
 36. 尢 절름발이 왕 :
 37. 屮 싹날 철
 > Written with [StackEdit](https://stackedit.io/).
+```js
+import  'package:flutter/material.dart';
+
+class  HelloRectangle  extends  StatelessWidget {
+	@override
+	Widget  build(BuildContext context){
+	return  Container(
+	color:  Colors.greenAccent,
+		);
+	}
+}
+
+void  main() {
+runApp(
+MaterialApp(
+debugShowCheckedModeBanner: false,
+home:  Scaffold(
+appBar:  AppBar(
+title:  Text('hello eee')
+),
+body:  HelloRectangle(),
+),
+)
+
+);
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04MD
-YzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MTI5MTEz
-MiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQyLD
-ExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbLTEzMDkyNDExNzgsMTc0NzY0NzYzOCwxOT
+c0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5
+MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC
+0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
 -->
