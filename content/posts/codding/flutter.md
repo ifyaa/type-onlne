@@ -241,24 +241,23 @@ class  HelloRectangle  extends  StatelessWidget {
 }
 
 void  main() {
-runApp(
-MaterialApp(
-debugShowCheckedModeBanner: false,
-home:  Scaffold(
-appBar:  AppBar(
-title:  Text('hello eee')
-),
-body:  HelloRectangle(),
-),
-)
-
-);
-
+	runApp(
+		MaterialApp(
+		debugShowCheckedModeBanner: false,
+		
+		home:  Scaffold(
+				appBar:  AppBar(
+				title:  Text('hello eee')
+					),
+				body:  HelloRectangle(),
+			),
+		)
+	);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkyNDExNzgsMTc0NzY0NzYzOCwxOT
-c0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5
-MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC
-0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbMTY5OTcyNjA4OCwxNzQ3NjQ3NjM4LDE5Nz
+Q5MDAwNTAsLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0Nzky
+OSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLT
+EwMjA0ODg5NDIsMTEzMDQzNzAwMF19
 -->
