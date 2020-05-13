@@ -212,12 +212,15 @@ class  MyApp  extends  StatelessWidget {
 	}
 }
 ```
+치세가 왕한철
+[부수공부](https://m.blog.naver.com/PostView.nhn?blogId=lik311&logNo=221720696046&targetKeyword=&targetRecommendationCode=1)
 34. 夂 뒤져올 치 : 그쳐있는 발을 끌고가니 뒤져 옴. 冬 겨울 동
 35. 夊 천천히 걸을 쇠
-43. 尢 절름발이 왕 :
+36. 尢 절름발이 왕 :
+37. 屮 싹날 철
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk2ODgzMTksODMyMDk3NzYxLC0yNT
-E2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEz
-MzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MT
+Y0NzkyOSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMz
+NDgsLTEwMjA0ODg5NDIsMTEzMDQzNzAwMF19
 -->
