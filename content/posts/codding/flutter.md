@@ -234,8 +234,8 @@ import  'package:flutter/material.dart';
 class  HelloRectangle  extends  StatelessWidget {
 	@override
 	Widget  build(BuildContext context){
-	return  Container(
-	color:  Colors.greenAccent,
+		return  Container(
+			color:  Colors.greenAccent,
 		);
 	}
 }
@@ -256,7 +256,7 @@ void  main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTcyNjA4OCwxNzQ3NjQ3NjM4LDE5Nz
+eyJoaXN0b3J5IjpbLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5Nz
 Q5MDAwNTAsLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0Nzky
 OSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLT
 EwMjA0ODg5NDIsMTEzMDQzNzAwMF19
