@@ -22,7 +22,10 @@ android에서
 vscode 하단오른쪽 nodevice선택 
 flutter run
 ```
-
+```
+에러체크
+flutter build apk --verbose
+```
 ![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
@@ -261,8 +264,9 @@ void  main() {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjE2NTM0OSwtMTMwMTg2MjQwLDE3ND
-c2NDc2MzgsMTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2
-MSwtMjUxNjQ3OTI5LC0yNjEyOTExMzIsLTE0NTc5OTM2NjgsLT
-g5MzkxMzM0OCwtMTAyMDQ4ODk0MiwxMTMwNDM3MDAwXX0=
+eyJoaXN0b3J5IjpbLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEzMD
+E4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0Njcy
+Myw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMjkxMTMyLC0xND
+U3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5NDIsMTEzMDQz
+NzAwMF19
 -->
