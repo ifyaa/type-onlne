@@ -13,6 +13,9 @@ published: true
  open -a Simulator
  
  flutter run
+
+web에서
+flutter run -d chrome
 ```
 ```js
 android에서
@@ -226,8 +229,8 @@ class  MyApp  extends  StatelessWidget {
 37. 屮 싹날 철
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMj
-A5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOTExMzIsLTE0NTc5OTM2
-NjgsLTg5MzkxMzM0OCwtMTAyMDQ4ODk0MiwxMTMwNDM3MDAwXX
-0=
+eyJoaXN0b3J5IjpbMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04MD
+YzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MTI5MTEz
+MiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQyLD
+ExMzA0MzcwMDBdfQ==
 -->
