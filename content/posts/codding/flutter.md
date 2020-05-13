@@ -9,9 +9,15 @@ published: true
  ```
 ###시작 
 ```js
+맥에서
  open -a Simulator
  
  flutter run
+```
+```js
+android에서
+vscode 하단오른쪽 nodevice선택 
+flutter run
 ```
 
 ![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
@@ -220,7 +226,8 @@ class  MyApp  extends  StatelessWidget {
 37. 屮 싹날 철
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MT
-Y0NzkyOSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMz
-NDgsLTEwMjA0ODg5NDIsMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbMTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMj
+A5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOTExMzIsLTE0NTc5OTM2
+NjgsLTg5MzkxMzM0OCwtMTAyMDQ4ODk0MiwxMTMwNDM3MDAwXX
+0=
 -->
