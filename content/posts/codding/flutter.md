@@ -212,9 +212,12 @@ class  MyApp  extends  StatelessWidget {
 	}
 }
 ```
+34. 夂 뒤져올 치 : 그쳐있는 발을 끌고가니 뒤져 옴. 冬 겨울 동
+35. 夊 천천히 걸을 쇠
+43. 尢 절름발이 왕 :
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MT
-I5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4
-OTQyLDExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE0MTk2ODgzMTksODMyMDk3NzYxLC0yNT
+E2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEz
+MzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
 -->
