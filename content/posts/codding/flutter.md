@@ -262,14 +262,19 @@ void  main() {
 ```js
 
 Widget  imgSe(){
-return  Image.asset('images/lake.jpg');
-
+	return  Image.asset(
+		'images/lake.jpg',
+			width:  600,
+			height:  240,
+			fit:  BoxFit.cover,
+		);
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNj
-UzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAs
-LTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMj
-kxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5
-NDIsMTEzMDQzNzAwMF19
+eyJoaXN0b3J5IjpbNTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2OD
+M2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwx
+OTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2ND
+c5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4
+LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
 -->
