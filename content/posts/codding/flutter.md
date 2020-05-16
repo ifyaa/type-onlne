@@ -308,11 +308,36 @@ import  'package:flutter/material.dart';
 		}
 }
 ```
+```js
+
+body: Center(
+  // child: ((i % 2 == 0) ? Text('hi ~ $i') : Icon(Icons.sentiment_dissatisfied))
+  body: XXX(i: i)
+)
+```
+```js
+
+class XXX extends StatelessWidget {
+  XXX({Key key, this.i: 0}) : super(key: key);
+  final int i;
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: _change(i)
+    );
+  }
+  Widget _change (i) {
+    if (i == 0) return CircularProgressIndicator();
+    else if (i == 1) return Icon(Icons.settings);
+    else return Text('yyy: $i');
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMT
-MwMTQwLDQ5MTA1ODM0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0x
-MzAxODYyNDAsMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04MDYzND
-Y3MjMsODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MTI5MTEzMiwt
-MTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQyLDExMz
-A0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5ND
+E2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIx
+NjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMD
+A1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0y
+NjEyOTExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMTAyMD
+Q4ODk0MiwxMTMwNDM3MDAwXX0=
 -->
