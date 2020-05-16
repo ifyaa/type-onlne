@@ -342,8 +342,10 @@ body: Center(
 ```js
 
 class XXX extends StatelessWidget {
+
   XXX({Key key, this.i: 0}) : super(key: key);
   final int i;
+  
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -358,10 +360,11 @@ class XXX extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NT
-c2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01
-NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0Nz
-YzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0y
-NTE2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOT
-EzMzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
+eyJoaXN0b3J5IjpbLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OT
+cwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAs
+NDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEzMDE4Nj
+I0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0NjcyMyw4
+MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMjkxMTMyLC0xNDU3OT
+kzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5NDIsMTEzMDQzNzAw
+MF19
 -->
