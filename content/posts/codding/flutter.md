@@ -323,6 +323,7 @@ class _HomeWidgetState extends State<HomeWidget> {
 	             setState(() {
 					i++;
 					if(i >  2) i =  0;
+			  });
             },
           )
         ],
@@ -362,11 +363,11 @@ class XXX extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAyNjgwMiwtNjIyMTI5OTk3LDE3OD
-E3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4
-LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NT
-M0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwt
-ODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOT
-ExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMTAyMDQ4ODk0
-Ml19
+eyJoaXN0b3J5IjpbLTExMTc1OTg3NTUsLTYyMjEyOTk5NywxNz
+gxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3
+OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNj
+UzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAs
+LTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMj
+kxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5
+NDJdfQ==
 -->
