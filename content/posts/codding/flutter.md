@@ -382,6 +382,9 @@ _delay () {
   });  
 }
 ```
+# State 클래스의 시작부
+
+바로 initState라는 곳입니다.
 ```js
 class _HomeWidgetState extends State<HomeWidget> {
   final app = AppState(true, '');  
@@ -415,12 +418,66 @@ Widget _loading () {
   );
 }
 ```
+## _signIn
+
+```js
+Widget _signIn () {
+  return Scaffold(
+    appBar: AppBar(
+      title: Text('login page')
+    ),
+    body: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text('id'), Text('pass'),            
+          RaisedButton(
+            child: Text('login'), 
+            onPressed: () {
+              setState(() {
+                app.loading = true;
+                app.user = 'my name';
+                _delay();
+              });
+            }
+          )
+        ],
+      )
+    )    
+  );
+}
+```
+## _main
+
+```js
+Widget _main () {
+  return Scaffold(
+    appBar: AppBar(
+      title: Text(app.user),
+      actions: <Widget>[
+        IconButton(
+          icon: Icon(Icons.account_circle),
+          onPressed: () {
+            setState(() {
+              app.user = '';
+              app.loading = true;
+              _delay();
+            });
+          },
+        )
+      ],
+    ),
+    body: Center(child: Text('contents'))
+  );
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjI5NjgzLC02MjIxMjk5OTcsMTc4MT
-c4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4LDE3NDk0MTYzNzgs
-NTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2ODM2MSwtMjE2MTY1Mz
-Q5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04
-MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MTI5MT
-EzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQy
-XX0=
+eyJoaXN0b3J5IjpbLTE1NDU5OTk5ODIsLTYyMjEyOTk5NywxNz
+gxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3
+OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNj
+UzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAs
+LTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMj
+kxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5
+NDJdfQ==
 -->
