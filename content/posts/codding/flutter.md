@@ -362,8 +362,8 @@ class XXX extends StatelessWidget {
   }
 }
 ```
-페이지 전환
-# 클래스 생성
+[페이지 전환](https://fkkmemi.github.io/ff/ff-005/)
+### 클래스 생성
 ```js
 class AppState {
   bool loading;
@@ -371,13 +371,13 @@ class AppState {
   AppState(this.loading, this.user);
 }
 ```
-# 인스턴스 생성
+### 인스턴스 생성
 ```js
 // var app = AppState(true, '');  
 // final AppState app = AppState(true, '');  
 final app = AppState(true, '');  
 ```
-# delay 함수 제작
+### delay 함수 제작
 ```js
 _delay () {
   Future.delayed(Duration(seconds: 1), () {
@@ -385,7 +385,7 @@ _delay () {
   });  
 }
 ```
-# State 클래스의 시작부
+### State 클래스의 시작부
 
 바로 initState라는 곳입니다.
 ```js
@@ -403,7 +403,7 @@ class _HomeWidgetState extends State<HomeWidget> {
   }
   // ..
 ```
-# 상황별 렌더링
+### 상황별 렌더링
 ```js
 @override
 Widget build(BuildContext context) {
@@ -412,7 +412,7 @@ Widget build(BuildContext context) {
   return _main();
 }
 ```
-## _loading
+### _loading
 
 ```js
 Widget _loading () {
@@ -422,7 +422,7 @@ Widget _loading () {
   );
 }
 ```
-## _signIn
+### _signIn
 
 ```js
 Widget _signIn () {
@@ -452,7 +452,7 @@ Widget _signIn () {
   );
 }
 ```
-## _main
+### _main
 
 ```js
 Widget _main () {
@@ -477,7 +477,7 @@ Widget _main () {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTQxNzYwMSwtNjIyMTI5OTk3LDE3OD
+eyJoaXN0b3J5IjpbLTM3OTk2ODg4MCwtNjIyMTI5OTk3LDE3OD
 E3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4
 LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NT
 M0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwt
