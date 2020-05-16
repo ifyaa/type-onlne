@@ -362,12 +362,25 @@ class XXX extends StatelessWidget {
   }
 }
 ```
+페이지 전환
+```js
+class AppState {
+  bool loading;
+  String user;
+  AppState(this.loading, this.user);
+}
+```
+```js
+// var app = AppState(true, '');  
+// final AppState app = AppState(true, '');  
+final app = AppState(true, '');  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc1OTg3NTUsLTYyMjEyOTk5NywxNz
-gxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3
-OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNj
-UzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAs
-LTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMj
-kxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzUxMjAxLC02MjIxMjk5OTcsMTc4MT
+c4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4LDE3NDk0MTYzNzgs
+NTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2ODM2MSwtMjE2MTY1Mz
+Q5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04
+MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2NDc5MjksLTI2MTI5MT
+EzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4LC0xMDIwNDg4OTQy
+XX0=
 -->
