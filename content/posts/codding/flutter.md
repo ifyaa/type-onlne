@@ -375,8 +375,48 @@ class AppState {
 // final AppState app = AppState(true, '');  
 final app = AppState(true, '');  
 ```
+```js
+_delay () {
+  Future.delayed(Duration(seconds: 1), () {
+    setState(() => app.loading = false);
+  });  
+}
+```
+```js
+class _HomeWidgetState extends State<HomeWidget> {
+  final app = AppState(true, '');  
+  @override
+  void initState() { 
+    super.initState();    
+    _delay();
+  }
+  _delay () {
+    Future.delayed(Duration(seconds: 1), () {
+      setState(() => app.loading = false);
+    });  
+  }
+  // ..
+```
+```js
+@override
+Widget build(BuildContext context) {
+  if (app.loading) return _loading();
+  if (app.user.isEmpty) return _signIn();
+  return _main();
+}
+```
+## _loading
+
+```js
+Widget _loading () {
+  return Scaffold(
+    appBar: AppBar(title: Text('loading...')),
+    body: Center(child: CircularProgressIndicator())
+  );
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUxMjAxLC02MjIxMjk5OTcsMTc4MT
+eyJoaXN0b3J5IjpbODUyNjI5NjgzLC02MjIxMjk5OTcsMTc4MT
 c4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4LDE3NDk0MTYzNzgs
 NTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2ODM2MSwtMjE2MTY1Mz
 Q5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwxOTc0OTAwMDUwLC04
