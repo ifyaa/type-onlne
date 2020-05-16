@@ -309,6 +309,30 @@ import  'package:flutter/material.dart';
 }
 ```
 ```js
+class _HomeWidgetState extends State<HomeWidget> {
+  **int i = 0;**
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('hiru~'),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.send),
+            onPressed: () {
+              **i++;**
+            },
+          )
+        ],
+      ),
+      body: Center(
+        **child: Text('hi ~ $i')**
+      )
+    );
+  }
+}
+```
+```js
 
 body: Center(
   // child: ((i % 2 == 0) ? Text('hi ~ $i') : Icon(Icons.sentiment_dissatisfied))
@@ -334,10 +358,10 @@ class XXX extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5ND
-E2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIx
-NjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMD
-A1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0y
-NjEyOTExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMTAyMD
-Q4ODk0MiwxMTMwNDM3MDAwXX0=
+eyJoaXN0b3J5IjpbMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NT
+c2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01
+NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0Nz
+YzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0y
+NTE2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOT
+EzMzQ4LC0xMDIwNDg4OTQyLDExMzA0MzcwMDBdfQ==
 -->
