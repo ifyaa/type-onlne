@@ -362,7 +362,8 @@ class XXX extends StatelessWidget {
   }
 }
 ```
-[페이지 전환](https://fkkmemi.github.io/ff/ff-005/)
+
+[##페이지 전환](https://fkkmemi.github.io/ff/ff-005/)
 ### 클래스 생성
 ```js
 class AppState {
@@ -477,7 +478,7 @@ Widget _main () {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTk2ODg4MCwtNjIyMTI5OTk3LDE3OD
+eyJoaXN0b3J5IjpbLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3OD
 E3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4
 LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NT
 M0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwt
