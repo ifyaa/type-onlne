@@ -320,7 +320,9 @@ class _HomeWidgetState extends State<HomeWidget> {
           IconButton(
             icon: Icon(Icons.send),
             onPressed: () {
-              **i++;**
+	             setState(() {
+					i++;
+					if(i >  2) i =  0;
             },
           )
         ],
@@ -360,11 +362,11 @@ class XXX extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OT
-cwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAs
-NDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEzMDE4Nj
-I0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0NjcyMyw4
-MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMjkxMTMyLC0xNDU3OT
-kzNjY4LC04OTM5MTMzNDgsLTEwMjA0ODg5NDIsMTEzMDQzNzAw
-MF19
+eyJoaXN0b3J5IjpbLTE1NDAyNjgwMiwtNjIyMTI5OTk3LDE3OD
+E3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4
+LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NT
+M0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwt
+ODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOT
+ExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0OCwtMTAyMDQ4ODk0
+Ml19
 -->
