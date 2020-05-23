@@ -65,7 +65,22 @@ type  Query {
 	person: Nicolas  !
 }
 ```
+schema.graphql
+```js
+
+type Person {
+	id: Int!
+	name: String!
+	age: Int!
+	gender: String!
+}
+
+type  Query {
+	people: [Person]!
+	person(id: Int!): Person!
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNjkwMzE3LDE2OTU0MjQwXX0=
+eyJoaXN0b3J5IjpbLTE2ODQwMTE5NzEsMTY5NTQyNDBdfQ==
 -->
