@@ -17,7 +17,7 @@ const server =  new  GraphQLServer({
 
 	server.start(() =>  console.log("Graphql Server Running"));
 ```
-localhosr
+http://localhost:4000
 ```js
 resolve.js
 const nicolas = {
@@ -52,5 +52,5 @@ type  Query {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMDYwMjIwXX0=
+eyJoaXN0b3J5IjpbMTY5NTQyNDBdfQ==
 -->
