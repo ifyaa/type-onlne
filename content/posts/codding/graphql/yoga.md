@@ -19,7 +19,7 @@ const server =  new  GraphQLServer({
 ```
 http://localhost:4000
 ```js
-resolve.js
+**resolve.js**
 const nicolas = {
 		name: "Nicolas",
 		age: 24,
@@ -52,5 +52,5 @@ type  Query {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTQyNDBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDI3MzYxOTIsMTY5NTQyNDBdfQ==
 -->
