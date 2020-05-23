@@ -19,7 +19,8 @@ const server =  new  GraphQLServer({
 ```
 http://localhost:4000
 ```js
-**resolve.js**
+resolve.js
+
 const nicolas = {
 		name: "Nicolas",
 		age: 24,
@@ -37,6 +38,20 @@ const resolvers = {
 
 export  default resolvers;
 ```
+```js
+resolve.js
+
+import { people } from './db';
+const resolvers = {
+	Query: {
+		// person () => nicolas
+		person: function() {
+			return people;
+		}
+	}
+};
+export  default resolvers;
+```
 schema.graphql
 ```js
 
@@ -52,5 +67,5 @@ type  Query {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3MzYxOTIsMTY5NTQyNDBdfQ==
+eyJoaXN0b3J5IjpbNDEwNjkwMzE3LDE2OTU0MjQwXX0=
 -->
