@@ -26,17 +26,39 @@ const nicolas = {
 	};
 
 const resolvers = {
-Query: {
-// person () => nicolas
-person: function() {
-return nicolas;
-}
-}
+	Query: {
+		// person () => nicolas
+		person: function() {
+			return nicolas;
+		}
+	}
 };
 
 export  default resolvers;
 ```
+schema.graphql
+```js
+
+type  Nicolas {
+
+name: String!
+
+age: Int!
+
+gender: String!
+
+}
+
+  
+  
+
+type  Query {
+
+person: Nicolas  !
+
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjA1ODY1NV19
+eyJoaXN0b3J5IjpbNTExNDUzNzExXX0=
 -->
