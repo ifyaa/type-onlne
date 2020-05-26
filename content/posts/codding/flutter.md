@@ -588,12 +588,36 @@ child:  Text('Flutter Essintials', style:  TextStyle(fontSize:  20, color:  Colo
 
 }
 ```
+
+text padding
+```js
+@override
+Widget  build(BuildContext context) {
+body:  Center(
+child:  Container(
+color:  Colors.red,
+child:  Padding(
+padding:  EdgeInsets.all(15),
+child:  Text('welcome', style:  TextStyle(color:  Colors.white, fontSize:  20),),
+
+)
+
+)
+
+),
+
+);
+
+}
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjc2MjAxLC00Nzk4MTAzMDIsLTYyMj
-EyOTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2Njgs
-MTc0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4Mz
-YxLC0yMTYxNjUzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5
-NzQ5MDAwNTAsLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0Nz
-kyOSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDhd
-fQ==
+eyJoaXN0b3J5IjpbNzQyNjk4ODM4LDE1MzI3NjIwMSwtNDc5OD
+EwMzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAs
+NzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1OD
+M0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0
+NzY0NzYzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3Nz
+YxLC0yNTE2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OF19
+
 -->
