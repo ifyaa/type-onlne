@@ -478,16 +478,121 @@ Widget _main () {
 }
 ```
 
+text Containar
 [기초 동영상](https://www.youtube.com/watch?v=fvtyGySLlfs&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3)
- ```js
- 
+
+##flutt
+```js
+import  'package:flutter/material.dart';
+
+void  main(){
+
+runApp(MyApp());
+
+}
+
+  
+
+class  MyApp  extends  StatelessWidget {
+
+@override
+
+Widget  build(BuildContext context) {
+
+return  MaterialApp(
+
+title:  'flutter Demo',
+
+theme:ThemeData(
+
+primarySwatch:  Colors.blue,
+
+),
+
+home:  MyHomePage(),
+
+);
+
+}
+
+}
+
+  
+
+class  MyHomePage  extends  StatelessWidget {
+
+  
+
+@override
+
+Widget  build(BuildContext context) {
+
+return  Scaffold(
+
+body:  Center(
+
+child:  Container (
+
+padding:  EdgeInsets.all(8.0),
+
+// constraints: BoxConstraints.expand(),
+
+alignment:  Alignment.center,
+
+width:  200,
+
+height:  200,
+
+decoration:  BoxDecoration(
+
+color:  Colors.blue,
+
+borderRadius:  BorderRadius.all(Radius.circular(20.0)),
+
+boxShadow: [
+
+BoxShadow(
+
+color:  Colors.red[100],
+
+blurRadius:  4.0,
+
+spreadRadius:  2.0,
+
+)
+
+],
+
+gradient:  LinearGradient(
+
+begin:  Alignment.centerLeft,
+
+end:  Alignment.centerRight,
+
+colors: [
+
+Colors.blue,
+
+Colors.red
+
+]),
+
+),
+
+child:  Text('Flutter Essintials', style:  TextStyle(fontSize:  20, color:  Colors.white),))),
+
+);
+
+}
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDI5NTY5OSwtNDc5ODEwMzAyLC02Mj
-IxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4
-LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2OD
-M2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwx
-OTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxLC0yNTE2ND
-c5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OCwtODkzOTEzMzQ4
-XX0=
+eyJoaXN0b3J5IjpbLTExNTIwOTkyNzAsLTQ3OTgxMDMwMiwtNj
+IyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2
+OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0Nj
+gzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2NDc2Mzgs
+MTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNj
+Q3OTI5LC0yNjEyOTExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0
+OF19
 -->
