@@ -478,11 +478,12 @@ Widget _main () {
 }
 ```
 
- [기초 동영상](https://www.youtube.com/watch?v=3-pqu00zgek&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3)
+[기초 동영상](https://www.youtube.com/watch?v=fvtyGySLlfs&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3)
  ```js
+ 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDA4NzE1OSwtNDc5ODEwMzAyLC02Mj
+eyJoaXN0b3J5IjpbMTc3MDI5NTY5OSwtNDc5ODEwMzAyLC02Mj
 IxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4
 LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01NzQ2OD
 M2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0NzYzOCwx
