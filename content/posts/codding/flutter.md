@@ -481,7 +481,8 @@ Widget _main () {
 text Containar
 [기초 동영상](https://www.youtube.com/watch?v=fvtyGySLlfs&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3)
 
-##flutt
+##flutter로 작업을 하려는데 기초가 너무부족하다...텍스트변경도 제대로 못하니...일단 텍스트와 이미지 그리고 그외의 속성부터 파악해야 될것같아서..
+
 ```js
 import  'package:flutter/material.dart';
 
@@ -588,11 +589,11 @@ child:  Text('Flutter Essintials', style:  TextStyle(fontSize:  20, color:  Colo
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIwOTkyNzAsLTQ3OTgxMDMwMiwtNj
-IyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2
-OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0Nj
-gzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2NDc2Mzgs
-MTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNj
-Q3OTI5LC0yNjEyOTExMzIsLTE0NTc5OTM2NjgsLTg5MzkxMzM0
-OF19
+eyJoaXN0b3J5IjpbMTUzMjc2MjAxLC00Nzk4MTAzMDIsLTYyMj
+EyOTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2Njgs
+MTc0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4Mz
+YxLC0yMTYxNjUzNDksLTEzMDE4NjI0MCwxNzQ3NjQ3NjM4LDE5
+NzQ5MDAwNTAsLTgwNjM0NjcyMyw4MzIwOTc3NjEsLTI1MTY0Nz
+kyOSwtMjYxMjkxMTMyLC0xNDU3OTkzNjY4LC04OTM5MTMzNDhd
+fQ==
 -->
