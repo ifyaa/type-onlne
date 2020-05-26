@@ -593,27 +593,18 @@ text padding
 ```js
 @override
 Widget  build(BuildContext context) {
-body:  Center(
-child:  Container(
-color:  Colors.red,
-child:  Padding(
-padding:  EdgeInsets.all(15),
-child:  Text('welcome', style:  TextStyle(color:  Colors.white, fontSize:  20),),
+	body:  Center(
+		child:  Container(
+			color:  Colors.red,
+			child:  Padding(
+				padding:  EdgeInsets.all(15),
+				child:  Text('welcome', style:  TextStyle(color:  Colors.white, fontSize:  20),),
 
 )
 
-)
-
-),
-
-);
-
-}
-
-}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNjk4ODM4LDE1MzI3NjIwMSwtNDc5OD
+eyJoaXN0b3J5IjpbMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5OD
 EwMzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAs
 NzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1OD
 M0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0
