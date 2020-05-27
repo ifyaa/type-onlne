@@ -603,12 +603,54 @@ Widget  build(BuildContext context) {
 )
 
 ```
+```js
+import 'package:flutter/material.dart';
+import 'package:myflu/Navbar/Navbar.dart';
+void main(){
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'flutter Demo',
+      theme:ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold( 
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.centerLeft,
+              end:Alignment.bottomRight,
+              colors: [Color.fromRGBO(200, 20, 50, 1.0),Color.fromRGBO(36,11,54,1.0)]
+            )
+          ),
+          child: Column(
+            children: <Widget>[Navbar()]
+          ),
+        )
+    );
+  }
+}
+     
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5OD
-EwMzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAs
-NzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1OD
-M0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0
-NzY0NzYzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3Nz
-YxLC0yNTE2NDc5MjksLTI2MTI5MTEzMiwtMTQ1Nzk5MzY2OF19
+eyJoaXN0b3J5IjpbLTI3NTUwODIyMiwzNDMxNjM1MTgsMTUzMj
+c2MjAxLC00Nzk4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcx
+LDQ5OTcwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMz
+AxNDAsNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEz
+MDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0Nj
+cyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMjkxMTMyXX0=
 
 -->
