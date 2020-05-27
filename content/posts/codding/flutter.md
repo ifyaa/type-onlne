@@ -603,6 +603,7 @@ Widget  build(BuildContext context) {
 )
 
 ```
+web sample 바탕화면
 ```js
 import 'package:flutter/material.dart';
 import 'package:myflu/Navbar/Navbar.dart';
@@ -645,12 +646,65 @@ class MyHomePage extends StatelessWidget {
 }
      
 ```
+
+Navbar.dart
+```js
+import 'package:flutter/material.dart';
+
+class Navbar extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints){
+        if (constraints.maxWidth > 1200) {
+          return DesktopNavbar();
+        } else if (constraints.maxWidth > 800 && constraints.maxWidth < 1200) {
+          return DesktopNavbar();
+        } else {
+          return MobileNavbar();
+        }
+      },
+    );
+  }
+}
+
+class DesktopNavbar extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Row(
+        children: <Widget>[
+          Text(
+            "RetroPortal Studio",
+            style: TextStyle(
+              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30
+            ),
+          ),
+          Text(
+            "About Us",
+            style: TextStyle(color: Colors.white),
+          ),
+        ]
+      ),
+    );
+  }
+}
+
+class MobileNavbar extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTUwODIyMiwzNDMxNjM1MTgsMTUzMj
-c2MjAxLC00Nzk4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcx
-LDQ5OTcwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMz
-AxNDAsNDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEz
-MDE4NjI0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0Nj
-cyMyw4MzIwOTc3NjEsLTI1MTY0NzkyOSwtMjYxMjkxMTMyXX0=
+eyJoaXN0b3J5IjpbNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNz
+YyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEs
+NDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMD
+E0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMw
+MTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwtODA2MzQ2Nz
+IzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOTExMzJdfQ==
 
 -->
