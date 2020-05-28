@@ -642,7 +642,7 @@ class MyHomePage extends StatelessWidget {
      
 ```
 
-Navbar.dart
+Navbar.dart  01
 ```js
 import 'package:flutter/material.dart';
 
@@ -695,7 +695,7 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 
-Navbar.dart
+Navbar.dart 02
 ```js
 import 'package:flutter/material.dart';
 
@@ -758,7 +758,7 @@ class DesktopNavbar extends StatelessWidget {
                     SizedBox(
             width: 30,
           ),
-              MaterialButton(    //qj
+              MaterialButton(    //Button
                 color: Colors.pink,
                 shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
@@ -788,11 +788,11 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk5NTY0NTIsLTE5MjA1Mzg5MjcsNj
-cwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLTQ3OTgxMDMw
-MiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLDc1OT
-U3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwt
-NTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2ND
-c2MzgsMTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MV19
+eyJoaXN0b3J5IjpbLTk0MDA4ODI1NiwtMTkyMDUzODkyNyw2Nz
+AxNjgwOTUsMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5ODEwMzAy
+LC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NT
+c2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01
+NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0Nz
+YzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxXX0=
 
 -->
