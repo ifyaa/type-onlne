@@ -720,12 +720,12 @@ class DesktopNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40), //padding
   
     child: Container(
-      constraints: BoxConstraints(maxWidth: 1200),
+      constraints: BoxConstraints(maxWidth: 1200),    //space
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,     //space
         children: <Widget>[
           Text(
             "RetroPortal Studio",
@@ -758,7 +758,7 @@ class DesktopNavbar extends StatelessWidget {
                     SizedBox(
             width: 30,
           ),
-              MaterialButton(
+              MaterialButton(    //qj
                 color: Colors.pink,
                 shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
@@ -788,11 +788,11 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTg2NjE1MiwtMTkyMDUzODkyNyw2Nz
-AxNjgwOTUsMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5ODEwMzAy
-LC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NT
-c2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0LC01
-NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDAsMTc0NzY0Nz
-YzOCwxOTc0OTAwMDUwLC04MDYzNDY3MjMsODMyMDk3NzYxXX0=
+eyJoaXN0b3J5IjpbLTEwMjk5NTY0NTIsLTE5MjA1Mzg5MjcsNj
+cwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLTQ3OTgxMDMw
+MiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLDc1OT
+U3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwt
+NTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2ND
+c2MzgsMTk3NDkwMDA1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MV19
 
 -->
