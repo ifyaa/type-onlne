@@ -695,7 +695,7 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 
-Navbar.dart 02
+DesktopNavbar
 ```js
 import 'package:flutter/material.dart';
 
@@ -788,7 +788,7 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 
-MobileNavbar.dart
+MobileNavbar
 ```js
 class MobileNavbar extends StatelessWidget {
   @override
@@ -850,11 +850,11 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDU1NjI2LC05NDAwODgyNTYsLTE5Mj
-A1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEs
-LTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5Nz
-A5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0
-OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMwMTg2Mj
-QwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwtODA2MzQ2NzIzXX0=
+eyJoaXN0b3J5IjpbMTEyNzM0NzM4MCwtOTQwMDg4MjU2LC0xOT
+IwNTM4OTI3LDY3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAx
+LC00Nzk4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OT
+cwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAs
+NDkxMDU4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEzMDE4Nj
+I0MCwxNzQ3NjQ3NjM4LDE5NzQ5MDAwNTAsLTgwNjM0NjcyM119
 
 -->
