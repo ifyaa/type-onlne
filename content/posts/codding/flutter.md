@@ -642,7 +642,7 @@ class MyHomePage extends StatelessWidget {
      
 ```
 
-Navbar.dart  01
+Navbar.dart  
 ```js
 import 'package:flutter/material.dart';
 
@@ -850,7 +850,7 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzM0NzM4MCwtOTQwMDg4MjU2LC0xOT
+eyJoaXN0b3J5IjpbMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0xOT
 IwNTM4OTI3LDY3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAx
 LC00Nzk4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OT
 cwOTAxMCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAs
