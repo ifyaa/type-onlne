@@ -565,16 +565,11 @@ spreadRadius:  2.0,
 ],
 
 gradient:  LinearGradient(
-
-begin:  Alignment.centerLeft,
-
-end:  Alignment.centerRight,
-
-colors: [
-
-Colors.blue,
-
-Colors.red
+	begin:  Alignment.centerLeft,
+	end:  Alignment.centerRight,
+		colors: [
+			Colors.blue,
+			Colors.red
 
 ]),
 
@@ -700,11 +695,11 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNz
-YyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEs
-NDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMD
-E0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMw
-MTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMDA1MCwtODA2MzQ2Nz
-IzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5LC0yNjEyOTExMzJdfQ==
+eyJoaXN0b3J5IjpbLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0Mz
+E2MzUxOCwxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3
+LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5ND
+E2Mzc4LDU4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIx
+NjE2NTM0OSwtMTMwMTg2MjQwLDE3NDc2NDc2MzgsMTk3NDkwMD
+A1MCwtODA2MzQ2NzIzLDgzMjA5Nzc2MSwtMjUxNjQ3OTI5XX0=
 
 -->
