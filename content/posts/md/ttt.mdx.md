@@ -28,9 +28,9 @@ const Dump = props => (
 
 render(<Dump props={["One", "Two", "Three", "Four"]} />);
 ```
-Hello, world!
+![](https://github.com/ifyaa/type-onlne/raw/master/content/posts/2019-07-01-code-blocks/2020-03-16-11-44-59.png)Hello, world!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDA1MDQ5M119
+eyJoaXN0b3J5IjpbMTY0MTIxODg0XX0=
 -->
