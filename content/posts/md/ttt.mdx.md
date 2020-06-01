@@ -27,10 +27,10 @@ const Dump = props => (
 );
 
 render(<Dump props={["One", "Two", "Three", "Four"]} />);
-
+```
 Hello, world!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTUxODA4NV19
+eyJoaXN0b3J5IjpbMTI5MDA1MDQ5M119
 -->
