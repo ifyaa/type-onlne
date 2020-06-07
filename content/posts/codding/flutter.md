@@ -908,55 +908,6 @@ class _MyAppState extends State<MyApp> {
   }
 }
 ```
-이미지
-![](https://i.ibb.co/Hn86JMf/flutter02.png)
-```js
-flutter:
-  uses-material-design: true
-  assets:
-   - assets/images/
-```
-```js
-import 'package:flutter/material.dart';
-
-class HomeScreen extends StatefulWidget {
-  _HomeScreenState createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
-@override
-Widget build(BuildContext context) {
-  return TopBar();
-  }
-}
-class TopBar extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-  return Container(
-    padding: EdgeInsets.fromLTRB(20, 7, 20, 7),
-    child: Row(children: <Widget>[
-      Image.asset(
-        'assets/images/logo_01.png',      
-        fit: BoxFit.contain,
-        height: 25,
-      ),
-      Container(
-        padding: EdgeInsets.only(right: 1),
-        child: Text(
-          'TV 프로그램',
-          style: TextStyle(fontSize: 14),
-        )
-      )
-    ])
-  );
-}
-}
-```
 바탕탭
 ![](https://i.ibb.co/XJzPc1h/flutter03.png)
 ```js
@@ -1023,13 +974,63 @@ class Bottom extends StatelessWidget {
   }
 }
 ```
+이미지
+![](https://i.ibb.co/Hn86JMf/flutter02.png)
+```js
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
 ```
+```js
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatefulWidget {
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+@override
+Widget build(BuildContext context) {
+  return TopBar();
+  }
+}
+class TopBar extends StatelessWidget {
+@override
+Widget build(BuildContext context) {
+  return Container(
+    padding: EdgeInsets.fromLTRB(20, 7, 20, 7),
+    child: Row(children: <Widget>[
+      Image.asset(
+        'assets/images/logo_01.png',      
+        fit: BoxFit.contain,
+        height: 25,
+      ),
+      Container(
+        padding: EdgeInsets.only(right: 1),
+        child: Text(
+          'TV 프로그램',
+          style: TextStyle(fontSize: 14),
+        )
+      )
+    ])
+  );
+}
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLT
-IwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAw
-ODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOC
-wxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3
-ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LD
-U4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0
-OV19
+eyJoaXN0b3J5IjpbMjU1OTQxMDcxLC0xODUzMjczNTIzLC0xMz
+I1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDExMTg1NzU3NTUsMTI2MjYx
+MTc5NywtOTQwMDg4MjU2LC0xOTIwNTM4OTI3LDY3MDE2ODA5NS
+wzNDMxNjM1MTgsMTUzMjc2MjAxLC00Nzk4MTAzMDIsLTYyMjEy
+OTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2NjgsMT
+c0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4MzYx
+XX0=
 -->
