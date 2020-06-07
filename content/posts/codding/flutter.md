@@ -849,9 +849,9 @@ class MobileNavbar extends StatelessWidget {
   }
 }
 ```
-<img src ="https://i.ibb.co/MBXc1WL/header.png" alt='' " />
+<img src="https://i.ibb.co/MBXc1WL/header.png" alt=""/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTc0NTI3MywxMjYyNjExNzk3LC05ND
+eyJoaXN0b3J5IjpbMTExODU3NTc1NSwxMjYyNjExNzk3LC05ND
 AwODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUx
 OCwxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3OD
 E3ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4
