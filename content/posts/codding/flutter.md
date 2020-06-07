@@ -1024,9 +1024,10 @@ Widget build(BuildContext context) {
 }
 ```
 
+다른곳에서 다시 [참조](https://www.youtube.com/watch?v=nPa-53FXebU&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=8)
 
 ![](https://i.ibb.co/mvJjjfN/flutter04.png)
-참조 
+
 ```js
 import 'package:flutter/material.dart';
 
@@ -1060,11 +1061,11 @@ class _HomePageState extends State<HomePage> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNjUxOTM2LDI1NTk0MTA3MSwtMTg1Mz
-I3MzUyMywtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1
-NzU1LDEyNjI2MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUzODkyNy
-w2NzAxNjgwOTUsMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5ODEw
-MzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkwMTAsNz
-U5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MTA1ODM0
-XX0=
+eyJoaXN0b3J5IjpbMTc4MjgxMDQsMjU1OTQxMDcxLC0xODUzMj
+czNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDExMTg1NzU3
+NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0xOTIwNTM4OTI3LD
+Y3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAxLC00Nzk4MTAz
+MDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NT
+k1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzRd
+fQ==
 -->
