@@ -850,7 +850,64 @@ class MobileNavbar extends StatelessWidget {
 }
 ```
 ![](https://i.ibb.co/tz7svQC/flutter-01.png)
+```js
+// lib/main.dart
+import 'package:flutter/material.dart';
+import 'package:myapp/widget/bottom_bar.dart';
+import 'package:myapp/screen/home_screen.dart';
 
+void main() => runApp(MyApp());
+
+class MyApp extends StatefulWidget {
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  TabController controller;
+  @override
+
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Bbongflix',
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Colors.black,
+        accentColor: Colors.white,
+      ),
+      home: DefaultTabController(
+        length: 4,
+        child: Scaffold(
+          body: TabBarView(
+            physics: NeverScrollableScrollPhysics(),
+            children: <Widget>[
+              HomeScreen(),
+
+              Container(
+                child: Center(
+                  child: Text('search'),
+                ),
+              ),
+              Container(
+                child: Center(
+                  child: Text('save'),
+                ),
+              ),
+              Container(
+                child: Center(
+                  child: Text('more'),
+                ),
+              ),
+            ],
+
+            
+          ),
+          bottomNavigationBar: Bottom(),
+        ),
+      ),
+    );
+  }
+}
+```
 이미지
 ![](https://i.ibb.co/Hn86JMf/flutter02.png)
 ```js
@@ -902,13 +959,38 @@ Widget build(BuildContext context) {
 ```
 바탕탭
 ![](https://i.ibb.co/XJzPc1h/flutter03.png)
+```js
+import 'package:flutter/material.dart';
 
+class Bottom extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.black,
+      child: Container(
+        height: 50,
+        child: TabBar(
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.white60,
+          indicatorColor: Colors.transparent,
+          tabs: <Widget>[
+            Tab(
+              icon: Icon(
+                Icons.home,
+                size: 18,
+              ),
+              child: Text(
+                '홈',
+                style: TextStyle(fontSize: 9),
+              ),
+            ),
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Nzk3MTkxNSwtMjA4NDg0NzM2NSwxMT
-E4NTc1NzU1LDEyNjI2MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUz
-ODkyNyw2NzAxNjgwOTUsMzQzMTYzNTE4LDE1MzI3NjIwMSwtND
-c5ODEwMzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkw
-MTAsNzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MT
-A1ODM0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDBd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMjU4NDgzODksLTIwODQ4NDczNjUsMT
+ExODU3NTc1NSwxMjYyNjExNzk3LC05NDAwODgyNTYsLTE5MjA1
+Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLT
+Q3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5
+MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OT
+EwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQw
+XX0=
 -->
