@@ -960,6 +960,8 @@ Widget build(BuildContext context) {
 바탕탭
 ![](https://i.ibb.co/XJzPc1h/flutter03.png)
 ```js
+```js
+// lib/widget/bottom_bar.dart
 import 'package:flutter/material.dart';
 
 class Bottom extends StatelessWidget {
@@ -984,13 +986,50 @@ class Bottom extends StatelessWidget {
                 style: TextStyle(fontSize: 9),
               ),
             ),
+            Tab(
+              icon: Icon(
+                Icons.search,
+                size: 18,
+              ),
+              child: Text(
+                '검색',
+                style: TextStyle(fontSize: 9),
+              ),
+            ),
+            Tab(
+              icon: Icon(
+                Icons.save_alt,
+                size: 18,
+              ),
+              child: Text(
+                '저장한 콘텐츠 목록',
+                style: TextStyle(fontSize: 9),
+              ),
+            ),
+            Tab(
+              icon: Icon(
+                Icons.list,
+                size: 18,
+              ),
+              child: Text(
+                '더보기',
+                style: TextStyle(fontSize: 9),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4NDgzODksLTIwODQ4NDczNjUsMT
-ExODU3NTc1NSwxMjYyNjExNzk3LC05NDAwODgyNTYsLTE5MjA1
-Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLT
-Q3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5
-MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OT
-EwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0OSwtMTMwMTg2MjQw
-XX0=
+eyJoaXN0b3J5IjpbLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLT
+IwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAw
+ODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOC
+wxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3
+ODQ0NzEsNDk5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LD
+U4MDEzMDE0MCw0OTEwNTgzNCwtNTc0NjgzNjEsLTIxNjE2NTM0
+OV19
 -->
