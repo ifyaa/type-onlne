@@ -1024,13 +1024,44 @@ Widget build(BuildContext context) {
 }
 ```
 
+```js
+import 'package:flutter/material.dart';
 
+void main(){
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+    )
+  );
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.red,
+        title: Text('ShopApp'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+        ],
+      ),
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1OTQxMDcxLC0xODUzMjczNTIzLC0xMz
-I1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDExMTg1NzU3NTUsMTI2MjYx
-MTc5NywtOTQwMDg4MjU2LC0xOTIwNTM4OTI3LDY3MDE2ODA5NS
-wzNDMxNjM1MTgsMTUzMjc2MjAxLC00Nzk4MTAzMDIsLTYyMjEy
-OTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NTk1NzY2NjgsMT
-c0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzQsLTU3NDY4MzYx
-XX0=
+eyJoaXN0b3J5IjpbMTg3NTkzMzAyNSwyNTU5NDEwNzEsLTE4NT
+MyNzM1MjMsLTEzMjU4NDgzODksLTIwODQ4NDczNjUsMTExODU3
+NTc1NSwxMjYyNjExNzk3LC05NDAwODgyNTYsLTE5MjA1Mzg5Mj
+csNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLTQ3OTgx
+MDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsNDk5NzA5MDEwLD
+c1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0MCw0OTEwNTgz
+NF19
 -->
