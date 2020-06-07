@@ -50,6 +50,8 @@ export default class Tags extends React.Component<Props> {
           </a>
           를 참조했습니다
         </p>
+        마크다운작업은 StackEdit를 사용하고 https://dillinger.io/에 <br>코드를 붙였다가 다시 카피해서 사용하는 방법으로 작업합니다. <br>(StackEdit에 바로 코드를 붙이는데 
+        문제가 있음
         <br />
       </Layout>
     )
