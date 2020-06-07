@@ -851,6 +851,13 @@ class MobileNavbar extends StatelessWidget {
 ```
 ![](https://i.ibb.co/tz7svQC/flutter-01.png)
 
+이미지
+```js
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+```
 ```js
 import 'package:flutter/material.dart';
 
@@ -894,11 +901,11 @@ Widget build(BuildContext context) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODQwODAzOCwtMjA4NDg0NzM2NSwxMT
-E4NTc1NzU1LDEyNjI2MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUz
-ODkyNyw2NzAxNjgwOTUsMzQzMTYzNTE4LDE1MzI3NjIwMSwtND
-c5ODEwMzAyLC02MjIxMjk5OTcsMTc4MTc4NDQ3MSw0OTk3MDkw
-MTAsNzU5NTc2NjY4LDE3NDk0MTYzNzgsNTgwMTMwMTQwLDQ5MT
-A1ODM0LC01NzQ2ODM2MSwtMjE2MTY1MzQ5LC0xMzAxODYyNDBd
-fQ==
+eyJoaXN0b3J5IjpbNjk3OTU5OTE3LC0yMDg0ODQ3MzY1LDExMT
+g1NzU3NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0xOTIwNTM4
+OTI3LDY3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAxLC00Nz
+k4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAx
+MCw3NTk1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMD
+U4MzQsLTU3NDY4MzYxLC0yMTYxNjUzNDksLTEzMDE4NjI0MF19
+
 -->
