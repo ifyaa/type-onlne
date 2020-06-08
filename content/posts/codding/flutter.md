@@ -1060,12 +1060,61 @@ class _HomePageState extends State<HomePage> {
   }
 }
 ```
+
+![](https://i.ibb.co/1z1pDJF/flutter05.png)
+```js
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+    )
+  );
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.red,
+        title: Text('Shop'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+        ],
+      ),
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            new UserAccountsDrawerHeader(
+              accountName: Text('Santos Enoque'), 
+              accountEmail: Text('santosenoque.ss@gmail.com'),
+            currentAccountPicture: GestureDetector(
+              child: new CircleAvatar(
+                backgroundColor: Colors.grey,
+              ),
+            ),
+            )
+          ],
+        )
+      ),
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjgxMDQsMjU1OTQxMDcxLC0xODUzMj
-czNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDExMTg1NzU3
-NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0xOTIwNTM4OTI3LD
-Y3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAxLC00Nzk4MTAz
-MDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OTcwOTAxMCw3NT
-k1NzY2NjgsMTc0OTQxNjM3OCw1ODAxMzAxNDAsNDkxMDU4MzRd
-fQ==
+eyJoaXN0b3J5IjpbLTU2NTcxNTg2NCwxNzgyODEwNCwyNTU5ND
+EwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLTIwODQ4NDcz
+NjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAwODgyNTYsLT
+E5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYy
+MDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsND
+k5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0
+MF19
 -->
