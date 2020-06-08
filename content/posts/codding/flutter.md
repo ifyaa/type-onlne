@@ -1109,12 +1109,146 @@ class _HomePageState extends State<HomePage> {
   }
 }
 ```
+![](https://i.ibb.co/26mLczq/flutter06.png)
+
+```js
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+    )
+  );
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.red,
+        title: Text('Shop'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+        ],
+      ),import 'package:flutter/material.dart';
+
+void main(){
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+    )
+  );
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.red,
+        title: Text('Shop'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+        ],
+      ),
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            new UserAccountsDrawerHeader(
+              accountName: Text('Santos Enoque'), 
+              accountEmail: Text('santosenoque.ss@gmail.com'),
+            currentAccountPicture: GestureDetector(
+              child: new CircleAvatar(
+                backgroundColor: Colors.grey,
+                child: Icon(Icons.person, color: Colors.white,),
+              ),
+            ),
+           decoration: new BoxDecoration(
+             color: Colors.red
+           ),
+            ),
+//body
+        
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('Home Page'),
+             leading: Icon(Icons.home),
+           ),
+         ),
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('My account'),
+             leading: Icon(Icons.person),
+           ),
+         ),
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('My Order'),
+             leading: Icon(Icons.shopping_basket),
+           ),
+         ),
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('Categoris'),
+             leading: Icon(Icons.dashboard),
+           ),
+         ),
+         
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('Favourites'),
+             leading: Icon(Icons.favorite),
+           ),
+         ),
+
+        Divider( color: Colors.black87),
+
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('Settings'),
+             leading: Icon(Icons.settings),
+           ),
+         ),
+         InkWell(
+           onTap: (){},
+           child: ListTile(
+             title: Text('About'),
+             leading: Icon(Icons.help),
+           ),
+         ),
+          ],
+        )
+      ),
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTcxNTg2NCwxNzgyODEwNCwyNTU5ND
-EwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLTIwODQ4NDcz
-NjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAwODgyNTYsLT
-E5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOCwxNTMyNzYy
-MDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3ODQ0NzEsND
-k5NzA5MDEwLDc1OTU3NjY2OCwxNzQ5NDE2Mzc4LDU4MDEzMDE0
-MF19
+eyJoaXN0b3J5IjpbMTE5MDM3MTk2NCwtNTY1NzE1ODY0LDE3OD
+I4MTA0LDI1NTk0MTA3MSwtMTg1MzI3MzUyMywtMTMyNTg0ODM4
+OSwtMjA4NDg0NzM2NSwxMTE4NTc1NzU1LDEyNjI2MTE3OTcsLT
+k0MDA4ODI1NiwtMTkyMDUzODkyNyw2NzAxNjgwOTUsMzQzMTYz
+NTE4LDE1MzI3NjIwMSwtNDc5ODEwMzAyLC02MjIxMjk5OTcsMT
+c4MTc4NDQ3MSw0OTk3MDkwMTAsNzU5NTc2NjY4LDE3NDk0MTYz
+NzhdfQ==
 -->
