@@ -1284,6 +1284,12 @@ class _HomePageState extends State<HomePage> {
 ```
 ![](https://i.ibb.co/jJ9vkTD/flutter-11.png)
 ```js
+이미지가 안보이면..yml확인할것
+  assets:
+   - images/
+   - images/cats/
+```
+```js
 import 'package:flutter/material.dart';
 
 class HorezontalList extends StatelessWidget {
@@ -1339,11 +1345,11 @@ class Category extends StatelessWidget {
         )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIzNDI4NjYsMTM3NDY5MzM2OCwtMT
-M5MTA5NzE5LC0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcx
-NTg2NCwxNzgyODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLT
-EzMjU4NDgzODksLTIwODQ4NDczNjUsMTExODU3NTc1NSwxMjYy
-NjExNzk3LC05NDAwODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MD
-k1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIy
-MTI5OTk3XX0=
+eyJoaXN0b3J5IjpbLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC0xMz
+kxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1NzE1
+ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMTg1MzI3MzUyMywtMT
+MyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1NzU1LDEyNjI2
+MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUzODkyNyw2NzAxNjgwOT
+UsMzQzMTYzNTE4LDE1MzI3NjIwMSwtNDc5ODEwMzAyLC02MjIx
+Mjk5OTddfQ==
 -->
