@@ -1224,6 +1224,7 @@ class _HomePageState extends State<HomePage> {
 
 ![](https://i.ibb.co/jJ9vkTD/flutter-11.png)
 ```js
+horizontal_listview.dart
 import 'package:flutter/material.dart';
 
 class HorezontalList extends StatelessWidget {
@@ -1273,7 +1274,7 @@ class Category extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3ODEwNTk5LC0xMzkxMDk3MTksLTIxMz
+eyJoaXN0b3J5IjpbNDg2OTYxNDc4LC0xMzkxMDk3MTksLTIxMz
 Y5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1NzE1ODY0LDE3ODI4MTA0
 LDI1NTk0MTA3MSwtMTg1MzI3MzUyMywtMTMyNTg0ODM4OSwtMj
 A4NDg0NzM2NSwxMTE4NTc1NzU1LDEyNjI2MTE3OTcsLTk0MDA4
