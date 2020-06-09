@@ -1221,10 +1221,69 @@ class _HomePageState extends State<HomePage> {
 ![]( https://i.ibb.co/ypWb55B/flutter08.png )
 ![](https://i.ibb.co/DbqTz0R/flutter09.png  )
 
+```js
+import 'package:flutter/material.dart';
+import 'package:fluApp/components/horizontal_listview.dart';
+import 'package:carousel_pro/carousel_pro.dart';
 
+void main(){
+  runApp(MaterialApp(
+    home: HomePage()
+    )
+  );
+}
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+  Widget image_carousel = new Container(
+    height: 200.0,
+    child: new Carousel(
+      boxFit: BoxFit.cover,
+        images: [
+            AssetImage('images/c1.jpg'),
+            AssetImage('images/m1.jpeg'),
+            AssetImage('images/w3.jpeg'),
+            AssetImage('images/w4.jpeg'),
+            AssetImage('images/m2.jpg'),
+          ],
+          autoplay: false,
+          animationCurve: Curves.fastOutSlowIn,
+          animationDuration: Duration(milliseconds: 1000),
+    ),
+  );
+    return Scaffold(
+      appBar: new AppBar(
+        title: Text('Shop'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){},),
+        ],
+      ),
+      drawer: new Drawer(
+
+      ),
+
+      body: new ListView(
+        children: <Widget>[
+          image_carousel,
+
+          new Padding(padding: const EdgeInsets.all(8.0),
+          child: new Text('Categories'),
+          ),
+          HorezontalList(),
+        ],
+      )
+    );
+  }
+}
+
+```
 ![](https://i.ibb.co/jJ9vkTD/flutter-11.png)
 ```js
-horizontal_listview.dart
 import 'package:flutter/material.dart';
 
 class HorezontalList extends StatelessWidget {
@@ -1274,11 +1333,11 @@ class Category extends StatelessWidget {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2OTYxNDc4LC0xMzkxMDk3MTksLTIxMz
-Y5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1NzE1ODY0LDE3ODI4MTA0
-LDI1NTk0MTA3MSwtMTg1MzI3MzUyMywtMTMyNTg0ODM4OSwtMj
-A4NDg0NzM2NSwxMTE4NTc1NzU1LDEyNjI2MTE3OTcsLTk0MDA4
-ODI1NiwtMTkyMDUzODkyNyw2NzAxNjgwOTUsMzQzMTYzNTE4LD
-E1MzI3NjIwMSwtNDc5ODEwMzAyLC02MjIxMjk5OTcsMTc4MTc4
-NDQ3MV19
+eyJoaXN0b3J5IjpbMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC0yMT
+M2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgyODEw
+NCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLT
+IwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAw
+ODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOC
+wxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3
+ODQ0NzFdfQ==
 -->
