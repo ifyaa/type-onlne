@@ -1290,6 +1290,7 @@ class _HomePageState extends State<HomePage> {
    - images/cats/
 ```
 ```js
+***horizontal_listview.dart'***
 import 'package:flutter/material.dart';
 
 class HorezontalList extends StatelessWidget {
@@ -1347,7 +1348,9 @@ class Category extends StatelessWidget {
 
 ![](https://i.ibb.co/y6LTK8Z/flutter-12.png)
 ```js
-products.dartproducts.dart
+
+## *products.dartproducts.dart*
+
 import 'package:flutter/material.dart';
 
 class Products extends StatefulWidget {
@@ -1425,7 +1428,7 @@ class Single_prod extends StatelessWidget {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIwMDIyMjEsLTkyNDgzMDc1MiwxMz
+eyJoaXN0b3J5IjpbLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMz
 c0NjkzMzY4LC0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3
 MTk2NCwtNTY1NzE1ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMT
 g1MzI3MzUyMywtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4
