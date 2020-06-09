@@ -1332,12 +1332,18 @@ class Category extends StatelessWidget {
   }
 }
 ```
+```js
+     subtitle: Container(
+          alignment: Alignment.topCenter,
+          child: Text(image_caption, style: new TextStyle(fontSize: 12.0),),
+        )
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC0yMT
-M2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgyODEw
-NCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLT
-IwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05NDAw
-ODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0MzE2MzUxOC
-wxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIyMTI5OTk3LDE3ODE3
-ODQ0NzFdfQ==
+eyJoaXN0b3J5IjpbLTEwODIzNDI4NjYsMTM3NDY5MzM2OCwtMT
+M5MTA5NzE5LC0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcx
+NTg2NCwxNzgyODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLT
+EzMjU4NDgzODksLTIwODQ4NDczNjUsMTExODU3NTc1NSwxMjYy
+NjExNzk3LC05NDAwODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MD
+k1LDM0MzE2MzUxOCwxNTMyNzYyMDEsLTQ3OTgxMDMwMiwtNjIy
+MTI5OTk3XX0=
 -->
