@@ -1221,12 +1221,63 @@ class _HomePageState extends State<HomePage> {
 ![]( https://i.ibb.co/ypWb55B/flutter08.png )
 ![](https://i.ibb.co/DbqTz0R/flutter09.png  )
 
+
+![](https://i.ibb.co/jJ9vkTD/flutter-11.png)
+```js
+import 'package:flutter/material.dart';
+
+class HorezontalList extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 80.0,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: <Widget> [
+          Category(
+            image_location: 'images/cats/tshirt.png',
+            image_caption:'shirt',
+          )
+       
+
+        ],
+      ),
+    );
+  }
+}
+
+class Category extends StatelessWidget {
+  final String image_location;
+  final String image_caption;
+
+  Category({
+    this.image_location,
+    this.image_caption,
+  });
+
+ 
+  @override
+  Widget build(BuildContext context) {
+    return Padding(padding: const EdgeInsets.all(2.0),
+    child: InkWell(onTap: (){},
+    child: Container(
+      width: 100.0,
+        child: ListTile(
+        title: Image.asset(image_location, width: 100.0, height: 80.0,),
+        subtitle: Text(image_caption),
+          ),
+    )
+      )
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEwOTcxOSwtMjEzNjkyNzY3MSwxMT
-kwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQxMDcx
-LC0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3MzY1LD
-ExMTg1NzU3NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0xOTIw
-NTM4OTI3LDY3MDE2ODA5NSwzNDMxNjM1MTgsMTUzMjc2MjAxLC
-00Nzk4MTAzMDIsLTYyMjEyOTk5NywxNzgxNzg0NDcxLDQ5OTcw
-OTAxMF19
+eyJoaXN0b3J5IjpbMzI3ODEwNTk5LC0xMzkxMDk3MTksLTIxMz
+Y5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1NzE1ODY0LDE3ODI4MTA0
+LDI1NTk0MTA3MSwtMTg1MzI3MzUyMywtMTMyNTg0ODM4OSwtMj
+A4NDg0NzM2NSwxMTE4NTc1NzU1LDEyNjI2MTE3OTcsLTk0MDA4
+ODI1NiwtMTkyMDUzODkyNyw2NzAxNjgwOTUsMzQzMTYzNTE4LD
+E1MzI3NjIwMSwtNDc5ODEwMzAyLC02MjIxMjk5OTcsMTc4MTc4
+NDQ3MV19
 -->
