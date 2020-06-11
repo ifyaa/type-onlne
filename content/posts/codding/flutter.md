@@ -3,7 +3,7 @@ title: flutter
 date: 2020-05-08
 published: true
 ---
-**설치
+**[개발환경과 설치](https://ghyeok.io/development/fultter-install-on-mac/)
 ```ls
  flutter create my_app**
  ```
@@ -1433,11 +1433,11 @@ class Single_prod extends StatelessWidget {
 라우터
 ![](https://i.ibb.co/Tmz6Mcw/flutter-14.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMD
-MyNzIwMDUzLC05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5
-NzE5LC0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NC
-wxNzgyODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4
-NDgzODksLTIwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNz
-k3LC05NDAwODgyNTYsLTE5MjA1Mzg5MjcsNjcwMTY4MDk1LDM0
-MzE2MzUxOF19
+eyJoaXN0b3J5IjpbLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwOD
+k5ODQ4NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0Njkz
+MzY4LC0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NC
+wtNTY1NzE1ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMTg1MzI3
+MzUyMywtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1Nz
+U1LDEyNjI2MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUzODkyNyw2
+NzAxNjgwOTVdfQ==
 -->
