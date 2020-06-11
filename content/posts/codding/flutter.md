@@ -16,6 +16,8 @@ published: true
 
 web에서
 flutter run -d chrome
+
+flutter run -d emulator-5554
 ```
 ```js
 android에서
@@ -1433,11 +1435,11 @@ class Single_prod extends StatelessWidget {
 라우터
 ![](https://i.ibb.co/Tmz6Mcw/flutter-14.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwOD
-k5ODQ4NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0Njkz
-MzY4LC0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NC
-wtNTY1NzE1ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMTg1MzI3
-MzUyMywtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1Nz
-U1LDEyNjI2MTE3OTcsLTk0MDA4ODI1NiwtMTkyMDUzODkyNyw2
-NzAxNjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3Nz
+AyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMw
+NzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MS
+wxMTkwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQx
+MDcxLC0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3Mz
+Y1LDExMTg1NzU3NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0x
+OTIwNTM4OTI3XX0=
 -->
