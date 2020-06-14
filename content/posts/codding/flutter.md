@@ -1434,12 +1434,39 @@ class Single_prod extends StatelessWidget {
 [here](https://www.youtube.com/watch?v=zZdbCSDlhx8&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=15)
 라우터
 ![](https://i.ibb.co/Tmz6Mcw/flutter-14.png)
+
+##페이지 전환
+
+## route
+
+```js
+//새화면으로 이동
+class MyButton extends StatelessWidget {
+  @override 
+  Widget build(BuildContext context) {
+    return InkWell(
+      child: Container(
+        padding: EdgeInsets.all(12.0),
+        child: Text('ifyaa'),
+      ),
+      onTap: () {
+       Navigator.of(context).push(new MaterialPageRoute(
+         builder: (contest)=> new ProductDetail()));
+      },
+    );
+  }
+}
+//  화면아래에 표시
+      onTap: () {
+        Scaffold.of(context).showSnackBar(SnackBar(content: Text('Tap')));
+      },
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3Nz
-AyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMw
-NzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MS
-wxMTkwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQx
-MDcxLC0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3Mz
-Y1LDExMTg1NzU3NTUsMTI2MjYxMTc5NywtOTQwMDg4MjU2LC0x
-OTIwNTM4OTI3XX0=
+eyJoaXN0b3J5IjpbLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04Mj
+Q5NDk2OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMDMyNzIw
+MDUzLC05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC
+0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgy
+ODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzOD
+ksLTIwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05
+NDAwODgyNTZdfQ==
 -->
