@@ -1461,12 +1461,36 @@ class MyButton extends StatelessWidget {
         Scaffold.of(context).showSnackBar(SnackBar(content: Text('Tap')));
       },
 ```
+![](https://i.ibb.co/syGb1s9/flutter-15.png)
+```js
+import 'package:flutter/material.dart';
+
+class ProductDetail extends StatefulWidget {
+  @override
+  _ProductDetailState createState() => _ProductDetailState();
+}
+class _ProductDetailState extends State<ProductDetail>{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.red,
+        title: Text('ShopApp'),
+        actions: <Widget> [
+          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+        ]
+      )
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04Mj
-Q5NDk2OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMDMyNzIw
-MDUzLC05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC
-0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgy
-ODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzOD
-ksLTIwODQ4NDczNjUsMTExODU3NTc1NSwxMjYyNjExNzk3LC05
-NDAwODgyNTZdfQ==
+eyJoaXN0b3J5IjpbMTE3NTUwMDcyMSwtNzgyODQ1MDgzLC0zNT
+g4MTQ3MDgsLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5ODQ4
+NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC
+0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1
+NzE1ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMTg1MzI3MzUyMy
+wtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1NzU1LDEy
+NjI2MTE3OTddfQ==
 -->
