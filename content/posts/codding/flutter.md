@@ -1436,7 +1436,7 @@ class Single_prod extends StatelessWidget {
 ![](https://i.ibb.co/Tmz6Mcw/flutter-14.png)
 
 ##페이지 전환
-
+![](https://i.ibb.co/syGb1s9/flutter-15.png)
 ## route
 
 ```js
@@ -1461,8 +1461,10 @@ class MyButton extends StatelessWidget {
         Scaffold.of(context).showSnackBar(SnackBar(content: Text('Tap')));
       },
 ```
-![](https://i.ibb.co/syGb1s9/flutter-15.png)
+
 ```js
+product_derail.dart
+
 import 'package:flutter/material.dart';
 
 class ProductDetail extends StatefulWidget {
@@ -1477,8 +1479,12 @@ class _ProductDetailState extends State<ProductDetail>{
         backgroundColor: Colors.red,
         title: Text('ShopApp'),
         actions: <Widget> [
-          new IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
-          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
+          new IconButton(
+	          icon: Icon(
+	          Icons.search, color: Colors.white,), onPressed: (){}),
+          new IconButton(
+	          icon: Icon(
+	          Icons.shopping_cart, color: Colors.white,), onPressed: (){}),
         ]
       )
     );
@@ -1486,7 +1492,7 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTUwMDcyMSwtNzgyODQ1MDgzLC0zNT
+eyJoaXN0b3J5IjpbMTYyNzA1NDQyNywtNzgyODQ1MDgzLC0zNT
 g4MTQ3MDgsLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5ODQ4
 NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC
 0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1
