@@ -1224,6 +1224,10 @@ class _HomePageState extends State<HomePage> {
 ![](https://i.ibb.co/DbqTz0R/flutter09.png  )
 
 ```js
+dependencies: 
+ carousel_pro: ^1.0.0
+ ```
+```js
 import 'package:flutter/material.dart';
 import 'package:fluApp/components/horizontal_listview.dart';
 import 'package:carousel_pro/carousel_pro.dart';
@@ -1492,11 +1496,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzA1NDQyNywtNzgyODQ1MDgzLC0zNT
-g4MTQ3MDgsLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5ODQ4
-NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC
-0xMzkxMDk3MTksLTIxMzY5Mjc2NzEsMTE5MDM3MTk2NCwtNTY1
-NzE1ODY0LDE3ODI4MTA0LDI1NTk0MTA3MSwtMTg1MzI3MzUyMy
-wtMTMyNTg0ODM4OSwtMjA4NDg0NzM2NSwxMTE4NTc1NzU1LDEy
-NjI2MTE3OTddfQ==
+eyJoaXN0b3J5IjpbLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03OD
+I4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2
+MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLD
+EzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MSwxMTkw
+MzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQxMDcxLC
+0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDEx
+MTg1NzU3NTVdfQ==
 -->
