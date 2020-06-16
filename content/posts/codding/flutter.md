@@ -1246,6 +1246,8 @@ class _HomePageState extends State<HomePage> {
 ```
 ![](https://i.ibb.co/7twfBHZ/flutter07.png  )
 ![]( https://i.ibb.co/ypWb55B/flutter08.png )
+
+[강의보기](https://www.youtube.com/watch?v=uXB3h7LfWIs&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=9)
 ![](https://i.ibb.co/DbqTz0R/flutter09.png  )
 
 ```js
@@ -1521,11 +1523,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIxMDA3MTksNjM2MzM3NDA1LC0yOD
-YxMzM0MTYsLTE0MjQ1OTg0MzIsLTUxOTI0NzIyNCwxNjI3MDU0
-NDI3LC03ODI4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LD
-c3NzAyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0
-ODMwNzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNz
-Y3MSwxMTkwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1
-OTQxMDcxXX0=
+eyJoaXN0b3J5IjpbLTEwNjE4MjcxMTYsLTE5MTIxMDA3MTksNj
+M2MzM3NDA1LC0yODYxMzM0MTYsLTE0MjQ1OTg0MzIsLTUxOTI0
+NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUwODMsLTM1ODgxNDcwOC
+wtODI0OTQ5Njk1LDc3NzAyNDg2MSwtMTA4OTk4NDg3NiwtMjAz
+MjcyMDA1MywtOTI0ODMwNzUyLDEzNzQ2OTMzNjgsLTEzOTEwOT
+cxOSwtMjEzNjkyNzY3MSwxMTkwMzcxOTY0LC01NjU3MTU4NjQs
+MTc4MjgxMDRdfQ==
 -->
