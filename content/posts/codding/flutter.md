@@ -36,8 +36,21 @@ void main() {
   runApp(Text('HelloWorld', textDirection: TextDirection.ltr),);
 }}
 ```
+```js
+import 'package:flutter/material.dart';
 
-![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
+void main(){
+  runApp(                                  // 앱을 실행
+    Center(                                // 화면 중앙
+      child: Text(                         // 중앙 내부에 텍스트 삽입
+        "Hello World!!",                   // 텍스트로 Hello World! 삽입
+        textDirection: TextDirection.ltr,  // 텍스트는 왼쪽에서 오른쪽을 기술
+      ),
+    )
+  );
+}
+```
+!
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
 import  'package:flutter/material.dart';
@@ -1505,11 +1518,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzAzMjI3NywtNTE5MjQ3MjI0LDE2Mj
-cwNTQ0MjcsLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04MjQ5NDk2
-OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMDMyNzIwMDUzLC
-05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC0yMTM2
-OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgyODEwNC
-wyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLTIw
-ODQ4NDczNjVdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzc4MDk1NTksLTUxOTI0NzIyNCwxNj
+I3MDU0NDI3LC03ODI4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5
+Njk1LDc3NzAyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1My
+wtOTI0ODMwNzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEz
+NjkyNzY3MSwxMTkwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMD
+QsMjU1OTQxMDcxLC0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0y
+MDg0ODQ3MzY1XX0=
 -->
