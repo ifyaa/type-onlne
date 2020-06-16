@@ -50,6 +50,7 @@ void main(){
   );
 }
 ```
+[Text관련](https://medium.com/@larkbless/flutter-text-widget-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-a0f8c4c196d1)
 ![]((https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
@@ -1518,11 +1519,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ1OTg0MzIsLTUxOTI0NzIyNCwxNj
-I3MDU0NDI3LC03ODI4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5
-Njk1LDc3NzAyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1My
-wtOTI0ODMwNzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEz
-NjkyNzY3MSwxMTkwMzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMD
-QsMjU1OTQxMDcxLC0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0y
-MDg0ODQ3MzY1XX0=
+eyJoaXN0b3J5IjpbLTI4NjEzMzQxNiwtMTQyNDU5ODQzMiwtNT
+E5MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4Mjg0NTA4MywtMzU4ODE0
+NzA4LC04MjQ5NDk2OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC
+0yMDMyNzIwMDUzLC05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5
+MTA5NzE5LC0yMTM2OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNT
+g2NCwxNzgyODEwNCwyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEz
+MjU4NDgzODldfQ==
 -->
