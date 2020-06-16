@@ -1327,6 +1327,7 @@ class _HomePageState extends State<HomePage> {
 
 ```
 ![](https://i.ibb.co/jJ9vkTD/flutter-11.png)
+[강의](https://www.youtube.com/watch?v=32RI0qUnTzQ&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=11)
 ```js
 이미지가 안보이면..yml확인할것
   assets:
@@ -1534,11 +1535,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOT
-EwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMz
-NzQwNSwtMjg2MTMzNDE2LC0xNDI0NTk4NDMyLC01MTkyNDcyMj
-QsMTYyNzA1NDQyNywtNzgyODQ1MDgzLC0zNTg4MTQ3MDgsLTgy
-NDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5ODQ4NzYsLTIwMzI3Mj
-AwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC0xMzkxMDk3MTks
-LTIxMzY5Mjc2NzFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjEyMTIwNjUsMjc4MzgwMzc4LC0xNz
+YwNTc5ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEy
+MTAwNzE5LDYzNjMzNzQwNSwtMjg2MTMzNDE2LC0xNDI0NTk4ND
+MyLC01MTkyNDcyMjQsMTYyNzA1NDQyNywtNzgyODQ1MDgzLC0z
+NTg4MTQ3MDgsLTgyNDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5OD
+Q4NzYsLTIwMzI3MjAwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4
+LC0xMzkxMDk3MTldfQ==
 -->
