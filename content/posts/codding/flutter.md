@@ -390,8 +390,8 @@ class XXX extends StatelessWidget {
 }
 ```
 
-[##페이지 전환](https://fkkmemi.github.io/ff/ff-005/)
-### 클래스 생성
+[##페이지 전환](https://fkkmemi.github.io/ff/ff-005/) # Flutter와 Firebase로 Android iOS 둘 다 만들기 5 화면 전환  해보기  강의보기 진행중
+  ### 클래스 생성
 ```js
 class AppState {
   bool loading;
@@ -1521,11 +1521,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0Mj
-Q1OTg0MzIsLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUw
-ODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2MSwtMT
-A4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLDEzNzQ2
-OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MSwxMTkwMzcxOT
-Y0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQxMDcxLC0xODUz
-MjczNTIzXX0=
+eyJoaXN0b3J5IjpbLTUxMzQ0MjQ3OSw2MzYzMzc0MDUsLTI4Nj
+EzMzQxNiwtMTQyNDU5ODQzMiwtNTE5MjQ3MjI0LDE2MjcwNTQ0
+MjcsLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04MjQ5NDk2OTUsNz
+c3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMDMyNzIwMDUzLC05MjQ4
+MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC0yMTM2OTI3Nj
+cxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgyODEwNCwyNTU5
+NDEwNzFdfQ==
 -->
