@@ -1345,7 +1345,7 @@ child:  new  Text('Categorys'),
 ```
 ```js
 
-## ***horizontal_listview.dart'***
+## ***lib/components/horizontal_listview.dart'***
 
 import 'package:flutter/material.dart';
 
@@ -1546,7 +1546,7 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDcxMDg2OCwyNzgzODAzNzgsLTE3Nj
+eyJoaXN0b3J5IjpbMjA4MTA4MDU4MywyNzgzODAzNzgsLTE3Nj
 A1Nzk4NjQsLTE5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5MTIx
 MDA3MTksNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0MjQ1OTg0Mz
 IsLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUwODMsLTM1
