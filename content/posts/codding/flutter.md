@@ -28,6 +28,15 @@ flutter run
 에러체크
 flutter build apk --verbose
 ```
+```js
+import 'package:flutter/material.dart';
+
+void main() {
+  
+  runApp(Text('HelloWorld', textDirection: TextDirection.ltr),);
+}}
+```
+
 ![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
@@ -1496,11 +1505,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03OD
-I4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2
-MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLD
-EzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MSwxMTkw
-MzcxOTY0LC01NjU3MTU4NjQsMTc4MjgxMDQsMjU1OTQxMDcxLC
-0xODUzMjczNTIzLC0xMzI1ODQ4Mzg5LC0yMDg0ODQ3MzY1LDEx
-MTg1NzU3NTVdfQ==
+eyJoaXN0b3J5IjpbLTczNzAzMjI3NywtNTE5MjQ3MjI0LDE2Mj
+cwNTQ0MjcsLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04MjQ5NDk2
+OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0yMDMyNzIwMDUzLC
+05MjQ4MzA3NTIsMTM3NDY5MzM2OCwtMTM5MTA5NzE5LC0yMTM2
+OTI3NjcxLDExOTAzNzE5NjQsLTU2NTcxNTg2NCwxNzgyODEwNC
+wyNTU5NDEwNzEsLTE4NTMyNzM1MjMsLTEzMjU4NDgzODksLTIw
+ODQ4NDczNjVdfQ==
 -->
