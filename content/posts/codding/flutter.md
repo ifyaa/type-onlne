@@ -1251,7 +1251,7 @@ dependencies:
 	carousel_pro: ^1.0.0
 	assets:  //위치를 잘맞춰야 함..
 		- images/
-		- images/cats
+		- images/cats/
 	- 
 import  'package:carousel_pro/carousel_pro.dart';
 ```
@@ -1546,11 +1546,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTA4MDU4MywyNzgzODAzNzgsLTE3Nj
-A1Nzk4NjQsLTE5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5MTIx
-MDA3MTksNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0MjQ1OTg0Mz
-IsLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUwODMsLTM1
-ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2MSwtMTA4OTk4ND
-g3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLDEzNzQ2OTMzNjgs
-LTEzOTEwOTcxOV19
+eyJoaXN0b3J5IjpbMTcwODk3MjcxMiwyMDgxMDgwNTgzLDI3OD
+M4MDM3OCwtMTc2MDU3OTg2NCwtMTkxMDAzMzU5OCwtMTA2MTgy
+NzExNiwtMTkxMjEwMDcxOSw2MzYzMzc0MDUsLTI4NjEzMzQxNi
+wtMTQyNDU5ODQzMiwtNTE5MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4
+Mjg0NTA4MywtMzU4ODE0NzA4LC04MjQ5NDk2OTUsNzc3MDI0OD
+YxLC0xMDg5OTg0ODc2LC0yMDMyNzIwMDUzLC05MjQ4MzA3NTIs
+MTM3NDY5MzM2OF19
 -->
