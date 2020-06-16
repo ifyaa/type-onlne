@@ -1249,9 +1249,9 @@ class _HomePageState extends State<HomePage> {
 ```js
 dependencies:
 	carousel_pro: ^1.0.0
-assets:
-	- images/
-	- images/cats
+	assets:  //위치를 잘맞춰야 함...
+		- images/
+		- images/cats
 	- 
 import  'package:carousel_pro/carousel_pro.dart';
 ```
@@ -1533,11 +1533,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLT
-E5MTIxMDA3MTksNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0MjQ1
-OTg0MzIsLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUwOD
-MsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2MSwtMTA4
-OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLDEzNzQ2OT
-MzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3MSwxMTkwMzcxOTY0
-LC01NjU3MTU4NjRdfQ==
+eyJoaXN0b3J5IjpbMzk0MjAyOTkwLC0xOTEwMDMzNTk4LC0xMD
+YxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2MTMz
+NDE2LC0xNDI0NTk4NDMyLC01MTkyNDcyMjQsMTYyNzA1NDQyNy
+wtNzgyODQ1MDgzLC0zNTg4MTQ3MDgsLTgyNDk0OTY5NSw3Nzcw
+MjQ4NjEsLTEwODk5ODQ4NzYsLTIwMzI3MjAwNTMsLTkyNDgzMD
+c1MiwxMzc0NjkzMzY4LC0xMzkxMDk3MTksLTIxMzY5Mjc2NzEs
+MTE5MDM3MTk2NF19
 -->
