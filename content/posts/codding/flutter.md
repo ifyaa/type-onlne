@@ -44,7 +44,8 @@ void main(){
   runApp(                                  // 앱을 실행
     Center(                                // 화면 중앙
       child: Text(                         // 중앙 내부에 텍스트 삽입
-        "Hello World!!",                   // 텍스트로 Hello World! 삽입
+        "IFYAA",               
+        style:  TextStyle(fontWeight:  FontWeight.bold),
         textDirection: TextDirection.ltr,  // 텍스트는 왼쪽에서 오른쪽을 기술
       ),
     )
@@ -1520,7 +1521,7 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMDY2NjIwLC0yODYxMzM0MTYsLTE0Mj
+eyJoaXN0b3J5IjpbNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0Mj
 Q1OTg0MzIsLTUxOTI0NzIyNCwxNjI3MDU0NDI3LC03ODI4NDUw
 ODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3NzAyNDg2MSwtMT
 A4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0ODMwNzUyLDEzNzQ2
