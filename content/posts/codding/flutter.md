@@ -1259,6 +1259,7 @@ import  'package:carousel_pro/carousel_pro.dart';
 
 
 ![](https://i.ibb.co/DbqTz0R/flutter09.png  )
+위젯 carousel을만들고 body에 붙인다는 간단한 ....
 
 ```js
 dependencies: 
@@ -1533,11 +1534,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA1Nzk4NjQsLTE5MTAwMzM1OTgsLT
-EwNjE4MjcxMTYsLTE5MTIxMDA3MTksNjM2MzM3NDA1LC0yODYx
-MzM0MTYsLTE0MjQ1OTg0MzIsLTUxOTI0NzIyNCwxNjI3MDU0ND
-I3LC03ODI4NDUwODMsLTM1ODgxNDcwOCwtODI0OTQ5Njk1LDc3
-NzAyNDg2MSwtMTA4OTk4NDg3NiwtMjAzMjcyMDA1MywtOTI0OD
-MwNzUyLDEzNzQ2OTMzNjgsLTEzOTEwOTcxOSwtMjEzNjkyNzY3
-MSwxMTkwMzcxOTY0XX0=
+eyJoaXN0b3J5IjpbMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOT
+EwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMz
+NzQwNSwtMjg2MTMzNDE2LC0xNDI0NTk4NDMyLC01MTkyNDcyMj
+QsMTYyNzA1NDQyNywtNzgyODQ1MDgzLC0zNTg4MTQ3MDgsLTgy
+NDk0OTY5NSw3NzcwMjQ4NjEsLTEwODk5ODQ4NzYsLTIwMzI3Mj
+AwNTMsLTkyNDgzMDc1MiwxMzc0NjkzMzY4LC0xMzkxMDk3MTks
+LTIxMzY5Mjc2NzFdfQ==
 -->
