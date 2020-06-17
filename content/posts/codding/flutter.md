@@ -1523,7 +1523,7 @@ class Single_prod extends StatelessWidget {
 ##페이지 전환
 ![](https://i.ibb.co/syGb1s9/flutter-15.png)
 ## route
-
+[강의 전체16분중에서 7분에 시작](https://www.youtube.com/watch?v=zZdbCSDlhx8)
 ```js
 //새화면으로 이동
 class MyButton extends StatelessWidget {
@@ -1577,11 +1577,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNDY1NTQxLC0xODk2NjQ1NzM4LC0xOD
-IwNzAzNzgxLDExNDAwOTY1OTYsOTE3ODkwNjk0LDE3MDg5NzI3
-MTIsMjA4MTA4MDU4MywyNzgzODAzNzgsLTE3NjA1Nzk4NjQsLT
-E5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5MTIxMDA3MTksNjM2
-MzM3NDA1LC0yODYxMzM0MTYsLTE0MjQ1OTg0MzIsLTUxOTI0Nz
-IyNCwxNjI3MDU0NDI3LC03ODI4NDUwODMsLTM1ODgxNDcwOCwt
-ODI0OTQ5Njk1XX0=
+eyJoaXN0b3J5IjpbLTEyNjg2NDY4OSw5MTI0NjU1NDEsLTE4OT
+Y2NDU3MzgsLTE4MjA3MDM3ODEsMTE0MDA5NjU5Niw5MTc4OTA2
+OTQsMTcwODk3MjcxMiwyMDgxMDgwNTgzLDI3ODM4MDM3OCwtMT
+c2MDU3OTg2NCwtMTkxMDAzMzU5OCwtMTA2MTgyNzExNiwtMTkx
+MjEwMDcxOSw2MzYzMzc0MDUsLTI4NjEzMzQxNiwtMTQyNDU5OD
+QzMiwtNTE5MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4Mjg0NTA4Mywt
+MzU4ODE0NzA4XX0=
 -->
