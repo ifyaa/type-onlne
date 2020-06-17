@@ -1418,12 +1418,13 @@ body: new ListView(
           ),
           HorizontalList(),
 
-          new Padding(padding: const EdgeInsets.all(20.0),
-          child: new Text('Resent products'),
-          ),
-          Container(
-            height: 320.0,
-            child: Products(),
+>           new Padding(padding: const EdgeInsets.all(20.0),
+>           child: new Text('Resent products'),
+>           ),
+>           Container(
+>             height: 320.0,
+>             child: Products(),
+
           )
         ],
 ```
@@ -1571,11 +1572,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDc5MDIwOCwtMTgyMDcwMzc4MSwxMT
-QwMDk2NTk2LDkxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1
-ODMsMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC
-0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2
-MTMzNDE2LC0xNDI0NTk4NDMyLC01MTkyNDcyMjQsMTYyNzA1ND
-QyNywtNzgyODQ1MDgzLC0zNTg4MTQ3MDgsLTgyNDk0OTY5NSw3
-NzcwMjQ4NjFdfQ==
+eyJoaXN0b3J5IjpbLTE4OTY2NDU3MzgsLTE4MjA3MDM3ODEsMT
+E0MDA5NjU5Niw5MTc4OTA2OTQsMTcwODk3MjcxMiwyMDgxMDgw
+NTgzLDI3ODM4MDM3OCwtMTc2MDU3OTg2NCwtMTkxMDAzMzU5OC
+wtMTA2MTgyNzExNiwtMTkxMjEwMDcxOSw2MzYzMzc0MDUsLTI4
+NjEzMzQxNiwtMTQyNDU5ODQzMiwtNTE5MjQ3MjI0LDE2MjcwNT
+Q0MjcsLTc4Mjg0NTA4MywtMzU4ODE0NzA4LC04MjQ5NDk2OTUs
+Nzc3MDI0ODYxXX0=
 -->
