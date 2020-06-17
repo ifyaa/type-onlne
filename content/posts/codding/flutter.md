@@ -1407,7 +1407,7 @@ class Category extends StatelessWidget {
 [강의](https://www.youtube.com/watch?v=vt0u9WFHZ4w&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=13)
 ```js
 
-## *products.dartproducts.dart*
+## *products.dart*
 
 import 'package:flutter/material.dart';
 
@@ -1548,11 +1548,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDA5NjU5Niw5MTc4OTA2OTQsMTcwOD
-k3MjcxMiwyMDgxMDgwNTgzLDI3ODM4MDM3OCwtMTc2MDU3OTg2
-NCwtMTkxMDAzMzU5OCwtMTA2MTgyNzExNiwtMTkxMjEwMDcxOS
-w2MzYzMzc0MDUsLTI4NjEzMzQxNiwtMTQyNDU5ODQzMiwtNTE5
-MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4Mjg0NTA4MywtMzU4ODE0Nz
-A4LC04MjQ5NDk2OTUsNzc3MDI0ODYxLC0xMDg5OTg0ODc2LC0y
-MDMyNzIwMDUzXX0=
+eyJoaXN0b3J5IjpbLTE4MjA3MDM3ODEsMTE0MDA5NjU5Niw5MT
+c4OTA2OTQsMTcwODk3MjcxMiwyMDgxMDgwNTgzLDI3ODM4MDM3
+OCwtMTc2MDU3OTg2NCwtMTkxMDAzMzU5OCwtMTA2MTgyNzExNi
+wtMTkxMjEwMDcxOSw2MzYzMzc0MDUsLTI4NjEzMzQxNiwtMTQy
+NDU5ODQzMiwtNTE5MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4Mjg0NT
+A4MywtMzU4ODE0NzA4LC04MjQ5NDk2OTUsNzc3MDI0ODYxLC0x
+MDg5OTg0ODc2XX0=
 -->
