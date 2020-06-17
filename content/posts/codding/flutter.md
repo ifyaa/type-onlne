@@ -1406,9 +1406,27 @@ class Category extends StatelessWidget {
 ![](https://i.ibb.co/y6LTK8Z/flutter-12.png)
 [강의](https://www.youtube.com/watch?v=vt0u9WFHZ4w&list=PLmnT6naTGy2SC82FMSCrvZNogg5T1H7iF&index=13)
 ```js
-main.dart
+##  main.dart
 import  'package:carousel_pro/carousel_pro.dart';import  'package:carousel_pro/carousel_pro.dart';
 
+body: new ListView(
+        children: <Widget>[
+          image_carousel,
+          
+          new Padding(padding: const EdgeInsets.all(8.0),
+          child: new Text('Categorys'),
+          ),
+          HorizontalList(),
+
+          new Padding(padding: const EdgeInsets.all(20.0),
+          child: new Text('Resent products'),
+          ),
+          Container(
+            height: 320.0,
+            child: Products(),
+          )
+        ],
+```
 
 ```js
 
@@ -1553,7 +1571,7 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTM5MDY4NCwtMTgyMDcwMzc4MSwxMT
+eyJoaXN0b3J5IjpbMTIzNDc5MDIwOCwtMTgyMDcwMzc4MSwxMT
 QwMDk2NTk2LDkxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1
 ODMsMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC
 0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2
