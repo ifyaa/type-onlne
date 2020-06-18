@@ -1579,12 +1579,26 @@ class _ProductDetailState extends State<ProductDetail>{
   }
 }
 ```
+![](https://i.ibb.co/yPwcdvz/flutter-002.png)
+```js
+      body: new ListView(
+        children: <Widget>[
+          new Container(
+            height: 300.0,
+            color: Colors.black,
+          )
+        ],
+      )
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTQ0MDM3NCw2NjEyNTIzMzIsLTY3Mj
-U1NDc5NywtMTI2ODY0Njg5LDkxMjQ2NTU0MSwtMTg5NjY0NTcz
-OCwtMTgyMDcwMzc4MSwxMTQwMDk2NTk2LDkxNzg5MDY5NCwxNz
-A4OTcyNzEyLDIwODEwODA1ODMsMjc4MzgwMzc4LC0xNzYwNTc5
-ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEyMTAwNz
-E5LDYzNjMzNzQwNSwtMjg2MTMzNDE2LC0xNDI0NTk4NDMyLC01
-MTkyNDcyMjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMTU4ODA0MzgsLTk0NTQ0MDM3NCw2Nj
+EyNTIzMzIsLTY3MjU1NDc5NywtMTI2ODY0Njg5LDkxMjQ2NTU0
+MSwtMTg5NjY0NTczOCwtMTgyMDcwMzc4MSwxMTQwMDk2NTk2LD
+kxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1ODMsMjc4Mzgw
+Mzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MT
+E2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2MTMzNDE2LC0x
+NDI0NTk4NDMyXX0=
 -->
