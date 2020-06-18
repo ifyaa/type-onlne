@@ -1580,6 +1580,7 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 ![](https://i.ibb.co/yPwcdvz/flutter-002.png)
+[강의 18분에서 6분 참고](https://www.youtube.com/watch?v=4DxEgh39aHg&t=59s)
 ```js
       body: new ListView(
         children: <Widget>[
@@ -1594,11 +1595,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU4ODA0MzgsLTk0NTQ0MDM3NCw2Nj
-EyNTIzMzIsLTY3MjU1NDc5NywtMTI2ODY0Njg5LDkxMjQ2NTU0
-MSwtMTg5NjY0NTczOCwtMTgyMDcwMzc4MSwxMTQwMDk2NTk2LD
-kxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1ODMsMjc4Mzgw
-Mzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MT
-E2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2MTMzNDE2LC0x
-NDI0NTk4NDMyXX0=
+eyJoaXN0b3J5IjpbLTQzOTE1NjM1MSwtOTQ1NDQwMzc0LDY2MT
+I1MjMzMiwtNjcyNTU0Nzk3LC0xMjY4NjQ2ODksOTEyNDY1NTQx
+LC0xODk2NjQ1NzM4LC0xODIwNzAzNzgxLDExNDAwOTY1OTYsOT
+E3ODkwNjk0LDE3MDg5NzI3MTIsMjA4MTA4MDU4MywyNzgzODAz
+NzgsLTE3NjA1Nzk4NjQsLTE5MTAwMzM1OTgsLTEwNjE4MjcxMT
+YsLTE5MTIxMDA3MTksNjM2MzM3NDA1LC0yODYxMzM0MTYsLTE0
+MjQ1OTg0MzJdfQ==
 -->
