@@ -1526,6 +1526,9 @@ class Single_prod extends StatelessWidget {
 [강의 전체16분중에서 7분에 시작](https://www.youtube.com/watch?v=zZdbCSDlhx8)
 ```js
 //새화면으로 이동
+import  'package:fluIfyaa/components/pages/product_detail.dart';
+
+
 class MyButton extends StatelessWidget {
   @override 
   Widget build(BuildContext context) {
@@ -1577,11 +1580,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMjUyMzMyLC02NzI1NTQ3OTcsLTEyNj
-g2NDY4OSw5MTI0NjU1NDEsLTE4OTY2NDU3MzgsLTE4MjA3MDM3
-ODEsMTE0MDA5NjU5Niw5MTc4OTA2OTQsMTcwODk3MjcxMiwyMD
-gxMDgwNTgzLDI3ODM4MDM3OCwtMTc2MDU3OTg2NCwtMTkxMDAz
-MzU5OCwtMTA2MTgyNzExNiwtMTkxMjEwMDcxOSw2MzYzMzc0MD
-UsLTI4NjEzMzQxNiwtMTQyNDU5ODQzMiwtNTE5MjQ3MjI0LDE2
-MjcwNTQ0MjddfQ==
+eyJoaXN0b3J5IjpbLTk0NTQ0MDM3NCw2NjEyNTIzMzIsLTY3Mj
+U1NDc5NywtMTI2ODY0Njg5LDkxMjQ2NTU0MSwtMTg5NjY0NTcz
+OCwtMTgyMDcwMzc4MSwxMTQwMDk2NTk2LDkxNzg5MDY5NCwxNz
+A4OTcyNzEyLDIwODEwODA1ODMsMjc4MzgwMzc4LC0xNzYwNTc5
+ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEyMTAwNz
+E5LDYzNjMzNzQwNSwtMjg2MTMzNDE2LC0xNDI0NTk4NDMyLC01
+MTkyNDcyMjRdfQ==
 -->
