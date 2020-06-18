@@ -1412,7 +1412,7 @@ assets:
 ```
 ```js
 ##  main.dart
-import  'package:carousel_pro/carousel_pro.dart';import  'package:carousel_pro/carousel_pro.dart';
+import  'package:carousel_pro/carousel_pro.dart';
 
 body: new ListView(
         children: <Widget>[
@@ -1577,11 +1577,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg2NDY4OSw5MTI0NjU1NDEsLTE4OT
-Y2NDU3MzgsLTE4MjA3MDM3ODEsMTE0MDA5NjU5Niw5MTc4OTA2
-OTQsMTcwODk3MjcxMiwyMDgxMDgwNTgzLDI3ODM4MDM3OCwtMT
-c2MDU3OTg2NCwtMTkxMDAzMzU5OCwtMTA2MTgyNzExNiwtMTkx
-MjEwMDcxOSw2MzYzMzc0MDUsLTI4NjEzMzQxNiwtMTQyNDU5OD
-QzMiwtNTE5MjQ3MjI0LDE2MjcwNTQ0MjcsLTc4Mjg0NTA4Mywt
-MzU4ODE0NzA4XX0=
+eyJoaXN0b3J5IjpbLTY3MjU1NDc5NywtMTI2ODY0Njg5LDkxMj
+Q2NTU0MSwtMTg5NjY0NTczOCwtMTgyMDcwMzc4MSwxMTQwMDk2
+NTk2LDkxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1ODMsMj
+c4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC0xMDYx
+ODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2MTMzND
+E2LC0xNDI0NTk4NDMyLC01MTkyNDcyMjQsMTYyNzA1NDQyNywt
+NzgyODQ1MDgzXX0=
 -->
