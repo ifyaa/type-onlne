@@ -1494,7 +1494,7 @@ class Single_prod extends StatelessWidget {
       child: Hero(
         tag: prod_name,
         child: Material(
-          child: InkWell(onTap: (){},------
+          child: InkWell(onTap: (){},---------->Navigator
             child: GridTile(
               footer: Container(
                 color: Colors.white70,
@@ -1577,11 +1577,11 @@ class _ProductDetailState extends State<ProductDetail>{
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAyNDI3MDEsLTY3MjU1NDc5NywtMT
-I2ODY0Njg5LDkxMjQ2NTU0MSwtMTg5NjY0NTczOCwtMTgyMDcw
-Mzc4MSwxMTQwMDk2NTk2LDkxNzg5MDY5NCwxNzA4OTcyNzEyLD
-IwODEwODA1ODMsMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOTEw
-MDMzNTk4LC0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNz
-QwNSwtMjg2MTMzNDE2LC0xNDI0NTk4NDMyLC01MTkyNDcyMjQs
-MTYyNzA1NDQyN119
+eyJoaXN0b3J5IjpbNjYxMjUyMzMyLC02NzI1NTQ3OTcsLTEyNj
+g2NDY4OSw5MTI0NjU1NDEsLTE4OTY2NDU3MzgsLTE4MjA3MDM3
+ODEsMTE0MDA5NjU5Niw5MTc4OTA2OTQsMTcwODk3MjcxMiwyMD
+gxMDgwNTgzLDI3ODM4MDM3OCwtMTc2MDU3OTg2NCwtMTkxMDAz
+MzU5OCwtMTA2MTgyNzExNiwtMTkxMjEwMDcxOSw2MzYzMzc0MD
+UsLTI4NjEzMzQxNiwtMTQyNDU5ODQzMiwtNTE5MjQ3MjI0LDE2
+MjcwNTQ0MjddfQ==
 -->
