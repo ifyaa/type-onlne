@@ -16,9 +16,11 @@ category: example
    주역
    큐브
 3. 해야할 일들의 생각들
-
+```
+<iframe width="560" height="315" src="https://photos.google.com/album/AF1QipOjAltXZ5N1XLW_nxR5CjODpt-sGoglPzXPMKrk/photo/AF1QipMo0Irt7ZyzmS6y_60_qmz7sVWFInpTfGs6_HDS" frameborder="0" allowfullscreen></iframe>
+```
 [그리고 홈페이지](https://1004if.netlify.com/blog).
 ![Furby](../assets/furby.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTg4MTJdfQ==
+eyJoaXN0b3J5IjpbOTk4NDU2NzA5LDE1MzE4ODEyXX0=
 -->
