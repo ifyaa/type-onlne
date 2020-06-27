@@ -17,10 +17,10 @@ category: example
    큐브
 3. 해야할 일들의 생각들
 ```
-
+<iframe  class="youtube"  src="https://photos.google.com/album/AF1QipOjAltXZ5N1XLW_nxR5CjODpt-sGoglPzXPMKrk/photo/AF1QipMo0Irt7ZyzmS6y_60_qmz7sVWFInpTfGs6_HDS"  frameborder="0"  allow="autoplay; encrypted-media"  allowfullscreen></iframe>
 ```
 [그리고 홈페이지](https://1004if.netlify.com/blog).
 ![Furby](../assets/furby.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTAzOTAzMiwxNTMxODgxMl19
+eyJoaXN0b3J5IjpbLTg0NzE3MzM5MSwxNTMxODgxMl19
 -->
