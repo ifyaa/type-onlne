@@ -15,7 +15,7 @@ published: true
 2.  plugin--> disqus-react
 3.  [참고사이트]("https://coderrocketfuel.com/article/how-to-add-disqus-to-a-react-application).
 4.  Layout에 넣었다 (여기 \*\* 로 표시)
-5.  const disqusShortname = '------' url: 'https://1004if.netlify.com', 이 두개만 적으면 되는데,
+5.  const disqusShortname = '아이디'  와  url: 'https://1004if.netlify.com', 이 두개만 적으면 되는데,
     그게 헤갈려서 ... 나머진 적지 않아도 된다
 
 ```js
@@ -180,5 +180,5 @@ module.exports = {
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MTUxMTVdfQ==
+eyJoaXN0b3J5IjpbMTYzNjU1MjIyOSwzNTkxNTExNV19
 -->
