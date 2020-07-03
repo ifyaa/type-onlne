@@ -40,7 +40,7 @@ export const SponsorButton = ({ sponsorId }) => (
 
 
 ### gatsby-meta-config.js 편집
-![](https://i.ibb.co/6Ppbg9T/2020-07-03-9-01-20.png)
+![](https://i.postimg.cc/TP6VKFXT/2020-07-03-9-01-20.png)
 ```js
 social-share 디렉토리
 module.exports = {
@@ -55,5 +55,5 @@ module.exports = {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDk3NDI4M119
+eyJoaXN0b3J5IjpbLTE3NzkzMTQ1MjZdfQ==
 -->
