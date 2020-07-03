@@ -30,6 +30,7 @@ export const SponsorButton = ({ sponsorId }) => (
 );
 ```
 ###원래 있던것 지우고
+src/components/social-share/index.js
 ```js
  return (
     <div className="social-share">
@@ -55,5 +56,5 @@ module.exports = {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkzMTQ1MjZdfQ==
+eyJoaXN0b3J5IjpbMzk0ODg1NzM3XX0=
 -->
