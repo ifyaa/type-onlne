@@ -4,6 +4,7 @@ date: 2020-07-03
 published: true
 ---
 ### share 편집
+src/components/sponsor-button/index.js
 ```js
 import React from "react";
 // import { SocialShare } from "./emo-post";
@@ -56,5 +57,5 @@ module.exports = {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0ODg1NzM3XX0=
+eyJoaXN0b3J5IjpbLTIwOTgwNjMxNzJdfQ==
 -->
