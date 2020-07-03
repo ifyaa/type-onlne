@@ -58,7 +58,7 @@ published: true
 ```
 
 ```js
- 여기   **const disqusShortname = '------'
+ 여기   **const disqusShortname = '아이디'
     const disqusConfig = {
     url: 'https://1004if.netlify.com',
     identifier: '',
@@ -180,5 +180,6 @@ module.exports = {
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjU1MjIyOSwzNTkxNTExNV19
+eyJoaXN0b3J5IjpbLTEwNDU0NjUwMjUsMTYzNjU1MjIyOSwzNT
+kxNTExNV19
 -->
