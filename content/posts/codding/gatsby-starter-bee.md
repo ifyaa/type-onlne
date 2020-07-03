@@ -29,6 +29,7 @@ export const SponsorButton = ({ sponsorId }) => (
   </div>
 );
 ```
+###원래 있던것 지우고
 ```js
  return (
     <div className="social-share">
@@ -38,8 +39,8 @@ export const SponsorButton = ({ sponsorId }) => (
 
 
 
-
-
+### gatsby-meta-config.js 편집
+```js
 social-share 디렉토리
 module.exports = {
   title: `finger study`,
@@ -49,9 +50,9 @@ module.exports = {
   그 방법이 다른이에게 도움이 되길.`,
   siteUrl: `https://noyes.kr/`, 
 ```
-
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEzOTMxNDVdfQ==
+eyJoaXN0b3J5IjpbMTQxMDk4ODU4Nl19
 -->
