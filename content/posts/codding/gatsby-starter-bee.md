@@ -58,11 +58,12 @@ module.exports = {
 
 utterances: "~~ifyaa~~/gatsby-starter-bee",
 ```
+```
 타이틀 손바닥사진
-assets/p
+assets/profile.png
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2ODczNzczXX0=
+eyJoaXN0b3J5IjpbLTI5MDExNTc1M119
 -->
