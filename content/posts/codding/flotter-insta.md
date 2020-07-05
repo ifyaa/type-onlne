@@ -1,5 +1,5 @@
 ---
-title: flutter
+title: flutter-insta clone
 date: 2020-07-06
 published: true
 ---
@@ -8,5 +8,5 @@ published: true
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDE0NDM1NV19
+eyJoaXN0b3J5IjpbLTg3Nzc1NjY5Nl19
 -->
