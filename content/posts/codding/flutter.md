@@ -506,7 +506,7 @@ Widget _main () {
 ```
 
 text Containar
-[기초 동영상](https://www.youtube.com/watch?v=fvtyGySLlfs&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3)
+[기초 동영상]([https://www.youtube.com/watch?v=fvtyGySLlfs&list=PLybADvIp2cxiVOEHi9ooCHP2tAAihHQPX&index=3]
 
 ##flutter로 작업을 하려는데 기초가 너무부족하다...텍스트변경도 제대로 못하니...일단 텍스트와 이미지 그리고 그외의 속성부터 파악해야 될것같아서..
 
@@ -1599,11 +1599,11 @@ class _ProductDetailState extends State<ProductDetail>{
 ![](https://i.ibb.co/1n4BRdp/flutter-004.png)
 ![](https://i.ibb.co/fYvSjzr/flutter-005.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzOTUxNDIxLC00MzkxNTYzNTEsLTk0NT
-Q0MDM3NCw2NjEyNTIzMzIsLTY3MjU1NDc5NywtMTI2ODY0Njg5
-LDkxMjQ2NTU0MSwtMTg5NjY0NTczOCwtMTgyMDcwMzc4MSwxMT
-QwMDk2NTk2LDkxNzg5MDY5NCwxNzA4OTcyNzEyLDIwODEwODA1
-ODMsMjc4MzgwMzc4LC0xNzYwNTc5ODY0LC0xOTEwMDMzNTk4LC
-0xMDYxODI3MTE2LC0xOTEyMTAwNzE5LDYzNjMzNzQwNSwtMjg2
-MTMzNDE2XX0=
+eyJoaXN0b3J5IjpbMTIyNzU1Njg3OCw5OTM5NTE0MjEsLTQzOT
+E1NjM1MSwtOTQ1NDQwMzc0LDY2MTI1MjMzMiwtNjcyNTU0Nzk3
+LC0xMjY4NjQ2ODksOTEyNDY1NTQxLC0xODk2NjQ1NzM4LC0xOD
+IwNzAzNzgxLDExNDAwOTY1OTYsOTE3ODkwNjk0LDE3MDg5NzI3
+MTIsMjA4MTA4MDU4MywyNzgzODAzNzgsLTE3NjA1Nzk4NjQsLT
+E5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5MTIxMDA3MTksNjM2
+MzM3NDA1XX0=
 -->
