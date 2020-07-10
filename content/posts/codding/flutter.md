@@ -53,7 +53,7 @@ void main(){
 }
 ```
 [Text관련](https://medium.com/@larkbless/flutter-text-widget-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-a0f8c4c196d1)
-![]((https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
+![](https://github.com/ifyaa/type-onlne/blob/master/content/assets/header.png)
 [enter link description here](https://software-creator.tistory.com/10)
 ```js
 import  'package:flutter/material.dart';
@@ -1599,11 +1599,11 @@ class _ProductDetailState extends State<ProductDetail>{
 ![](https://i.ibb.co/1n4BRdp/flutter-004.png)
 ![](https://i.ibb.co/fYvSjzr/flutter-005.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTA0NzI3MywxMjI3NTU2ODc4LDk5Mz
-k1MTQyMSwtNDM5MTU2MzUxLC05NDU0NDAzNzQsNjYxMjUyMzMy
-LC02NzI1NTQ3OTcsLTEyNjg2NDY4OSw5MTI0NjU1NDEsLTE4OT
-Y2NDU3MzgsLTE4MjA3MDM3ODEsMTE0MDA5NjU5Niw5MTc4OTA2
-OTQsMTcwODk3MjcxMiwyMDgxMDgwNTgzLDI3ODM4MDM3OCwtMT
-c2MDU3OTg2NCwtMTkxMDAzMzU5OCwtMTA2MTgyNzExNiwtMTkx
-MjEwMDcxOV19
+eyJoaXN0b3J5IjpbLTIwNzk1OTMwNTEsMTIyNzU1Njg3OCw5OT
+M5NTE0MjEsLTQzOTE1NjM1MSwtOTQ1NDQwMzc0LDY2MTI1MjMz
+MiwtNjcyNTU0Nzk3LC0xMjY4NjQ2ODksOTEyNDY1NTQxLC0xOD
+k2NjQ1NzM4LC0xODIwNzAzNzgxLDExNDAwOTY1OTYsOTE3ODkw
+Njk0LDE3MDg5NzI3MTIsMjA4MTA4MDU4MywyNzgzODAzNzgsLT
+E3NjA1Nzk4NjQsLTE5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5
+MTIxMDA3MTldfQ==
 -->
