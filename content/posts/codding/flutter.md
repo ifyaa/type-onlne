@@ -511,104 +511,7 @@ text Containar
 ##flutter로 작업을 하려는데 기초가 너무부족하다...텍스트변경도 제대로 못하니...일단 텍스트와 이미지 그리고 그외의 속성부터 파악해야 될것같아서..
 
 ```js
-import  'package:flutter/material.dart';
 
-void  main(){
-
-runApp(MyApp());
-
-}
-
-  
-
-class  MyApp  extends  StatelessWidget {
-
-@override
-
-Widget  build(BuildContext context) {
-
-return  MaterialApp(
-
-title:  'flutter Demo',
-
-theme:ThemeData(
-
-primarySwatch:  Colors.blue,
-
-),
-
-home:  MyHomePage(),
-
-);
-
-}
-
-}
-
-  
-
-class  MyHomePage  extends  StatelessWidget {
-
-  
-
-@override
-
-Widget  build(BuildContext context) {
-
-return  Scaffold(
-
-body:  Center(
-
-child:  Container (
-
-padding:  EdgeInsets.all(8.0),
-
-// constraints: BoxConstraints.expand(),
-
-alignment:  Alignment.center,
-
-width:  200,
-
-height:  200,
-
-decoration:  BoxDecoration(
-
-color:  Colors.blue,
-
-borderRadius:  BorderRadius.all(Radius.circular(20.0)),
-
-boxShadow: [
-
-BoxShadow(
-
-color:  Colors.red[100],
-
-blurRadius:  4.0,
-
-spreadRadius:  2.0,
-
-)
-
-],
-
-gradient:  LinearGradient(
-	begin:  Alignment.centerLeft,
-	end:  Alignment.centerRight,
-		colors: [
-			Colors.blue,
-			Colors.red
-
-]),
-
-),
-
-child:  Text('Flutter Essintials', style:  TextStyle(fontSize:  20, color:  Colors.white),))),
-
-);
-
-}
-
-}
 ```
 
 text padding
@@ -1599,11 +1502,11 @@ class _ProductDetailState extends State<ProductDetail>{
 ![](https://i.ibb.co/1n4BRdp/flutter-004.png)
 ![](https://i.ibb.co/fYvSjzr/flutter-005.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzU1Njg3OCw5OTM5NTE0MjEsLTQzOT
-E1NjM1MSwtOTQ1NDQwMzc0LDY2MTI1MjMzMiwtNjcyNTU0Nzk3
-LC0xMjY4NjQ2ODksOTEyNDY1NTQxLC0xODk2NjQ1NzM4LC0xOD
-IwNzAzNzgxLDExNDAwOTY1OTYsOTE3ODkwNjk0LDE3MDg5NzI3
-MTIsMjA4MTA4MDU4MywyNzgzODAzNzgsLTE3NjA1Nzk4NjQsLT
-E5MTAwMzM1OTgsLTEwNjE4MjcxMTYsLTE5MTIxMDA3MTksNjM2
-MzM3NDA1XX0=
+eyJoaXN0b3J5IjpbMTgxMTc1NDEyLDEyMjc1NTY4NzgsOTkzOT
+UxNDIxLC00MzkxNTYzNTEsLTk0NTQ0MDM3NCw2NjEyNTIzMzIs
+LTY3MjU1NDc5NywtMTI2ODY0Njg5LDkxMjQ2NTU0MSwtMTg5Nj
+Y0NTczOCwtMTgyMDcwMzc4MSwxMTQwMDk2NTk2LDkxNzg5MDY5
+NCwxNzA4OTcyNzEyLDIwODEwODA1ODMsMjc4MzgwMzc4LC0xNz
+YwNTc5ODY0LC0xOTEwMDMzNTk4LC0xMDYxODI3MTE2LC0xOTEy
+MTAwNzE5XX0=
 -->
