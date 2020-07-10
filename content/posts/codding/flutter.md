@@ -113,7 +113,7 @@ class _MyAppState extends State<MyApp> { // 스테이트를 관리하고, UI를 
 	 }
 }
 ```
-![img](https://github.com/ifyaa/type-onlne/blob/master/content/assets/flutter-03.png)
+![](https://i.ibb.co/Yjs1GWH/2020-07-11-6-33-06.png)
 ##### 예시 - 버튼을 통한 텍스트 변경
 
 _Text_  하나와  _RaiseButton_  두개가 들어갑니다.
@@ -1599,7 +1599,7 @@ class _ProductDetailState extends State<ProductDetail>{
 ![](https://i.ibb.co/1n4BRdp/flutter-004.png)
 ![](https://i.ibb.co/fYvSjzr/flutter-005.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzU1Njg3OCwxMjI3NTU2ODc4LDk5Mz
+eyJoaXN0b3J5IjpbLTI4OTA0NzI3MywxMjI3NTU2ODc4LDk5Mz
 k1MTQyMSwtNDM5MTU2MzUxLC05NDU0NDAzNzQsNjYxMjUyMzMy
 LC02NzI1NTQ3OTcsLTEyNjg2NDY4OSw5MTI0NjU1NDEsLTE4OT
 Y2NDU3MzgsLTE4MjA3MDM3ODEsMTE0MDA5NjU5Niw5MTc4OTA2
