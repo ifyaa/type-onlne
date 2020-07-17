@@ -43,6 +43,8 @@ src/components/social-share/index.js
 
 ### gatsby-meta-config.js 편집
 ![](https://i.postimg.cc/TP6VKFXT/2020-07-03-9-01-20.png)
+
+
 ```js
 social-share 디렉토리
 module.exports = {
@@ -52,10 +54,18 @@ module.exports = {
   introduction: `아이들을 가르키다 너무힘들어 하기에,  손가락에 위치를 정해 기억을 시키니 무리없이 따라왔습니다. 
   그 방법이 다른이에게 도움이 되길.`,
   siteUrl: `https://noyes.kr/`, 
+  
+
+ utterances: "~~ifyaa~~/gatsby-starter-bee",
+
+타이틀 손바닥사진
+assets/profile.png
+
+  ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTg0MzExMiwtMjkwMTE1NzUzXX0=
+eyJoaXN0b3J5IjpbLTEyODczMzU4ODEsLTI5MDExNTc1M119
 -->
