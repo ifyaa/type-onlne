@@ -39,9 +39,11 @@ src/components/social-share/index.js
       <TwitterIcon onClick={onClickTwitterIcon} /> */}
     </div>
 
-
+```
 
 ### gatsby-meta-config.js 편집
+
+
 ![](https://i.postimg.cc/TP6VKFXT/2020-07-03-9-01-20.png)
 
 
@@ -56,7 +58,7 @@ module.exports = {
   siteUrl: `https://noyes.kr/`, 
   
 
- utterances: "~~ifyaa~~/gatsby-starter-bee",
+ ### utterances: "ifyaa/gatsby-starter-bee",
 
 타이틀 손바닥사진
 assets/profile.png
@@ -67,5 +69,5 @@ assets/profile.png
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODczMzU4ODEsLTI5MDExNTc1M119
+eyJoaXN0b3J5IjpbLTE3OTIxNzI5NDYsLTI5MDExNTc1M119
 -->
